@@ -1,0 +1,45 @@
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+============================================================
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  CHECK 3 — Vessel-Type Signal Verification (Fixed)
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  ============================================================
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    PASS criterion: vessel types move in DIFFERENT directions (S0->S3)
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  DWT % change from S0 (Normal) to S3 (Disrupted):
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    Vessel Type               S0 Mean      S3 Mean     Change  Direction
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    -----------------------------------------------------------------
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    general_cargo             8,879.1      7,766.4     -12.5%  DROPS
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    roro                        817.0        737.3      -9.8%  DROPS
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    container               244,509.1    232,481.5      -4.9%  DROPS
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    dry_bulk                 90,306.0    112,410.2     +24.5%  RISES
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    tanker                  134,044.5    241,839.9     +80.4%  RISES
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  Vessel types that DROP during S3:  ['container', 'general_cargo', 'roro']
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    Vessel types that RISE during S3:  ['dry_bulk', 'tanker']
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    Diverging pairs: 2 (need >= 1)
+2026-05-21 08:45:40  INFO      check3_vessel_type  |    Result: PASS
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  ── PAPER SENTENCE — FINDING 1 (copy to Section 7):
+  "Container DWT incoming flow declines 4.9% during
+   S3 (Disrupted) states while tanker DWT surges 80.4%,
+   revealing opposing vessel-type responses to port disruption
+   — a cascade pattern invisible to aggregate models and a
+   novel finding enabled by TwinMesh's vessel-type granularity."
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  ── PAPER SENTENCE — FINDING 2 (copy to Section 7):
+  "Dry Bulk DWT rises 24.5% during port disruption,
+   consistent with bulk commodity demand remaining inelastic
+   while container shipping diverts to alternative routes."
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  State means (all states):
+       n_rows  container  dry_bulk  general_cargo   roro    tanker
+state                                                             
+S0       2903   244509.1   90306.0         8879.1  817.0  134044.4
+S1       1162   365956.9  141662.5        10114.2  908.8  187033.7
+S2        922   339274.3  140597.9         9553.2  819.5  153505.3
+S3       2323   232481.5  112410.2         7766.4  737.3  241839.9
+S4       1258   172794.6   71912.2         6714.5  608.8  122714.5
+2026-05-21 08:45:40  INFO      check3_vessel_type  |  
+  Saved -> E:\TwinMesh\results\audit\check3_vessel_type_signal.csv
+2026-05-21 08:45:45  INFO      check3_vessel_type  |    Cascade plot saved -> E:\TwinMesh\results\audit\check3_vessel_cascade.png
+2026-05-21 08:45:45  INFO      check3_vessel_type  |    Direction chart saved -> E:\TwinMesh\results\audit\check3_vessel_direction.png
+2026-05-21 08:45:46  INFO      check3_vessel_type  |    Vessel-by-state plot saved -> E:\TwinMesh\results\audit\check3_vessel_by_state.png

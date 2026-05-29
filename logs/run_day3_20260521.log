@@ -1,0 +1,116 @@
+2026-05-21 13:58:49  INFO      run_day3  |  ============================================================
+2026-05-21 13:58:49  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 13:58:49  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 13:58:49  INFO      run_day3  |  ============================================================
+2026-05-21 13:58:49  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 13:58:54  INFO      run_day3  |    tick library: INSTALLED (HawkesExpKern available)
+2026-05-21 13:58:54  INFO      run_day3  |  
+============================================================
+2026-05-21 13:58:54  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 13:58:54  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:03  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:03  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 14:01:03  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 14:01:03  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:03  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 14:01:03  WARNING   run_day3  |    tick library: NOT INSTALLED
+  Using numpy fallback estimator (approximate results).
+  For exact results: pip install tick
+2026-05-21 14:01:03  INFO      run_day3  |  
+============================================================
+2026-05-21 14:01:03  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 14:01:03  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:08  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:08  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 14:01:08  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 14:01:08  INFO      run_day3  |  ============================================================
+2026-05-21 14:01:08  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 14:01:08  WARNING   run_day3  |    tick library: NOT INSTALLED
+  Using numpy fallback estimator (approximate results).
+  For exact results: pip install tick
+2026-05-21 14:01:08  INFO      run_day3  |  
+============================================================
+2026-05-21 14:01:08  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 14:01:08  INFO      run_day3  |  ============================================================
+2026-05-21 14:02:06  INFO      run_day3  |  ============================================================
+2026-05-21 14:02:06  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 14:02:06  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 14:02:06  INFO      run_day3  |  ============================================================
+2026-05-21 14:02:06  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 14:02:09  INFO      run_day3  |    tick library: INSTALLED (HawkesExpKern available)
+2026-05-21 14:02:09  INFO      run_day3  |  
+============================================================
+2026-05-21 14:02:09  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 14:02:09  INFO      run_day3  |  ============================================================
+2026-05-21 14:05:42  INFO      run_day3  |  ============================================================
+2026-05-21 14:05:42  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 14:05:42  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 14:05:42  INFO      run_day3  |  ============================================================
+2026-05-21 14:05:42  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 14:05:45  INFO      run_day3  |    tick library: INSTALLED (HawkesExpKern available)
+2026-05-21 14:05:45  INFO      run_day3  |  
+============================================================
+2026-05-21 14:05:45  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 14:05:45  INFO      run_day3  |  ============================================================
+2026-05-21 14:06:04  INFO      run_day3  |  
+  Morning done in 19.1s
+2026-05-21 14:06:04  INFO      run_day3  |  
+  Total Day 3 time: 19.1s
+2026-05-21 14:06:04  INFO      run_day3  |  
+============================================================
+2026-05-21 14:06:04  INFO      run_day3  |    DAY 3 COMPLETE
+2026-05-21 14:06:04  INFO      run_day3  |    Results locked in: results/hawkes_standalone/
+2026-05-21 14:06:04  INFO      run_day3  |    Ablation rows 1+2: results/hawkes_standalone/ablation_rows_1_2.csv
+2026-05-21 14:06:04  INFO      run_day3  |    Next: python run_day4.py  (Markov standalone)
+2026-05-21 14:06:04  INFO      run_day3  |  ============================================================
+2026-05-21 14:06:41  INFO      run_day3  |  ============================================================
+2026-05-21 14:06:41  INFO      run_day3  |  T W I N M E S H  ·  DAY 3
+2026-05-21 14:06:41  INFO      run_day3  |  Hawkes Standalone Evaluation
+2026-05-21 14:06:41  INFO      run_day3  |  ============================================================
+2026-05-21 14:06:41  INFO      run_day3  |    Day 1+2 outputs verified
+2026-05-21 14:06:44  INFO      run_day3  |    tick library: INSTALLED (HawkesExpKern available)
+2026-05-21 14:06:44  INFO      run_day3  |  
+============================================================
+2026-05-21 14:06:44  INFO      run_day3  |  MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-21 14:06:44  INFO      run_day3  |  ============================================================
+2026-05-21 14:07:03  INFO      run_day3  |  
+  Morning done in 19.2s
+2026-05-21 14:07:03  INFO      run_day3  |  
+============================================================
+2026-05-21 14:07:03  INFO      run_day3  |  AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-21 14:07:03  INFO      run_day3  |  ============================================================
+2026-05-21 14:07:51  INFO      run_day3  |  
+  Afternoon done in 48.1s
+2026-05-21 14:07:51  INFO      run_day3  |  
+============================================================
+2026-05-21 14:07:51  INFO      run_day3  |  EVENING — Hawkes Standalone Evaluation
+2026-05-21 14:07:51  INFO      run_day3  |  ============================================================
+2026-05-21 14:07:52  INFO      run_day3  |  
+  Evening done in 0.7s
+2026-05-21 14:07:52  INFO      run_day3  |  
+======================================================================
+2026-05-21 14:07:52  INFO      run_day3  |  DAY 3 SUMMARY — Ablation Rows 1 and 2 (for paper Table 1)
+2026-05-21 14:07:52  INFO      run_day3  |  ======================================================================
+2026-05-21 14:07:52  INFO      run_day3  |  
+  Row 1: Aggregate Hawkes (Model A)
+    AUPRC=0.2704  Poisson=0.2467  lift=+0.0237  lead=3.1d
+2026-05-21 14:07:52  INFO      run_day3  |  
+  Row 2: + Vessel-Type Breakdown (Model B)
+    AUPRC=0.2563  Poisson=0.2467  lift=+0.0096  lead=  -
+2026-05-21 14:07:52  INFO      run_day3  |  
+  Vessel-type lift (Row1 -> Row2): -0.0141 AUPRC
+2026-05-21 14:07:52  INFO      run_day3  |  
+  PAPER CLAIM (copy to Section 7):
+  "Vessel-type decomposition (Row 2) achieves
+   0.0141 AUPRC lift over aggregate Hawkes (Row 1)
+   — the core novel contribution of TwinMesh."
+  (Rows 3-6 added on Days 4-5 after Markov + Combined)
+2026-05-21 14:07:52  INFO      run_day3  |  
+  Total Day 3 time: 67.9s
+2026-05-21 14:07:52  INFO      run_day3  |  
+============================================================
+2026-05-21 14:07:52  INFO      run_day3  |    DAY 3 COMPLETE
+2026-05-21 14:07:52  INFO      run_day3  |    Results locked in: results/hawkes_standalone/
+2026-05-21 14:07:52  INFO      run_day3  |    Ablation rows 1+2: results/hawkes_standalone/ablation_rows_1_2.csv
+2026-05-21 14:07:52  INFO      run_day3  |    Next: python run_day4.py  (Markov standalone)
+2026-05-21 14:07:52  INFO      run_day3  |  ============================================================

@@ -1,0 +1,60 @@
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    Loaded combined dataset: 8,568 rows
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |  
+============================================================
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |  MDP Cost Matrix — Fitting from Real IMF Data
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |  ============================================================
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    S0 (n=2,903): congestion=0.8215  dwt_impact=122,280.0  weather_risk=0.0024
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    S1 (n=1,162): congestion=1.3040  dwt_impact=177,548.1  weather_risk=0.0005
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    S2 (n=922): congestion=1.6991  dwt_impact=261,619.4  weather_risk=0.0153
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    S3 (n=2,323): congestion=3.8469  dwt_impact=397,973.7  weather_risk=0.0071
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |    S4 (n=1,258): congestion=1.1343  dwt_impact=127,443.9  weather_risk=0.0065
+2026-05-21 08:45:51  INFO      mdp_cost_matrix  |  
+  Cost matrix:
+      Strong    Escrow      CRDT    Stale      Block
+S0  123.1027   73.8616   24.6205  12.3103   246.2054
+S1  232.5081  139.5048   46.5016  23.2508   465.0162
+S2  421.3218  252.7931   84.2644  42.1322   842.6437
+S3  763.4659  458.0795  152.6932  76.3466  1526.9318
+S4  282.8792  169.7275   56.5758  28.2879   565.7584
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |  
+  Empirical transition matrix (from 8,561 transitions):
+       S0     S1     S2     S3     S4
+S0  0.511  0.189  0.147  0.153  0.000
+S1  0.462  0.224  0.145  0.170  0.000
+S2  0.479  0.166  0.156  0.199  0.000
+S3  0.000  0.000  0.000  0.458  0.542
+S4  0.351  0.160  0.145  0.344  0.000
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Value iteration converged at step 340 (delta=9.79e-07)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |  
+  Unconstrained optimal policy (before tier safety):
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |      S0: Stale  (V=695.0094)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |      S1: Stale  (V=707.9368)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |      S2: Stale  (V=729.4115)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |      S3: Stale  (V=800.2761)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |      S4: Stale  (V=729.6582)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |  
+  ── POLICY TABLE (copy to paper Section 4.4):
+       Tier-0  Tier-1 Tier-2 Tier-3
+state                              
+S0     Strong  Escrow  Stale  Stale
+S1     Strong  Escrow  Stale  Stale
+S2     Strong  Escrow  Stale  Stale
+S3     Strong  Escrow   CRDT   CRDT
+S4     Strong  Escrow  Stale  Stale
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |  
+  TIER-0 SAFETY: ZERO VIOLATIONS
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    All Tier-0 states -> Strong or Block only
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Paper claim 'zero Tier-0 violations' is VALID
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |  
+  ── State-dependency check ──
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Tier-0: actions = ['Strong', 'Strong', 'Strong', 'Strong', 'Strong']  (unique = 1)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Tier-1: actions = ['Escrow', 'Escrow', 'Escrow', 'Escrow', 'Escrow']  (unique = 1)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Tier-2: actions = ['Stale', 'Stale', 'Stale', 'CRDT', 'Stale']  (unique = 2)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Tier-3: actions = ['Stale', 'Stale', 'Stale', 'CRDT', 'Stale']  (unique = 2)
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Policy IS state-dependent. MDP is defensible.
+2026-05-21 08:45:52  INFO      mdp_cost_matrix  |    Cost heatmap saved -> E:\TwinMesh\results\audit\mdp_cost_heatmap.png
+2026-05-21 08:45:53  INFO      mdp_cost_matrix  |    Policy heatmap saved -> E:\TwinMesh\results\audit\mdp_policy_heatmap.png
+2026-05-21 08:45:53  INFO      mdp_cost_matrix  |  
+  MDP Cost Matrix COMPLETE
+2026-05-21 08:45:53  INFO      mdp_cost_matrix  |    Tier-0 safe:       YES
+2026-05-21 08:45:53  INFO      mdp_cost_matrix  |    State-dependent:   YES

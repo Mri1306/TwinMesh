@@ -1,0 +1,92 @@
+2026-05-28 14:19:45  INFO      twinmesh_core_v2  |  Feature set size: 35 features
+2026-05-28 14:19:45  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 14:19:45  INFO      twinmesh_core_v2  |  DAY 5 MORNING (IMPROVED) — TwinMesh V2
+2026-05-28 14:19:45  INFO      twinmesh_core_v2  |  XGBoost + Advanced Feature Engineering
+2026-05-28 14:19:45  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  Feature set size: 35 features
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  DAY 5 MORNING (IMPROVED) — TwinMesh V2
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  XGBoost + Advanced Feature Engineering
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  
+  Loading Hawkes features...
+2026-05-28 14:30:50  WARNING   twinmesh_core_v2  |    Could not import compute_hawkes_intensity, loading from file...
+2026-05-28 14:30:50  WARNING   twinmesh_core_v2  |    Using default Hawkes values (0.08)
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |    Lambda merged | train lambda range: [0.0800, 0.0800]
+2026-05-28 14:30:50  INFO      twinmesh_core_v2  |  
+  Step 1: Preparing combined feature sequences...
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |    Train: 5,990 steps  |  Test: 1,279 steps
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |    Features: 35
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |  
+  Step 2: Fitting TwinMesh V2 (XGBoost)...
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |    Class distribution: [2085  752  616 1662  875]
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |    S3 class weight (scale_pos_weight): 2.60
+2026-05-28 14:30:51  INFO      twinmesh_core_v2  |    Using XGBoost...
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    TwinMesh V2 model: train_accuracy=0.8538
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  
+  Step 3: Evaluating on test set...
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  
+============================================================
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  TWINMESH V2 — Results
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    Accuracy:  0.4949
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    Macro-F1:  0.3649
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    S3 Recall: 0.4476
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    S3 AUPRC:  0.5239  ← KEY METRIC
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    Brier-S3:  0.1540
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    Per-state F1:
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      S0: 0.5866
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      S1: 0.0241
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      S2: 0.0000
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      S3: 0.4829
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      S4: 0.7311
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  
+  COMPARISON TO BASELINES:
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      B6_LSTM:       0.5404
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      B7_XGBoost:    0.5348
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      TwinMesh V2:   0.5239
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |      [Still below LSTM/XGBoost, but gained 0.0448]
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |    Metrics saved to twinmesh_v2_metrics.csv
+2026-05-28 14:30:52  INFO      twinmesh_core_v2  |  
+  TwinMesh V2 complete.
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  Feature set size: 35 features
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  DAY 5 MORNING (IMPROVED) — TwinMesh V2
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  XGBoost + Advanced Feature Engineering
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |  
+  Loading Hawkes features...
+2026-05-28 15:42:17  INFO      twinmesh_core_v2  |    Imported compute_hawkes_intensity (relative import)
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  Feature set size: 35 features
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  DAY 5 MORNING (IMPROVED) — TwinMesh V2
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  XGBoost + Advanced Feature Engineering
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |  
+  Loading Hawkes features...
+2026-05-28 15:48:29  INFO      twinmesh_core_v2  |    Imported compute_hawkes_intensity successfully
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |    Lambda merged | train lambda range: [0.0773, 0.4020]
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |  
+  Step 1: Preparing sequences...
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |    Train: 5,990 | Test: 1,279
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |    Features: 35
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |  
+  Step 2: Fitting XGBoost...
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |    Class distribution: [2085  752  616 1662  875]
+2026-05-28 15:48:33  INFO      twinmesh_core_v2  |    S3 class weight: 2.60
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    TwinMesh V2 train_accuracy=0.9020
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |  
+  Step 3: Evaluating...
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |  
+============================================================
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |  TWINMESH V2 — Results
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |  ============================================================
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    model: TwinMesh_V2
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    accuracy: 0.502
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    macro_f1: 0.3857
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    s3_recall: 0.5048
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    s3_auprc: 0.5167
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |    brier_s3: 0.1519
+2026-05-28 15:48:34  INFO      twinmesh_core_v2  |  
+  Metrics saved → twinmesh_v2_metrics.csv
+2026-05-28 17:41:31  INFO      twinmesh_core_v2  |  Feature set size: 35 features

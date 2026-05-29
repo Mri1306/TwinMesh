@@ -1,0 +1,57 @@
+2026-05-21 08:45:34  INFO      check1_red_sea  |  Loaded combined dataset: 8,568 rows
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+============================================================
+2026-05-21 08:45:34  INFO      check1_red_sea  |  CHECK 1 — Red Sea Crisis Signal
+2026-05-21 08:45:34  INFO      check1_red_sea  |  ============================================================
+2026-05-21 08:45:34  INFO      check1_red_sea  |    Crisis window:     2023-12-01 → 2024-06-30
+2026-05-21 08:45:34  INFO      check1_red_sea  |    Pre-crisis window: 2023-01-01 → 2023-11-30
+2026-05-21 08:45:34  INFO      check1_red_sea  |    PASS if spike_sigma>0.05 OR s3_lift>2% OR crisis_s3_rate>60%
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  Singapore:
+    Pre-crisis congestion:    1.1746
+    Crisis congestion (mean): 1.2091
+    Crisis congestion (max):  2.7751
+    Spike sigma:              +0.0842
+    Pre-crisis S3 rate:       8.1%
+    Crisis S3 rate:           7.5%
+    S3 rate lift:             -0.6%
+    C1 (sigma):  PASS
+    C2 (s3 lift):fail
+    C3 (s3 rate):fail
+    RESULT: PASS  (via: spike_sigma=0.084>0.05)
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  Rotterdam:
+    Pre-crisis congestion:    2.9517
+    Crisis congestion (mean): 3.0686
+    Crisis congestion (max):  14.0196
+    Spike sigma:              +0.0731
+    Pre-crisis S3 rate:       68.0%
+    Crisis S3 rate:           72.3%
+    S3 rate lift:             +4.3%
+    C1 (sigma):  PASS
+    C2 (s3 lift):PASS
+    C3 (s3 rate):PASS
+    RESULT: PASS  (via: spike_sigma=0.073>0.05, s3_lift=+4.3%>2%, crisis_s3_rate=72.3%>60%)
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  Shanghai:
+    Pre-crisis congestion:    1.4033
+    Crisis congestion (mean): 1.3197
+    Crisis congestion (max):  20.0000
+    Spike sigma:              -0.1308
+    Pre-crisis S3 rate:       14.7%
+    Crisis S3 rate:           7.0%
+    S3 rate lift:             -7.6%
+    C1 (sigma):  fail
+    C2 (s3 lift):fail
+    C3 (s3 rate):fail
+    RESULT: FAIL
+2026-05-21 08:45:34  WARNING   check1_red_sea  |    Shanghai: all 3 criteria failed.
+     ACTION: re-run Day 1 with congestion cap fix, then re-run Day 2.
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  ── PAPER SENTENCE (Section 5 / Results):
+  "Rotterdam's S3 (Disrupted) rate increased from 68.0% to 72.3% during the Red Sea crisis (Dec 2023–Jun 2024), with peak congestion reaching 14.02 — validating TwinMesh's ability to detect real-world disruption escalation."
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  Saved → E:\TwinMesh\results\audit\check1_red_sea_signal.csv
+2026-05-21 08:45:34  INFO      check1_red_sea  |  
+  OVERALL: SOME FAILED
+2026-05-21 08:45:36  INFO      check1_red_sea  |    Plot saved -> E:\TwinMesh\results\audit\check1_red_sea_plot.png

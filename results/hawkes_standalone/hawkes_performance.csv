@@ -1,0 +1,15 @@
+port,model,hawkes_auprc,poisson_auprc,lift,mean_lead_days,detection_rate,llr,hawkes_better
+Singapore,Model_A_Port_Level,0.0652,0.0652,0.0,0.0,0.0,0.0,True
+Rotterdam,Model_A_Port_Level,0.694,0.694,0.0,0.0,0.0,-0.0,False
+Shanghai,Model_A_Port_Level,0.082,0.082,0.0,0.0,0.0,0.0,False
+Nhava Sheva,Model_A_Port_Level,0.3098,0.3098,0.0,0.0,0.0,0.0,False
+Busan,Model_A_Port_Level,0.1141,0.1141,0.0,0.0,0.0,-0.0,False
+Hamburg,Model_A_Port_Level,0.3424,0.3424,0.0,0.0,0.0,-0.0,False
+Antwerp,Model_A_Port_Level,0.1196,0.1196,0.0,0.0,0.0,-0.0,False
+Singapore,Model_B_VesselType,0.0652,0.0652,0.0,,,,
+Rotterdam,Model_B_VesselType,0.694,0.694,0.0,,,,
+Shanghai,Model_B_VesselType,0.0672,0.082,-0.0148,,,,
+Nhava Sheva,Model_B_VesselType,0.3098,0.3098,0.0,,,,
+Busan,Model_B_VesselType,0.1141,0.1141,0.0,,,,
+Hamburg,Model_B_VesselType,0.3424,0.3424,0.0,,,,
+Antwerp,Model_B_VesselType,0.1196,0.1196,0.0,,,,

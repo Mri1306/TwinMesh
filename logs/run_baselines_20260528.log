@@ -1,0 +1,105 @@
+2026-05-28 16:09:25  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:09:25  INFO      run_baselines  |  T W I N M E S H  ·  BASELINE EXECUTION
+2026-05-28 16:09:25  INFO      run_baselines  |  Evaluating Classical ML Baselines
+2026-05-28 16:09:25  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:09:25  INFO      run_baselines  |  Baseline script verified ✓
+2026-05-28 16:09:25  INFO      run_baselines  |  Training/test datasets verified ✓
+2026-05-28 16:09:25  INFO      run_baselines  |  TwinMesh Day 5 metrics verified ✓
+2026-05-28 16:09:25  INFO      run_baselines  |  
+Launching baselines.py ...
+
+2026-05-28 16:09:35  INFO      run_baselines  |  
+================================================================================
+2026-05-28 16:09:35  INFO      run_baselines  |  BASELINE EXECUTION COMPLETE
+2026-05-28 16:09:35  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:09:35  INFO      run_baselines  |  
+Runtime: 9.8s
+2026-05-28 16:09:35  INFO      run_baselines  |  
+Generated outputs:
+
+2026-05-28 16:09:35  INFO      run_baselines  |    ✓ baseline_comparison.csv             (0.5 KB)
+2026-05-28 16:09:35  INFO      run_baselines  |    ✓ baseline_auprc_chart.png            (57.2 KB)
+2026-05-28 16:09:35  INFO      run_baselines  |  
+All baseline outputs generated successfully ✓
+2026-05-28 16:13:38  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:13:38  INFO      run_baselines  |  T W I N M E S H  ·  BASELINE EXECUTION
+2026-05-28 16:13:38  INFO      run_baselines  |  Evaluating Day 6 Baselines (Without XGBoost)
+2026-05-28 16:13:38  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:13:38  INFO      run_baselines  |  Baseline script verified ✓
+2026-05-28 16:13:38  INFO      run_baselines  |  Training/test datasets verified ✓
+2026-05-28 16:13:38  INFO      run_baselines  |  TwinMesh Day 5 metrics verified ✓
+2026-05-28 16:13:38  INFO      run_baselines  |  
+Launching baselines.py ...
+
+2026-05-28 16:13:54  INFO      run_baselines  |  
+================================================================================
+2026-05-28 16:13:54  INFO      run_baselines  |  BASELINE EXECUTION COMPLETE
+2026-05-28 16:13:54  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:13:54  INFO      run_baselines  |  
+Runtime: 15.4s
+2026-05-28 16:13:54  INFO      run_baselines  |  
+Generated outputs:
+
+2026-05-28 16:13:54  INFO      run_baselines  |    ✓ baseline_comparison.csv             (0.5 KB)
+2026-05-28 16:13:54  INFO      run_baselines  |    ✓ baseline_auprc_chart.png            (54.5 KB)
+2026-05-28 16:13:54  INFO      run_baselines  |  
+All baseline outputs generated successfully ✓
+2026-05-28 16:17:27  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:17:27  INFO      run_baselines  |  T W I N M E S H  ·  BASELINE EXECUTION
+2026-05-28 16:17:27  INFO      run_baselines  |  Evaluating Day 6 Baselines (Without XGBoost)
+2026-05-28 16:17:27  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:17:27  INFO      run_baselines  |  Baseline script verified ✓
+2026-05-28 16:17:27  INFO      run_baselines  |  Training/test datasets verified ✓
+2026-05-28 16:17:27  INFO      run_baselines  |  TwinMesh Day 5 metrics verified ✓
+2026-05-28 16:17:27  INFO      run_baselines  |  
+Launching baselines.py ...
+
+2026-05-28 16:17:43  INFO      run_baselines  |  
+================================================================================
+2026-05-28 16:17:43  INFO      run_baselines  |  BASELINE EXECUTION COMPLETE
+2026-05-28 16:17:43  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:17:43  INFO      run_baselines  |  
+Runtime: 16.5s
+2026-05-28 16:17:43  INFO      run_baselines  |  
+Generated outputs:
+
+2026-05-28 16:17:43  INFO      run_baselines  |    ✓ baseline_comparison.csv             (0.5 KB)
+2026-05-28 16:17:43  INFO      run_baselines  |    ✓ baseline_auprc_chart.png            (54.5 KB)
+2026-05-28 16:17:43  INFO      run_baselines  |  
+All baseline outputs generated successfully ✓
+2026-05-28 16:19:41  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:19:41  INFO      run_baselines  |  T W I N M E S H  ·  BASELINE EXECUTION
+2026-05-28 16:19:41  INFO      run_baselines  |  Evaluating Day 6 Baselines (Without XGBoost)
+2026-05-28 16:19:41  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:19:41  INFO      run_baselines  |  Baseline script verified ✓
+2026-05-28 16:19:41  INFO      run_baselines  |  Training/test datasets verified ✓
+2026-05-28 16:19:41  INFO      run_baselines  |  TwinMesh Day 5 metrics verified ✓
+2026-05-28 16:19:41  INFO      run_baselines  |  
+Launching baselines.py ...
+
+2026-05-28 16:19:44  ERROR     run_baselines  |  
+Baseline execution failed
+2026-05-28 16:19:44  ERROR     run_baselines  |  Command '['E:\\TwinMesh\\venv\\Scripts\\python.exe', 'E:\\TwinMesh\\src\\baselines\\baselines.py']' returned non-zero exit status 1.
+2026-05-28 16:21:20  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:21:20  INFO      run_baselines  |  T W I N M E S H  ·  BASELINE EXECUTION
+2026-05-28 16:21:20  INFO      run_baselines  |  Evaluating Day 6 Baselines (Without XGBoost)
+2026-05-28 16:21:20  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:21:20  INFO      run_baselines  |  Baseline script verified ✓
+2026-05-28 16:21:20  INFO      run_baselines  |  Training/test datasets verified ✓
+2026-05-28 16:21:20  INFO      run_baselines  |  TwinMesh Day 5 metrics verified ✓
+2026-05-28 16:21:20  INFO      run_baselines  |  
+Launching baselines.py ...
+
+2026-05-28 16:21:26  INFO      run_baselines  |  
+================================================================================
+2026-05-28 16:21:26  INFO      run_baselines  |  BASELINE EXECUTION COMPLETE
+2026-05-28 16:21:26  INFO      run_baselines  |  ================================================================================
+2026-05-28 16:21:26  INFO      run_baselines  |  
+Runtime: 6.0s
+2026-05-28 16:21:26  INFO      run_baselines  |  
+Generated outputs:
+
+2026-05-28 16:21:26  INFO      run_baselines  |    ✓ baseline_comparison.csv             (0.4 KB)
+2026-05-28 16:21:26  INFO      run_baselines  |    ✓ baseline_auprc_chart.png            (52.6 KB)
+2026-05-28 16:21:26  INFO      run_baselines  |  
+All baseline outputs generated successfully ✓

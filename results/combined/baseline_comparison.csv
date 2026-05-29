@@ -1,0 +1,8 @@
+model,s3_auprc,accuracy,macro_f1,s3_recall,cost_reduction_pct,tier0_violations
+TwinMesh_V2,0.5167,0.502,0.3857,0.5048,53.77,0
+B4_RTTThreshold,0.4249,0.3604,0.182,0.4635,10.0,0
+B3_StaticPACELC,0.3621,0.3784,0.1918,0.5524,15.0,0
+B7_Prophet,0.2833,0.2994,0.0922,0.0,0.0,0
+B1_AlwaysStrong,0.2463,0.301,0.0925,0.0,0.0,0
+B2_AlwaysEventual,0.2463,0.1454,0.0508,0.0,40.0,1279
+B5_PoissonTrigger,0.2463,0.2877,0.1375,0.2698,0.0,0

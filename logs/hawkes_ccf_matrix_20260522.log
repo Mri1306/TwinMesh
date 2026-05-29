@@ -1,0 +1,110 @@
+2026-05-22 14:22:51  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:22:51  INFO      hawkes_ccf_matrix  |  Hawkes CCF Excitation Matrix (empirical)
+2026-05-22 14:22:51  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  Hawkes CCF Excitation Matrix (empirical)
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  Computing CCF-based excitation matrix (7x7)...
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  Source          -> Target           peak_lag  r_value  used_as_alpha
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |  -----------------------------------------------------------------
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Rotterdam       lag=11d  r=+0.0524  alpha=0.0524
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Shanghai        lag=14d  r=+0.0450  alpha=0.0450
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Nhava Sheva     lag= 3d  r=+0.0376  alpha=0.0376
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Busan           lag= 2d  r=+0.0698  alpha=0.0698
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Hamburg         lag=12d  r=+0.0343  alpha=0.0343
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Singapore       -> Antwerp         lag= 7d  r=+0.0468  alpha=0.0468
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Singapore       lag= 1d  r=+0.0700  alpha=0.0700
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Shanghai        lag= 3d  r=+0.1500  alpha=0.1500
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Nhava Sheva     lag= 8d  r=+0.0479  alpha=0.0479
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Busan           lag=13d  r=+0.0586  alpha=0.0586
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Hamburg         lag=12d  r=+0.0757  alpha=0.0757
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Antwerp         lag= 1d  r=+0.0771  alpha=0.0771
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Singapore       lag=13d  r=+0.0329  alpha=0.0329
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Rotterdam       lag=10d  r=+0.0505  alpha=0.0505
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Shanghai        lag= 1d  r=+0.0629  alpha=0.0629
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Nhava Sheva     lag=10d  r=+0.0564  alpha=0.0564
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Hamburg         lag=12d  r=+0.0441  alpha=0.0441
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Shanghai        -> Antwerp         lag= 5d  r=+0.0734  alpha=0.0734
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Singapore       lag=13d  r=+0.0504  alpha=0.0504
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Rotterdam       lag= 5d  r=+0.0511  alpha=0.0511
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Shanghai        lag= 7d  r=+0.1244  alpha=0.1244
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Busan           lag=13d  r=+0.0467  alpha=0.0467
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Antwerp         lag=12d  r=+0.0521  alpha=0.0521
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Busan           -> Singapore       lag= 7d  r=+0.0425  alpha=0.0425
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Busan           -> Rotterdam       lag= 8d  r=+0.0691  alpha=0.0691
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Busan           -> Nhava Sheva     lag= 8d  r=+0.0605  alpha=0.0605
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Busan           -> Hamburg         lag= 3d  r=+0.0651  alpha=0.0651
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Busan           -> Antwerp         lag= 7d  r=+0.1189  alpha=0.1189
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Hamburg         -> Rotterdam       lag=12d  r=+0.0553  alpha=0.0553
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Hamburg         -> Nhava Sheva     lag=11d  r=+0.0335  alpha=0.0335
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Hamburg         -> Busan           lag= 4d  r=+0.0337  alpha=0.0337
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Hamburg         -> Antwerp         lag= 3d  r=+0.0654  alpha=0.0654
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Singapore       lag=10d  r=+0.0467  alpha=0.0467
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Rotterdam       lag=13d  r=+0.0457  alpha=0.0457
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Shanghai        lag=11d  r=+0.0358  alpha=0.0358
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Nhava Sheva     lag= 3d  r=+0.0422  alpha=0.0422
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Busan           lag=14d  r=+0.0477  alpha=0.0477
+2026-05-22 14:25:44  INFO      hawkes_ccf_matrix  |    Antwerp         -> Hamburg         lag=13d  r=+0.0597  alpha=0.0597
+2026-05-22 14:25:45  INFO      hawkes_ccf_matrix  |    CCF matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\ccf_7x7_excitation_matrix.png
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  Hawkes CCF Excitation Matrix (empirical)
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  ============================================================
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  Computing CCF-based excitation matrix (7x7)...
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  Source          -> Target           peak_lag  r_value  used_as_alpha
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  -----------------------------------------------------------------
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Rotterdam       lag=11d  r=+0.0524  alpha=0.0524
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Shanghai        lag=14d  r=+0.0450  alpha=0.0450
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Nhava Sheva     lag= 3d  r=+0.0376  alpha=0.0376
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Busan           lag= 2d  r=+0.0698  alpha=0.0698
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Hamburg         lag=12d  r=+0.0343  alpha=0.0343
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Singapore       -> Antwerp         lag= 7d  r=+0.0468  alpha=0.0468
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Singapore       lag= 1d  r=+0.0700  alpha=0.0700
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Shanghai        lag= 3d  r=+0.1500  alpha=0.1500
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Nhava Sheva     lag= 8d  r=+0.0479  alpha=0.0479
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Busan           lag=13d  r=+0.0586  alpha=0.0586
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Hamburg         lag=12d  r=+0.0757  alpha=0.0757
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Antwerp         lag= 1d  r=+0.0771  alpha=0.0771
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Singapore       lag=13d  r=+0.0329  alpha=0.0329
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Rotterdam       lag=10d  r=+0.0505  alpha=0.0505
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Shanghai        lag= 1d  r=+0.0629  alpha=0.0629
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Nhava Sheva     lag=10d  r=+0.0564  alpha=0.0564
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Hamburg         lag=12d  r=+0.0441  alpha=0.0441
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Shanghai        -> Antwerp         lag= 5d  r=+0.0734  alpha=0.0734
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Singapore       lag=13d  r=+0.0504  alpha=0.0504
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Rotterdam       lag= 5d  r=+0.0511  alpha=0.0511
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Shanghai        lag= 7d  r=+0.1244  alpha=0.1244
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Busan           lag=13d  r=+0.0467  alpha=0.0467
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Antwerp         lag=12d  r=+0.0521  alpha=0.0521
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Singapore       lag= 7d  r=+0.0425  alpha=0.0425
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Rotterdam       lag= 8d  r=+0.0691  alpha=0.0691
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Nhava Sheva     lag= 8d  r=+0.0605  alpha=0.0605
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Hamburg         lag= 3d  r=+0.0651  alpha=0.0651
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Antwerp         lag= 7d  r=+0.1189  alpha=0.1189
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Hamburg         -> Rotterdam       lag=12d  r=+0.0553  alpha=0.0553
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Hamburg         -> Nhava Sheva     lag=11d  r=+0.0335  alpha=0.0335
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Hamburg         -> Busan           lag= 4d  r=+0.0337  alpha=0.0337
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Hamburg         -> Antwerp         lag= 3d  r=+0.0654  alpha=0.0654
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Singapore       lag=10d  r=+0.0467  alpha=0.0467
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Rotterdam       lag=13d  r=+0.0457  alpha=0.0457
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Shanghai        lag=11d  r=+0.0358  alpha=0.0358
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Nhava Sheva     lag= 3d  r=+0.0422  alpha=0.0422
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Busan           lag=14d  r=+0.0477  alpha=0.0477
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Antwerp         -> Hamburg         lag=13d  r=+0.0597  alpha=0.0597
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    CCF matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\ccf_7x7_excitation_matrix.png
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  
+  TOP 5 CROSS-PORT EXCITATION PAIRS:
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Source          -> Target           alpha
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    ---------------------------------------------
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Shanghai         0.1500
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Nhava Sheva     -> Shanghai         0.1244
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Busan           -> Antwerp          0.1189
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Antwerp          0.0771
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |    Rotterdam       -> Hamburg          0.0757
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  
+  PAPER SENTENCE (Section 7):
+  "Rotterdam disruptions propagate to Shanghai
+   with the strongest empirical excitation coefficient
+   (alpha=0.150), confirming the cascade structure
+   captured by TwinMesh's cross-port Hawkes excitation matrix."
+2026-05-22 14:29:46  INFO      hawkes_ccf_matrix  |  
+  Matrix saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\ccf_7x7.csv

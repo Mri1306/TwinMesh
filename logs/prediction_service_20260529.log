@@ -1,0 +1,28 @@
+2026-05-29 13:34:49  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using simple LogReg
+2026-05-29 13:34:50  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 18:59:47  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 18:59:48  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:10:53  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:10:54  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:16:33  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:16:34  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:23:52  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:23:53  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:27:26  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:27:27  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:29:13  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:29:14  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:29:40  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:29:40  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:32:11  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:32:11  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:33:24  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:33:25  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:42:07  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:42:08  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:45:18  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:45:19  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 19:46:24  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 19:46:24  INFO      prediction_service  |  All models loaded successfully
+2026-05-29 20:40:25  WARNING   prediction_service  |  V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — using Logistic Regression
+2026-05-29 20:40:25  INFO      prediction_service  |  All models loaded successfully

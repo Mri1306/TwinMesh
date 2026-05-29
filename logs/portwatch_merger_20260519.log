@@ -1,0 +1,61 @@
+2026-05-19 21:28:50  INFO      portwatch_merger  |  ============================================================
+2026-05-19 21:28:50  INFO      portwatch_merger  |  STEP 1 — PortWatch Merger
+2026-05-19 21:28:50  INFO      portwatch_merger  |  ============================================================
+2026-05-19 21:28:50  INFO      portwatch_merger  |  
+── Singapore (singapore) ──
+2026-05-19 21:28:50  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:50  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:50  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:50  INFO      portwatch_merger  |    Singapore: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:50  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=1.811 | anomalies=205
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\singapore_merged.csv | anomalies=205 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Rotterdam (rotterdam) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Rotterdam: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=5.160 | anomalies=206
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\rotterdam_merged.csv | anomalies=206 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Shanghai (shanghai) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Shanghai: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=2497.127 | anomalies=1
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\shanghai_merged.csv | anomalies=1 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Nhava Sheva (nhava_sheva) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Nhava Sheva: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=9030.026 | anomalies=4
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\nhava_sheva_merged.csv | anomalies=4 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Busan (busan) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Busan: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=2.286 | anomalies=196
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\busan_merged.csv | anomalies=196 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Hamburg (hamburg) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Hamburg: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=570.796 | anomalies=1
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\hamburg_merged.csv | anomalies=1 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+── Antwerp (antwerp) ──
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-19 21:28:51  INFO      portwatch_merger  |    Antwerp: merged 2,685 rows, ['date', 'calls_container', 'calls_dry_bulk', 'calls_general_cargo', 'calls_roro', 'calls_tanker', '7-day_moving_average', 'prior_year_7-day_moving_average', 'incoming_dwt_container', 'incoming_dwt_dry_bulk', 'incoming_dwt_general_cargo', 'incoming_dwt_roro', 'incoming_dwt_tanker', 'outgoing_dwt_container', 'outgoing_dwt_dry_bulk', 'outgoing_dwt_general_cargo', 'outgoing_dwt_roro', 'outgoing_dwt_tanker', 'port']
+2026-05-19 21:28:51  DEBUG     portwatch_merger  |    Derived features added | anomaly threshold=2.308 | anomalies=161
+2026-05-19 21:28:51  INFO      portwatch_merger  |    ✅ Saved 2,685 rows → e:\TwinMesh\data/processed\per_port\antwerp_merged.csv | anomalies=161 | date range: 2019-01-01 → 2026-05-08
+2026-05-19 21:28:51  INFO      portwatch_merger  |  
+✅ STEP 1 COMPLETE — 7/7 ports processed

@@ -1,0 +1,282 @@
+2026-05-27 10:54:35  INFO      run_day6  |  ============================================================
+2026-05-27 10:54:35  INFO      run_day6  |  T W I N M E S H  ·  DAY 6
+2026-05-27 10:54:35  INFO      run_day6  |  Baselines + Full Evaluation + Red Sea Case Study
+2026-05-27 10:54:35  INFO      run_day6  |  ============================================================
+2026-05-27 10:54:35  INFO      run_day6  |    Day 1-5 outputs verified
+2026-05-27 10:54:35  INFO      run_day6  |  
+============================================================
+2026-05-27 10:54:35  INFO      run_day6  |  MORNING — All 8 Baselines
+2026-05-27 10:54:35  INFO      run_day6  |  ============================================================
+2026-05-27 10:54:57  INFO      run_day6  |  
+  Morning done in 22.4s
+2026-05-27 10:54:57  INFO      run_day6  |  
+============================================================
+2026-05-27 10:54:57  INFO      run_day6  |  AFTERNOON — Compile All Results
+2026-05-27 10:54:57  INFO      run_day6  |  ============================================================
+2026-05-27 10:54:57  INFO      run_day6  |  
+  TABLE 1 — ABLATION STUDY (6 rows)
+2026-05-27 10:54:57  INFO      run_day6  |    ======================================================================
+2026-05-27 10:54:57  INFO      run_day6  |    Row   Model                                           Acc       F1   S3-AUC
+2026-05-27 10:54:57  INFO      run_day6  |    ----------------------------------------------------------------------
+2026-05-27 10:54:57  INFO      run_day6  |    1    Aggregate Hawkes (Model A)                        -        -   0.2467
+2026-05-27 10:54:57  INFO      run_day6  |    2    + Vessel-Type Breakdown (Model B)                 -        -   0.2446
+2026-05-27 10:54:57  INFO      run_day6  |    3    + Pure Markov                                0.4464   0.2627   0.3497
+2026-05-27 10:54:57  INFO      run_day6  |    4    + Portwatch Only                             0.4535   0.3104   0.4454
+2026-05-27 10:54:57  INFO      run_day6  |    5    + Portwatch Weather                          0.4550   0.3115   0.4444
+2026-05-27 10:54:57  INFO      run_day6  |    6    TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791
+2026-05-27 10:54:57  INFO      run_day6  |  
+  TABLE 2 — BASELINE COMPARISON (9 models)
+2026-05-27 10:54:57  INFO      run_day6  |    ===========================================================================
+2026-05-27 10:54:57  INFO      run_day6  |    Model                          S3-AUC      Acc       F1   S3-Rec  CostRed
+2026-05-27 10:54:57  INFO      run_day6  |    ---------------------------------------------------------------------------
+2026-05-27 10:54:57  INFO      run_day6  |    B6_LSTM                        0.5502   0.4150   0.2153   0.6390     0.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%
+2026-05-27 10:54:57  INFO      run_day6  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4% <<
+2026-05-27 10:54:57  INFO      run_day6  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%
+2026-05-27 10:54:57  INFO      run_day6  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%
+2026-05-27 10:54:57  INFO      run_day6  |  
+  TwinMesh S3-AUPRC: 0.4791
+  Best baseline:     0.5502 (B6_LSTM)
+  TwinMesh lift:     -0.0711
+2026-05-27 10:54:57  INFO      run_day6  |  
+  Saved day6_summary.csv
+2026-05-27 10:54:57  INFO      run_day6  |  
+============================================================
+2026-05-27 10:54:57  INFO      run_day6  |  EVENING — Red Sea Crisis Case Study
+2026-05-27 10:54:57  INFO      run_day6  |  ============================================================
+2026-05-27 10:54:59  INFO      run_day6  |    Red Sea case study saved -> E:\TwinMesh\results\combined\red_sea_case_study.png
+2026-05-27 10:54:59  INFO      run_day6  |  
+  Red Sea lead time: 6.4 days average
+  Detections: 106 S3 onsets with early warning
+
+  PAPER SENTENCE (Section 8, Red Sea case study):
+  "During the Red Sea crisis (Dec 2023–Dec 2024),
+   TwinMesh detected S3 onset an average of 6.4 days
+   before the disruption state was reached, providing
+   actionable early warning for port operators."
+2026-05-27 10:54:59  INFO      run_day6  |  
+======================================================================
+2026-05-27 10:54:59  INFO      run_day6  |  DAY 6 COMPLETE — FINAL RESULTS FOR PAPER
+2026-05-27 10:54:59  INFO      run_day6  |  ======================================================================
+2026-05-27 10:54:59  INFO      run_day6  |  
+  TwinMesh Full System:
+2026-05-27 10:54:59  INFO      run_day6  |      S3 AUPRC:        0.4791
+2026-05-27 10:54:59  INFO      run_day6  |      Accuracy:        0.4691
+2026-05-27 10:54:59  INFO      run_day6  |      Macro-F1:        0.3250
+2026-05-27 10:54:59  INFO      run_day6  |      S3 Recall:       0.6095
+2026-05-27 10:54:59  INFO      run_day6  |      Cost reduction:  52.4%
+2026-05-27 10:54:59  INFO      run_day6  |      Tier-0 violations: 0
+2026-05-27 10:54:59  INFO      run_day6  |  
+  vs Best Baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0711
+2026-05-27 10:54:59  INFO      run_day6  |  
+  KEY PAPER OUTPUTS:
+    Table 1: results/combined/ablation_table.csv
+    Table 2: results/combined/baseline_comparison.csv
+    Figure 5: results/combined/ablation_lift_chart.png
+    Figure 7: results/combined/baseline_auprc_chart.png
+    Figure 8: results/combined/red_sea_case_study.png
+
+  Next: python run_day7.py  (7 publication-quality figures)
+        python run_day8.py  (paper writing Days 8-9)
+2026-05-27 10:54:59  INFO      run_day6  |  
+  Total Day 6 time: 23.9s
+2026-05-27 10:54:59  INFO      run_day6  |  
+============================================================
+2026-05-27 10:54:59  INFO      run_day6  |    DAY 6 COMPLETE
+2026-05-27 10:54:59  INFO      run_day6  |    Table 2:  results/combined/baseline_comparison.csv
+2026-05-27 10:54:59  INFO      run_day6  |    Figure 7: results/combined/baseline_auprc_chart.png
+2026-05-27 10:54:59  INFO      run_day6  |    Figure 8: results/combined/red_sea_case_study.png
+2026-05-27 10:54:59  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:33  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:33  INFO      run_day6  |  T W I N M E S H  ·  DAY 6
+2026-05-27 14:40:33  INFO      run_day6  |  Baselines + Full Evaluation + Red Sea Case Study
+2026-05-27 14:40:33  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:33  INFO      run_day6  |    Day 1-5 outputs verified
+2026-05-27 14:40:33  INFO      run_day6  |  
+============================================================
+2026-05-27 14:40:33  INFO      run_day6  |  MORNING — All 8 Baselines
+2026-05-27 14:40:33  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:50  INFO      run_day6  |  
+  Morning done in 17.2s
+2026-05-27 14:40:50  INFO      run_day6  |  
+============================================================
+2026-05-27 14:40:50  INFO      run_day6  |  AFTERNOON — Compile All Results
+2026-05-27 14:40:50  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:50  INFO      run_day6  |  
+  TABLE 1 — ABLATION STUDY (6 rows)
+2026-05-27 14:40:50  INFO      run_day6  |    ======================================================================
+2026-05-27 14:40:50  INFO      run_day6  |    Row   Model                                           Acc       F1   S3-AUC
+2026-05-27 14:40:50  INFO      run_day6  |    ----------------------------------------------------------------------
+2026-05-27 14:40:50  INFO      run_day6  |    1    Aggregate Hawkes (Model A)                        -        -   0.2467
+2026-05-27 14:40:50  INFO      run_day6  |    2    + Vessel-Type Breakdown (Model B)                 -        -   0.2446
+2026-05-27 14:40:50  INFO      run_day6  |    3    + Pure Markov                                0.4464   0.2627   0.3497
+2026-05-27 14:40:50  INFO      run_day6  |    4    + Portwatch Only                             0.4535   0.3104   0.4454
+2026-05-27 14:40:50  INFO      run_day6  |    5    + Portwatch Weather                          0.4550   0.3115   0.4444
+2026-05-27 14:40:50  INFO      run_day6  |    6    TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791
+2026-05-27 14:40:50  INFO      run_day6  |  
+  TABLE 2 — BASELINE COMPARISON (9 models)
+2026-05-27 14:40:50  INFO      run_day6  |    ===========================================================================
+2026-05-27 14:40:50  INFO      run_day6  |    Model                          S3-AUC      Acc       F1   S3-Rec  CostRed
+2026-05-27 14:40:50  INFO      run_day6  |    ---------------------------------------------------------------------------
+2026-05-27 14:40:50  INFO      run_day6  |    B6_LSTM                        0.5415   0.4103   0.2131   0.6454     0.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%
+2026-05-27 14:40:50  INFO      run_day6  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4% <<
+2026-05-27 14:40:50  INFO      run_day6  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%
+2026-05-27 14:40:50  INFO      run_day6  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%
+2026-05-27 14:40:50  INFO      run_day6  |  
+  TwinMesh S3-AUPRC: 0.4791
+  Best baseline:     0.5415 (B6_LSTM)
+  TwinMesh lift:     -0.0624
+2026-05-27 14:40:50  INFO      run_day6  |  
+  Saved day6_summary.csv
+2026-05-27 14:40:50  INFO      run_day6  |  
+============================================================
+2026-05-27 14:40:50  INFO      run_day6  |  EVENING — Red Sea Crisis Case Study
+2026-05-27 14:40:50  INFO      run_day6  |  ============================================================
+2026-05-27 14:40:51  INFO      run_day6  |    Red Sea case study saved -> E:\TwinMesh\results\combined\red_sea_case_study.png
+2026-05-27 14:40:51  INFO      run_day6  |  
+  Red Sea lead time: 6.4 days average
+  Detections: 106 S3 onsets with early warning
+
+  PAPER SENTENCE (Section 8, Red Sea case study):
+  "During the Red Sea crisis (Dec 2023–Dec 2024),
+   TwinMesh detected S3 onset an average of 6.4 days
+   before the disruption state was reached, providing
+   actionable early warning for port operators."
+2026-05-27 14:40:51  INFO      run_day6  |  
+======================================================================
+2026-05-27 14:40:51  INFO      run_day6  |  DAY 6 COMPLETE — FINAL RESULTS FOR PAPER
+2026-05-27 14:40:51  INFO      run_day6  |  ======================================================================
+2026-05-27 14:40:51  INFO      run_day6  |  
+  TwinMesh Full System:
+2026-05-27 14:40:51  INFO      run_day6  |      S3 AUPRC:        0.4791
+2026-05-27 14:40:51  INFO      run_day6  |      Accuracy:        0.4691
+2026-05-27 14:40:51  INFO      run_day6  |      Macro-F1:        0.3250
+2026-05-27 14:40:51  INFO      run_day6  |      S3 Recall:       0.6095
+2026-05-27 14:40:51  INFO      run_day6  |      Cost reduction:  52.4%
+2026-05-27 14:40:51  INFO      run_day6  |      Tier-0 violations: 0
+2026-05-27 14:40:51  INFO      run_day6  |  
+  vs Best Baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0624
+2026-05-27 14:40:51  INFO      run_day6  |  
+  KEY PAPER OUTPUTS:
+    Table 1: results/combined/ablation_table.csv
+    Table 2: results/combined/baseline_comparison.csv
+    Figure 5: results/combined/ablation_lift_chart.png
+    Figure 7: results/combined/baseline_auprc_chart.png
+    Figure 8: results/combined/red_sea_case_study.png
+
+  Next: python run_day7.py  (7 publication-quality figures)
+        python run_day8.py  (paper writing Days 8-9)
+2026-05-27 14:40:51  INFO      run_day6  |  
+  Total Day 6 time: 18.4s
+2026-05-27 14:40:51  INFO      run_day6  |  
+============================================================
+2026-05-27 14:40:51  INFO      run_day6  |    DAY 6 COMPLETE
+2026-05-27 14:40:51  INFO      run_day6  |    Table 2:  results/combined/baseline_comparison.csv
+2026-05-27 14:40:51  INFO      run_day6  |    Figure 7: results/combined/baseline_auprc_chart.png
+2026-05-27 14:40:51  INFO      run_day6  |    Figure 8: results/combined/red_sea_case_study.png
+2026-05-27 14:40:51  INFO      run_day6  |  ============================================================
+2026-05-27 19:17:59  INFO      run_day6  |  ============================================================
+2026-05-27 19:17:59  INFO      run_day6  |  T W I N M E S H  ·  DAY 6
+2026-05-27 19:17:59  INFO      run_day6  |  Baselines + Full Evaluation + Red Sea Case Study
+2026-05-27 19:17:59  INFO      run_day6  |  ============================================================
+2026-05-27 19:17:59  INFO      run_day6  |    Day 1-5 outputs verified
+2026-05-27 19:17:59  INFO      run_day6  |  
+============================================================
+2026-05-27 19:17:59  INFO      run_day6  |  MORNING — All 8 Baselines
+2026-05-27 19:17:59  INFO      run_day6  |  ============================================================
+2026-05-27 19:18:20  INFO      run_day6  |  
+  Morning done in 21.5s
+2026-05-27 19:18:20  INFO      run_day6  |  
+============================================================
+2026-05-27 19:18:20  INFO      run_day6  |  AFTERNOON — Compile All Results
+2026-05-27 19:18:20  INFO      run_day6  |  ============================================================
+2026-05-27 19:18:20  INFO      run_day6  |  
+  TABLE 1 — ABLATION STUDY (6 rows)
+2026-05-27 19:18:20  INFO      run_day6  |    ======================================================================
+2026-05-27 19:18:20  INFO      run_day6  |    Row   Model                                           Acc       F1   S3-AUC
+2026-05-27 19:18:20  INFO      run_day6  |    ----------------------------------------------------------------------
+2026-05-27 19:18:20  INFO      run_day6  |    1    Aggregate Hawkes (Model A)                        -        -   0.2467
+2026-05-27 19:18:20  INFO      run_day6  |    2    + Vessel-Type Breakdown (Model B)                 -        -   0.2446
+2026-05-27 19:18:20  INFO      run_day6  |    3    + Pure Markov                                0.4464   0.2627   0.3497
+2026-05-27 19:18:20  INFO      run_day6  |    4    + Portwatch Only                             0.4535   0.3104   0.4454
+2026-05-27 19:18:20  INFO      run_day6  |    5    + Portwatch Weather                          0.4550   0.3115   0.4444
+2026-05-27 19:18:20  INFO      run_day6  |    6    TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791
+2026-05-27 19:18:20  INFO      run_day6  |  
+  TABLE 2 — BASELINE COMPARISON (9 models)
+2026-05-27 19:18:20  INFO      run_day6  |    ===========================================================================
+2026-05-27 19:18:20  INFO      run_day6  |    Model                          S3-AUC      Acc       F1   S3-Rec  CostRed
+2026-05-27 19:18:20  INFO      run_day6  |    ---------------------------------------------------------------------------
+2026-05-27 19:18:20  INFO      run_day6  |    B6_LSTM                        0.5404   0.4095   0.2122   0.5911     0.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%
+2026-05-27 19:18:20  INFO      run_day6  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4% <<
+2026-05-27 19:18:20  INFO      run_day6  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%
+2026-05-27 19:18:20  INFO      run_day6  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%
+2026-05-27 19:18:20  INFO      run_day6  |  
+  TwinMesh S3-AUPRC: 0.4791
+  Best baseline:     0.5404 (B6_LSTM)
+  TwinMesh lift:     -0.0613
+2026-05-27 19:18:20  INFO      run_day6  |  
+  Saved day6_summary.csv
+2026-05-27 19:18:20  INFO      run_day6  |  
+============================================================
+2026-05-27 19:18:20  INFO      run_day6  |  EVENING — Red Sea Crisis Case Study
+2026-05-27 19:18:20  INFO      run_day6  |  ============================================================
+2026-05-27 19:18:22  INFO      run_day6  |    Red Sea case study saved -> E:\TwinMesh\results\combined\red_sea_case_study.png
+2026-05-27 19:18:22  INFO      run_day6  |  
+  Red Sea lead time: 6.4 days average
+  Detections: 106 S3 onsets with early warning
+
+  PAPER SENTENCE (Section 8, Red Sea case study):
+  "During the Red Sea crisis (Dec 2023–Dec 2024),
+   TwinMesh detected S3 onset an average of 6.4 days
+   before the disruption state was reached, providing
+   actionable early warning for port operators."
+2026-05-27 19:18:22  INFO      run_day6  |  
+======================================================================
+2026-05-27 19:18:22  INFO      run_day6  |  DAY 6 COMPLETE — FINAL RESULTS FOR PAPER
+2026-05-27 19:18:22  INFO      run_day6  |  ======================================================================
+2026-05-27 19:18:22  INFO      run_day6  |  
+  TwinMesh Full System:
+2026-05-27 19:18:22  INFO      run_day6  |      S3 AUPRC:        0.4791
+2026-05-27 19:18:22  INFO      run_day6  |      Accuracy:        0.4691
+2026-05-27 19:18:22  INFO      run_day6  |      Macro-F1:        0.3250
+2026-05-27 19:18:22  INFO      run_day6  |      S3 Recall:       0.6095
+2026-05-27 19:18:22  INFO      run_day6  |      Cost reduction:  52.4%
+2026-05-27 19:18:22  INFO      run_day6  |      Tier-0 violations: 0
+2026-05-27 19:18:22  INFO      run_day6  |  
+  vs Best Baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0613
+2026-05-27 19:18:22  INFO      run_day6  |  
+  KEY PAPER OUTPUTS:
+    Table 1: results/combined/ablation_table.csv
+    Table 2: results/combined/baseline_comparison.csv
+    Figure 5: results/combined/ablation_lift_chart.png
+    Figure 7: results/combined/baseline_auprc_chart.png
+    Figure 8: results/combined/red_sea_case_study.png
+
+  Next: python run_day7.py  (7 publication-quality figures)
+        python run_day8.py  (paper writing Days 8-9)
+2026-05-27 19:18:22  INFO      run_day6  |  
+  Total Day 6 time: 22.9s
+2026-05-27 19:18:22  INFO      run_day6  |  
+============================================================
+2026-05-27 19:18:22  INFO      run_day6  |    DAY 6 COMPLETE
+2026-05-27 19:18:22  INFO      run_day6  |    Table 2:  results/combined/baseline_comparison.csv
+2026-05-27 19:18:22  INFO      run_day6  |    Figure 7: results/combined/baseline_auprc_chart.png
+2026-05-27 19:18:22  INFO      run_day6  |    Figure 8: results/combined/red_sea_case_study.png
+2026-05-27 19:18:22  INFO      run_day6  |  ============================================================

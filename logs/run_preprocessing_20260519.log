@@ -1,0 +1,39 @@
+2026-05-19 21:28:50  INFO      run_preprocessing  |  ============================================================
+2026-05-19 21:28:50  INFO      run_preprocessing  |  T W I N M E S H  ·  Preprocessing Pipeline
+2026-05-19 21:28:50  INFO      run_preprocessing  |  Running steps 1 → 5
+2026-05-19 21:28:50  INFO      run_preprocessing  |  ============================================================
+2026-05-19 21:28:51  INFO      run_preprocessing  |    Step 1 done in 0.9s
+2026-05-19 21:28:51  INFO      run_preprocessing  |    Step 2 done in 0.1s
+2026-05-19 21:28:54  INFO      run_preprocessing  |    Step 3 done in 0.1s
+2026-05-19 21:28:56  INFO      run_preprocessing  |    Step 4 done in 1.5s
+2026-05-19 21:28:56  INFO      run_preprocessing  |    Per-port CSVs updated with final enriched columns
+2026-05-19 21:28:57  INFO      run_preprocessing  |    Step 5 done in 0.9s
+2026-05-19 21:28:57  INFO      run_preprocessing  |  
+── Final Output Verification ──
+2026-05-19 21:28:57  INFO      run_preprocessing  |  
+── Output File Check ──
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ singapore_merged.csv                          (729 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ rotterdam_merged.csv                          (719 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ shanghai_merged.csv                           (741 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ nhava_sheva_merged.csv                        (678 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ busan_merged.csv                              (686 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ hamburg_merged.csv                            (670 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ antwerp_merged.csv                            (700 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ all_ports_combined.csv                        (2,362 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ state_labeled.csv                             (2,311 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ markov_transitions.csv                        (321 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ hawkes_events.csv                             (58 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ gdelt_parsed.csv                              (7 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ twinmesh_training.csv                         (1,655 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ twinmesh_validation.csv                       (356 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ twinmesh_test.csv                             (353 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ twinmesh_dataset_full.json                    (11,283 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |    ✅ portwatch_2019_2022.csv                       (2,679 KB)
+2026-05-19 21:28:57  INFO      run_preprocessing  |  
+✅ PIPELINE COMPLETE in 6.6s
+2026-05-19 21:28:57  INFO      run_preprocessing  |     Ready for Day 3: Hawkes standalone evaluation
+2026-05-19 21:28:57  INFO      run_preprocessing  |     Next: python src/models/hawkes/hawkes_port_level.py
+2026-05-19 21:28:57  INFO      run_preprocessing  |  
+── GDELT Decision ──
+2026-05-19 21:28:57  INFO      run_preprocessing  |     Mean Pearson r across ports: 0.005
+2026-05-19 21:28:57  WARNING   run_preprocessing  |     ⚠️  REMOVE GDELT — correlation too weak for paper claim

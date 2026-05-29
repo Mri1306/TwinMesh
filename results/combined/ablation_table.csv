@@ -1,0 +1,7 @@
+row,model_variant,auprc,state_accuracy,macro_f1,mean_lead_days,s3_recall,brier_s3
+1,Aggregate Hawkes (Model A),0.2467,,,0.0,,
+2,+ Vessel-Type Breakdown (Model B),0.2446,,,,,
+3,+ Pure Markov,0.3497,0.4464,0.2627,,,
+4,+ Portwatch Only,0.4454,0.4535,0.3104,,,
+5,+ Portwatch Weather,0.4444,0.455,0.3115,,,
+6,TwinMesh FULL (+ Hawkes lambda),0.4791,0.4691,0.325,4.2,0.6095,0.1652

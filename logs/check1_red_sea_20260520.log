@@ -1,0 +1,49 @@
+2026-05-20 13:53:06  INFO      check1_red_sea  |  Loaded combined dataset: 8,568 rows
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+============================================================
+2026-05-20 13:53:06  INFO      check1_red_sea  |  CHECK 1 — Red Sea Crisis Signal
+2026-05-20 13:53:06  INFO      check1_red_sea  |  ============================================================
+2026-05-20 13:53:06  INFO      check1_red_sea  |    Crisis window:     2023-12-01 → 2024-06-30
+2026-05-20 13:53:06  INFO      check1_red_sea  |    Pre-crisis window: 2023-01-01 → 2023-11-30
+2026-05-20 13:53:06  INFO      check1_red_sea  |    Ports checked:     ['Singapore', 'Rotterdam', 'Shanghai']
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+  Singapore:
+    Pre-crisis congestion:    1.1746
+    Crisis congestion (mean): 1.2091
+    Crisis congestion (max):  2.7751
+    Spike (sigma):            0.084
+    Pre-crisis S3 rate:       8.1%
+    Crisis S3 rate:           7.5%
+    S3 lift:                  -0.6%
+    Result:                   ❌ FAIL
+2026-05-20 13:53:06  WARNING   check1_red_sea  |    ⚠️  Singapore: spike_sigma=0.084 below threshold 0.5.
+     ACTION: Lower S3_min_congestion in constants.py
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+  Rotterdam:
+    Pre-crisis congestion:    2.9517
+    Crisis congestion (mean): 3.0686
+    Crisis congestion (max):  14.0196
+    Spike (sigma):            0.073
+    Pre-crisis S3 rate:       68.0%
+    Crisis S3 rate:           72.3%
+    S3 lift:                  +4.3%
+    Result:                   ❌ FAIL
+2026-05-20 13:53:06  WARNING   check1_red_sea  |    ⚠️  Rotterdam: spike_sigma=0.073 below threshold 0.5.
+     ACTION: Lower S3_min_congestion in constants.py
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+  Shanghai:
+    Pre-crisis congestion:    1.4033
+    Crisis congestion (mean): 1.3367
+    Crisis congestion (max):  23.6330
+    Spike (sigma):            -0.104
+    Pre-crisis S3 rate:       14.7%
+    Crisis S3 rate:           7.0%
+    S3 lift:                  -7.6%
+    Result:                   ❌ FAIL
+2026-05-20 13:53:06  WARNING   check1_red_sea  |    ⚠️  Shanghai: spike_sigma=-0.104 below threshold 0.5.
+     ACTION: Lower S3_min_congestion in constants.py
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+  Saved → E:\TwinMesh\results\audit\check1_red_sea_signal.csv
+2026-05-20 13:53:06  INFO      check1_red_sea  |  
+  OVERALL: ❌ SOME CHECKS FAILED — fix state labeling
+2026-05-20 13:53:07  INFO      check1_red_sea  |    Plot saved → E:\TwinMesh\results\audit\check1_red_sea_plot.png

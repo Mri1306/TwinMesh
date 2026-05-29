@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,s3_recall,s3_auprc,brier_s3,n_test_steps,f1_S0,f1_S1,f1_S2,f1_S3,f1_S4
+portwatch_only,0.4535,0.3104,0.5079,0.4454,0.1736,1279,0.58,0.0,0.0,0.472,0.5
+portwatch_weather,0.455,0.3115,0.5143,0.4444,0.1738,1279,0.5809,0.0,0.0,0.4765,0.5

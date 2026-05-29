@@ -1,0 +1,61 @@
+2026-05-21 08:40:50  INFO      state_labeler  |  ============================================================
+2026-05-21 08:40:50  INFO      state_labeler  |  STEP 4 — State Labeler
+2026-05-21 08:40:50  INFO      state_labeler  |  ============================================================
+2026-05-21 08:40:50  INFO      state_labeler  |    Singapore state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |        S0: 49.9% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S1: 23.1% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 12.2% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S3: 7.6% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S4: 7.2% (expected ~5%)
+2026-05-21 08:40:50  INFO      state_labeler  |    Rotterdam state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S0: 2.3% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S1: 3.1% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 5.8% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S3: 66.5% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S4: 22.3% (expected ~5%)
+2026-05-21 08:40:50  WARNING   state_labeler  |    Rotterdam: S3 rate very high (66.5%) — consider raising S3_min_congestion threshold in constants.py
+2026-05-21 08:40:50  INFO      state_labeler  |    Shanghai state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |        S0: 47.0% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S1: 21.2% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 15.7% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S3: 8.8% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S4: 7.3% (expected ~5%)
+2026-05-21 08:40:50  INFO      state_labeler  |    Nhava Sheva state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S0: 13.7% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S1: 6.2% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 8.5% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S3: 47.0% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S4: 24.7% (expected ~5%)
+2026-05-21 08:40:50  WARNING   state_labeler  |    Nhava Sheva: S3 rate very high (47.0%) — consider raising S3_min_congestion threshold in constants.py
+2026-05-21 08:40:50  INFO      state_labeler  |    Busan state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |        S0: 48.0% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S1: 16.2% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 13.0% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S3: 12.0% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S4: 10.8% (expected ~5%)
+2026-05-21 08:40:50  INFO      state_labeler  |    Hamburg state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S0: 29.6% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S1: 8.7% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 10.0% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S3: 30.0% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |      ⚠️ S4: 21.8% (expected ~5%)
+2026-05-21 08:40:50  WARNING   state_labeler  |    Hamburg: S3 rate very high (30.0%) — consider raising S3_min_congestion threshold in constants.py
+2026-05-21 08:40:50  INFO      state_labeler  |    Antwerp state distribution:
+2026-05-21 08:40:50  INFO      state_labeler  |        S0: 57.9% (expected ~45%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S1: 13.1% (expected ~25%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S2: 11.1% (expected ~15%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S3: 9.4% (expected ~10%)
+2026-05-21 08:40:50  INFO      state_labeler  |        S4: 8.5% (expected ~5%)
+2026-05-21 08:40:50  INFO      state_labeler  |    Saved state_labeled.csv → E:\TwinMesh\data/processed\state_labeled.csv (8,568 rows)
+2026-05-21 08:40:52  INFO      state_labeler  |    Markov transitions: 5,612 state changes | S3 entries=1257 | S4 entries=1257
+2026-05-21 08:40:52  INFO      state_labeler  |  
+  Transition matrix (normalized):
+to_state       S0     S1     S2     S3   S4
+from_state                                 
+S0          0.000  0.386  0.300  0.313  0.0
+S1          0.595  0.000  0.186  0.218  0.0
+S2          0.568  0.197  0.000  0.236  0.0
+S3          0.000  0.000  0.000  0.000  1.0
+S4          0.351  0.160  0.145  0.344  0.0
+2026-05-21 08:40:52  INFO      state_labeler  |  
+✅ STEP 4 COMPLETE — states labeled

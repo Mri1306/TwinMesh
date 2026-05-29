@@ -1,0 +1,130 @@
+2026-05-27 14:40:12  INFO      twinmesh_core  |  ============================================================
+2026-05-27 14:40:12  INFO      twinmesh_core  |  DAY 5 MORNING — TwinMesh Combined (Hawkes + Markov)
+2026-05-27 14:40:12  INFO      twinmesh_core  |  ============================================================
+2026-05-27 14:40:12  INFO      twinmesh_core  |  
+  Step 1: Computing Hawkes intensity lambda(t)...
+2026-05-27 14:40:12  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-27 14:40:15  INFO      twinmesh_core  |    Hawkes intensity computed | lambda range: [0.0773, 0.4020]
+2026-05-27 14:40:15  INFO      twinmesh_core  |    Lambda merged | train lambda range: [0.0773, 0.4020]
+2026-05-27 14:40:15  INFO      twinmesh_core  |  
+  Step 2: Preparing combined feature sequences...
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Train: 5,990 steps  |  Test: 1,279 steps
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  Step 3: Fitting combined TwinMesh model...
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Combined model: train_accuracy=0.5352
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  Step 4: Evaluating on test set...
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+============================================================
+2026-05-27 14:40:16  INFO      twinmesh_core  |  TWINMESH COMBINED — Results
+2026-05-27 14:40:16  INFO      twinmesh_core  |  ============================================================
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Accuracy:  0.4691
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Macro-F1:  0.3250
+2026-05-27 14:40:16  INFO      twinmesh_core  |    S3 Recall: 0.6095
+2026-05-27 14:40:16  INFO      twinmesh_core  |    S3 AUPRC:  0.4791
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Brier-S3:  0.1652
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Per-state F1:
+2026-05-27 14:40:16  INFO      twinmesh_core  |      S0: 0.5814
+2026-05-27 14:40:16  INFO      twinmesh_core  |      S1: 0.0000
+2026-05-27 14:40:16  INFO      twinmesh_core  |      S2: 0.0000
+2026-05-27 14:40:16  INFO      twinmesh_core  |      S3: 0.5260
+2026-05-27 14:40:16  INFO      twinmesh_core  |      S4: 0.5175
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  Step 5: Building complete ablation table (all 6 rows)...
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+===========================================================================
+2026-05-27 14:40:16  INFO      twinmesh_core  |  COMPLETE ABLATION TABLE — ALL 6 ROWS (paper Table 1)
+2026-05-27 14:40:16  INFO      twinmesh_core  |  ===========================================================================
+2026-05-27 14:40:16  INFO      twinmesh_core  |  Row   Model                                           Acc       F1   S3-AUC   Lead
+2026-05-27 14:40:16  INFO      twinmesh_core  |  ---------------------------------------------------------------------------
+2026-05-27 14:40:16  INFO      twinmesh_core  |    1   Aggregate Hawkes (Model A)                        -        -   0.2467   0.0d
+2026-05-27 14:40:16  INFO      twinmesh_core  |    2   + Vessel-Type Breakdown (Model B)                 -        -   0.2446      -
+2026-05-27 14:40:16  INFO      twinmesh_core  |    3   + Pure Markov                                0.4464   0.2627   0.3497      -
+2026-05-27 14:40:16  INFO      twinmesh_core  |    4   + Portwatch Only                             0.4535   0.3104   0.4454      -
+2026-05-27 14:40:16  INFO      twinmesh_core  |    5   + Portwatch Weather                          0.4550   0.3115   0.4444      -
+2026-05-27 14:40:16  INFO      twinmesh_core  |    6   TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791   4.2d
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  LIFT (Row 5 → Row 6 — adding Hawkes lambda):
+    S3 AUPRC: 0.4444 → 0.4791  (+0.0347)
+    Accuracy: 0.4550 → 0.4691  (+0.0141)
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  PAPER SENTENCE (Section 7, Row 6):
+  "Adding Hawkes cascade intensity as a Markov observation
+   feature (Row 6) improves S3 AUPRC from 0.4444 to
+   0.4791 (+0.0347) and accuracy from
+   0.4550 to 0.4691 (+0.0141),
+   demonstrating that temporal cascade signals provide
+   additional predictive value beyond static port features."
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Saved ablation_table.csv (all 6 rows)
+2026-05-27 14:40:16  INFO      twinmesh_core  |    Ablation lift chart saved -> E:\TwinMesh\results\combined\ablation_lift_chart.png
+2026-05-27 14:40:16  INFO      twinmesh_core  |    S3 detection plot saved -> E:\TwinMesh\results\combined\twinmesh_s3_detection.png
+2026-05-27 14:40:16  INFO      twinmesh_core  |  
+  TwinMesh Combined complete.
+2026-05-27 19:17:18  INFO      twinmesh_core  |  ============================================================
+2026-05-27 19:17:18  INFO      twinmesh_core  |  DAY 5 MORNING — TwinMesh Combined (Hawkes + Markov)
+2026-05-27 19:17:18  INFO      twinmesh_core  |  ============================================================
+2026-05-27 19:17:18  INFO      twinmesh_core  |  
+  Step 1: Computing Hawkes intensity lambda(t)...
+2026-05-27 19:17:18  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-27 19:17:27  INFO      twinmesh_core  |  ============================================================
+2026-05-27 19:17:27  INFO      twinmesh_core  |  DAY 5 MORNING — TwinMesh Combined (Hawkes + Markov)
+2026-05-27 19:17:27  INFO      twinmesh_core  |  ============================================================
+2026-05-27 19:17:27  INFO      twinmesh_core  |  
+  Step 1: Computing Hawkes intensity lambda(t)...
+2026-05-27 19:17:27  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Hawkes intensity computed | lambda range: [0.0773, 0.4020]
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Lambda merged | train lambda range: [0.0773, 0.4020]
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  Step 2: Preparing combined feature sequences...
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Train: 5,990 steps  |  Test: 1,279 steps
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  Step 3: Fitting combined TwinMesh model...
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Combined model: train_accuracy=0.5352
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  Step 4: Evaluating on test set...
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+============================================================
+2026-05-27 19:17:31  INFO      twinmesh_core  |  TWINMESH COMBINED — Results
+2026-05-27 19:17:31  INFO      twinmesh_core  |  ============================================================
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Accuracy:  0.4691
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Macro-F1:  0.3250
+2026-05-27 19:17:31  INFO      twinmesh_core  |    S3 Recall: 0.6095
+2026-05-27 19:17:31  INFO      twinmesh_core  |    S3 AUPRC:  0.4791
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Brier-S3:  0.1652
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Per-state F1:
+2026-05-27 19:17:31  INFO      twinmesh_core  |      S0: 0.5814
+2026-05-27 19:17:31  INFO      twinmesh_core  |      S1: 0.0000
+2026-05-27 19:17:31  INFO      twinmesh_core  |      S2: 0.0000
+2026-05-27 19:17:31  INFO      twinmesh_core  |      S3: 0.5260
+2026-05-27 19:17:31  INFO      twinmesh_core  |      S4: 0.5175
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  Step 5: Building complete ablation table (all 6 rows)...
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+===========================================================================
+2026-05-27 19:17:31  INFO      twinmesh_core  |  COMPLETE ABLATION TABLE — ALL 6 ROWS (paper Table 1)
+2026-05-27 19:17:31  INFO      twinmesh_core  |  ===========================================================================
+2026-05-27 19:17:31  INFO      twinmesh_core  |  Row   Model                                           Acc       F1   S3-AUC   Lead
+2026-05-27 19:17:31  INFO      twinmesh_core  |  ---------------------------------------------------------------------------
+2026-05-27 19:17:31  INFO      twinmesh_core  |    1   Aggregate Hawkes (Model A)                        -        -   0.2467   0.0d
+2026-05-27 19:17:31  INFO      twinmesh_core  |    2   + Vessel-Type Breakdown (Model B)                 -        -   0.2446      -
+2026-05-27 19:17:31  INFO      twinmesh_core  |    3   + Pure Markov                                0.4464   0.2627   0.3497      -
+2026-05-27 19:17:31  INFO      twinmesh_core  |    4   + Portwatch Only                             0.4535   0.3104   0.4454      -
+2026-05-27 19:17:31  INFO      twinmesh_core  |    5   + Portwatch Weather                          0.4550   0.3115   0.4444      -
+2026-05-27 19:17:31  INFO      twinmesh_core  |    6   TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791   4.2d
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  LIFT (Row 5 → Row 6 — adding Hawkes lambda):
+    S3 AUPRC: 0.4444 → 0.4791  (+0.0347)
+    Accuracy: 0.4550 → 0.4691  (+0.0141)
+2026-05-27 19:17:31  INFO      twinmesh_core  |  
+  PAPER SENTENCE (Section 7, Row 6):
+  "Adding Hawkes cascade intensity as a Markov observation
+   feature (Row 6) improves S3 AUPRC from 0.4444 to
+   0.4791 (+0.0347) and accuracy from
+   0.4550 to 0.4691 (+0.0141),
+   demonstrating that temporal cascade signals provide
+   additional predictive value beyond static port features."
+2026-05-27 19:17:31  INFO      twinmesh_core  |    Saved ablation_table.csv (all 6 rows)
+2026-05-27 19:17:32  INFO      twinmesh_core  |    Ablation lift chart saved -> E:\TwinMesh\results\combined\ablation_lift_chart.png
+2026-05-27 19:17:32  INFO      twinmesh_core  |    S3 detection plot saved -> E:\TwinMesh\results\combined\twinmesh_s3_detection.png
+2026-05-27 19:17:32  INFO      twinmesh_core  |  
+  TwinMesh Combined complete.

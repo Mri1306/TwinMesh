@@ -1,0 +1,115 @@
+2026-05-28 14:19:42  INFO      run_day5  |  ================================================================================
+2026-05-28 14:19:42  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-28 14:19:42  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-28 14:19:42  INFO      run_day5  |  Mode: V2 (Improved XGBoost)
+2026-05-28 14:19:42  INFO      run_day5  |  ================================================================================
+2026-05-28 14:19:42  INFO      run_day5  |    Day 1-4 outputs verified ✓
+2026-05-28 14:19:42  INFO      run_day5  |  
+Running V2 (improved XGBoost)...
+
+2026-05-28 14:19:42  INFO      run_day5  |  
+============================================================
+2026-05-28 14:19:42  INFO      run_day5  |  MORNING — TwinMesh V2 (XGBoost + Advanced Features)
+2026-05-28 14:19:42  INFO      run_day5  |  ============================================================
+2026-05-28 14:19:45  ERROR     run_day5  |    ERROR running TwinMesh V2: No module named 'twinmesh_core'
+2026-05-28 14:19:45  ERROR     run_day5  |    Make sure twinmesh_core_v2.py is in src/models/combined/
+2026-05-28 14:30:49  INFO      run_day5  |  ================================================================================
+2026-05-28 14:30:49  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-28 14:30:49  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-28 14:30:49  INFO      run_day5  |  Mode: V2 (Improved XGBoost)
+2026-05-28 14:30:49  INFO      run_day5  |  ================================================================================
+2026-05-28 14:30:49  INFO      run_day5  |    Day 1-4 outputs verified ✓
+2026-05-28 14:30:49  INFO      run_day5  |  
+Running V2 (improved XGBoost)...
+
+2026-05-28 14:30:49  INFO      run_day5  |  
+============================================================
+2026-05-28 14:30:49  INFO      run_day5  |  MORNING — TwinMesh V2 (XGBoost + Advanced Features)
+2026-05-28 14:30:49  INFO      run_day5  |  ============================================================
+2026-05-28 14:30:52  INFO      run_day5  |  
+  Morning done in 3.1s
+2026-05-28 15:42:15  INFO      run_day5  |  ================================================================================
+2026-05-28 15:42:15  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-28 15:42:15  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-28 15:42:15  INFO      run_day5  |  Mode: V2 (Improved XGBoost)
+2026-05-28 15:42:15  INFO      run_day5  |  ================================================================================
+2026-05-28 15:42:15  INFO      run_day5  |    Day 1-4 outputs verified ✓
+2026-05-28 15:42:15  INFO      run_day5  |  
+Running V2 (improved XGBoost)...
+
+2026-05-28 15:42:15  INFO      run_day5  |  
+============================================================
+2026-05-28 15:42:15  INFO      run_day5  |  MORNING — TwinMesh V2 (XGBoost + Advanced Features)
+2026-05-28 15:42:15  INFO      run_day5  |  ============================================================
+2026-05-28 15:42:17  ERROR     run_day5  |    ERROR running TwinMesh V2: cannot access local variable 'combined_with_lambda' where it is not associated with a value
+2026-05-28 15:42:17  ERROR     run_day5  |    Make sure twinmesh_core_v2.py is in src/models/combined/
+2026-05-28 15:46:38  INFO      run_day5  |  ================================================================================
+2026-05-28 15:46:38  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-28 15:46:38  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-28 15:46:38  INFO      run_day5  |  Mode: V2 (Improved XGBoost)
+2026-05-28 15:46:38  INFO      run_day5  |  ================================================================================
+2026-05-28 15:46:38  INFO      run_day5  |    Day 1-4 outputs verified ✓
+2026-05-28 15:46:38  INFO      run_day5  |  
+Running V2 (improved XGBoost)...
+
+2026-05-28 15:46:38  INFO      run_day5  |  
+============================================================
+2026-05-28 15:46:38  INFO      run_day5  |  MORNING — TwinMesh V2 (XGBoost + Advanced Features)
+2026-05-28 15:46:38  INFO      run_day5  |  ============================================================
+2026-05-28 15:46:38  ERROR     run_day5  |    ERROR running TwinMesh V2: invalid syntax (twinmesh_core_v2.py, line 1)
+2026-05-28 15:46:38  ERROR     run_day5  |    Make sure twinmesh_core_v2.py is in src/models/combined/
+2026-05-28 15:48:28  INFO      run_day5  |  ================================================================================
+2026-05-28 15:48:28  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-28 15:48:28  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-28 15:48:28  INFO      run_day5  |  Mode: V2
+2026-05-28 15:48:28  INFO      run_day5  |  ================================================================================
+2026-05-28 15:48:28  INFO      run_day5  |    Day 1-4 outputs verified ✓
+2026-05-28 15:48:28  INFO      run_day5  |  
+Running V2...
+
+2026-05-28 15:48:28  INFO      run_day5  |  
+============================================================
+2026-05-28 15:48:28  INFO      run_day5  |  MORNING — TwinMesh V2
+2026-05-28 15:48:28  INFO      run_day5  |  XGBoost + Advanced Features
+2026-05-28 15:48:28  INFO      run_day5  |  ============================================================
+2026-05-28 15:48:34  INFO      run_day5  |  
+  Morning done in 6.5s
+2026-05-28 15:48:34  INFO      run_day5  |  
+============================================================
+2026-05-28 15:48:34  INFO      run_day5  |  AFTERNOON — MDP Safety Verification
+2026-05-28 15:48:34  INFO      run_day5  |  ============================================================
+2026-05-28 15:48:34  INFO      run_day5  |  
+============================================================
+2026-05-28 15:48:34  INFO      run_day5  |  MDP SAFETY REPORT
+2026-05-28 15:48:34  INFO      run_day5  |  ============================================================
+2026-05-28 15:48:34  INFO      run_day5  |    Tier-0 violations: 0
+2026-05-28 15:48:34  INFO      run_day5  |    Cost reduction: 53.77%
+2026-05-28 15:48:34  INFO      run_day5  |  
+================================================================================
+2026-05-28 15:48:34  INFO      run_day5  |  DAY 5 SUMMARY
+2026-05-28 15:48:34  INFO      run_day5  |  ================================================================================
+2026-05-28 15:48:34  INFO      run_day5  |  
+  TwinMesh V2
+2026-05-28 15:48:34  INFO      run_day5  |      model: TwinMesh_V2
+2026-05-28 15:48:34  INFO      run_day5  |      accuracy: 0.502
+2026-05-28 15:48:34  INFO      run_day5  |      macro_f1: 0.3857
+2026-05-28 15:48:34  INFO      run_day5  |      s3_recall: 0.5048
+2026-05-28 15:48:34  INFO      run_day5  |      s3_auprc: 0.5167
+2026-05-28 15:48:34  INFO      run_day5  |      brier_s3: 0.1519
+2026-05-28 15:48:34  INFO      run_day5  |  
+  MDP Safety
+2026-05-28 15:48:34  INFO      run_day5  |      tier0_violations: 0
+2026-05-28 15:48:34  INFO      run_day5  |      total_decisions: 5144
+2026-05-28 15:48:34  INFO      run_day5  |      cost_reduction_pct: 53.77
+2026-05-28 15:48:34  INFO      run_day5  |      safe: True
+2026-05-28 15:48:34  INFO      run_day5  |  
+  Outputs:
+2026-05-28 15:48:34  INFO      run_day5  |      results/combined/twinmesh_v2_metrics.csv
+2026-05-28 15:48:34  INFO      run_day5  |      results/combined/mdp_safety_report.csv
+2026-05-28 15:48:34  INFO      run_day5  |      results/combined/pipeline_decisions.csv
+2026-05-28 15:48:34  INFO      run_day5  |  
+  Total runtime: 6.6s
+2026-05-28 15:48:34  INFO      run_day5  |  
+================================================================================
+2026-05-28 15:48:34  INFO      run_day5  |  DAY 5 COMPLETE
+2026-05-28 15:48:34  INFO      run_day5  |  ================================================================================

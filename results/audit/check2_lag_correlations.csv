@@ -1,0 +1,43 @@
+source,target,peak_lag_days,peak_r,r_at_lag_7,r_at_lag_14,in_expected_window
+Singapore,Rotterdam,21,-0.0553,0.0445,-0.0257,False
+Singapore,Shanghai,20,-0.0551,-0.0492,0.045,False
+Singapore,Nhava Sheva,11,-0.0441,-0.0157,-0.0078,True
+Singapore,Busan,2,0.0698,0.0073,-0.0422,False
+Singapore,Hamburg,17,0.0561,0.0114,0.0063,False
+Singapore,Antwerp,7,0.0468,0.0468,-0.0059,True
+Rotterdam,Singapore,1,0.07,-0.0264,0.0083,False
+Rotterdam,Shanghai,3,0.15,0.0247,-0.0039,False
+Rotterdam,Nhava Sheva,18,-0.054,0.0011,-0.0058,False
+Rotterdam,Busan,20,-0.0594,-0.0531,0.0117,False
+Rotterdam,Hamburg,12,0.0757,0.0093,-0.0213,True
+Rotterdam,Antwerp,1,0.0771,-0.0148,-0.0074,False
+Shanghai,Singapore,18,0.0723,-0.0385,0.0001,False
+Shanghai,Rotterdam,10,0.0505,0.0132,0.0073,True
+Shanghai,Nhava Sheva,10,0.0564,0.0157,-0.0356,True
+Shanghai,Busan,16,0.0897,-0.0208,0.0173,False
+Shanghai,Hamburg,12,0.0441,-0.0024,-0.0183,True
+Shanghai,Antwerp,5,0.0734,-0.0296,-0.0114,False
+Nhava Sheva,Singapore,13,0.0504,0.0133,-0.0261,True
+Nhava Sheva,Rotterdam,16,-0.0611,-0.0052,0.0113,False
+Nhava Sheva,Shanghai,7,0.1244,0.1244,-0.004,True
+Nhava Sheva,Busan,3,-0.0588,0.0272,-0.031,False
+Nhava Sheva,Hamburg,17,-0.0519,-0.0163,-0.0354,False
+Nhava Sheva,Antwerp,12,0.0521,-0.0277,-0.0075,True
+Busan,Singapore,7,0.0425,0.0425,0.0072,True
+Busan,Rotterdam,8,0.0691,0.0098,-0.0149,True
+Busan,Shanghai,15,0.0911,-0.0115,-0.0314,False
+Busan,Nhava Sheva,8,0.0605,0.0047,-0.0156,True
+Busan,Hamburg,3,0.0651,-0.0465,0.0032,False
+Busan,Antwerp,7,0.1189,0.1189,0.0041,True
+Hamburg,Singapore,21,0.0507,0.0115,-0.0116,False
+Hamburg,Rotterdam,20,0.0632,-0.0595,-0.0522,False
+Hamburg,Shanghai,14,-0.056,0.003,-0.056,True
+Hamburg,Nhava Sheva,16,-0.0489,-0.038,0.0002,False
+Hamburg,Busan,8,-0.0833,-0.0126,0.0007,True
+Hamburg,Antwerp,17,0.0966,0.0103,-0.0567,False
+Antwerp,Singapore,10,0.0467,-0.0171,0.0015,True
+Antwerp,Rotterdam,8,-0.0656,0.0079,-0.0019,True
+Antwerp,Shanghai,3,-0.0547,-0.0175,-0.01,False
+Antwerp,Nhava Sheva,19,0.065,-0.0151,-0.0193,False
+Antwerp,Busan,4,-0.0552,-0.0141,0.0477,False
+Antwerp,Hamburg,13,0.0597,-0.0051,-0.0017,True

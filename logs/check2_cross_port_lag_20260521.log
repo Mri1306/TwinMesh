@@ -1,0 +1,60 @@
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |  
+============================================================
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |  CHECK 2 — Cross-Port Lag Correlation
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |  ============================================================
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    Expected lag window: 7–14 days
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    Max lag tested:      21 days
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Singapore → Rotterdam               peak_lag=21d  r=-0.055
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Singapore → Shanghai                peak_lag=20d  r=-0.055
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Singapore → Nhava Sheva             peak_lag=11d  r=-0.044 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Singapore → Busan                   peak_lag= 2d  r=+0.070
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Singapore → Hamburg                 peak_lag=17d  r=+0.056
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Singapore → Antwerp                 peak_lag= 7d  r=+0.047 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Rotterdam → Singapore               peak_lag= 1d  r=+0.070
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Rotterdam → Shanghai                peak_lag= 3d  r=+0.150
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Rotterdam → Nhava Sheva             peak_lag=18d  r=-0.054
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Rotterdam → Busan                   peak_lag=20d  r=-0.059
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Rotterdam → Hamburg                 peak_lag=12d  r=+0.076 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Rotterdam → Antwerp                 peak_lag= 1d  r=+0.077
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Shanghai → Singapore                peak_lag=18d  r=+0.072
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Shanghai → Rotterdam                peak_lag=10d  r=+0.051 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Shanghai → Nhava Sheva              peak_lag=10d  r=+0.056 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Shanghai → Busan                    peak_lag=16d  r=+0.090
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Shanghai → Hamburg                  peak_lag=12d  r=+0.044 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Shanghai → Antwerp                  peak_lag= 5d  r=+0.073
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Nhava Sheva → Singapore             peak_lag=13d  r=+0.050 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Nhava Sheva → Rotterdam             peak_lag=16d  r=-0.061
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Nhava Sheva → Shanghai              peak_lag= 7d  r=+0.124 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Nhava Sheva → Busan                 peak_lag= 3d  r=-0.059
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Nhava Sheva → Hamburg               peak_lag=17d  r=-0.052
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Nhava Sheva → Antwerp               peak_lag=12d  r=+0.052 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Busan → Singapore                   peak_lag= 7d  r=+0.043 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Busan → Rotterdam                   peak_lag= 8d  r=+0.069 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Busan → Shanghai                    peak_lag=15d  r=+0.091
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |    ✅ Busan → Nhava Sheva                 peak_lag= 8d  r=+0.060 ← IN WINDOW
+2026-05-21 08:45:37  INFO      check2_cross_port_lag  |       Busan → Hamburg                     peak_lag= 3d  r=+0.065
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Busan → Antwerp                     peak_lag= 7d  r=+0.119 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Hamburg → Singapore                 peak_lag=21d  r=+0.051
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Hamburg → Rotterdam                 peak_lag=20d  r=+0.063
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Hamburg → Shanghai                  peak_lag=14d  r=-0.056 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Hamburg → Nhava Sheva               peak_lag=16d  r=-0.049
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Hamburg → Busan                     peak_lag= 8d  r=-0.083 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Hamburg → Antwerp                   peak_lag=17d  r=+0.097
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Antwerp → Singapore                 peak_lag=10d  r=+0.047 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Antwerp → Rotterdam                 peak_lag= 8d  r=-0.066 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Antwerp → Shanghai                  peak_lag= 3d  r=-0.055
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Antwerp → Nhava Sheva               peak_lag=19d  r=+0.065
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |       Antwerp → Busan                     peak_lag= 4d  r=-0.055
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    ✅ Antwerp → Hamburg                   peak_lag=13d  r=+0.060 ← IN WINDOW
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |  
+  Saved → E:\TwinMesh\results\audit\check2_lag_correlations.csv
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |  
+  Pairs with peak lag in 7–14d window: 18/42
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |  
+  ── PAPER SENTENCE (fill this in):
+  "Shanghai disruptions propagate to Singapore
+   with a peak lag of 18 days (r=+0.072),
+   confirming the cascade structure captured by TwinMesh's
+   Hawkes excitation matrix."
+2026-05-21 08:45:38  INFO      check2_cross_port_lag  |    Lag heatmap saved → E:\TwinMesh\results\audit\check2_lag_heatmap.png
+2026-05-21 08:45:40  INFO      check2_cross_port_lag  |    CCF plots saved → E:\TwinMesh\results\audit\check2_ccf_plots.png

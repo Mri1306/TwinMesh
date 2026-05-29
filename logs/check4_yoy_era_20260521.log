@@ -1,0 +1,74 @@
+2026-05-21 08:45:46  INFO      check4_yoy_era  |    Loaded 2023+ data: 8,568 rows
+2026-05-21 08:45:46  INFO      check4_yoy_era  |    Loaded 2019–2022 data: 10,227 rows
+2026-05-21 08:45:46  INFO      check4_yoy_era  |    Full dataset: 18,795 rows | 2019-01-01 → 2026-05-08
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+============================================================
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  CHECK 4 — YoY Era Comparison
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  ============================================================
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ⚠️  Singapore:
+    Pre-COVID congestion: 1.2202  |  S3 rate: 8.0%
+    Red Sea congestion:   1.1857  |  S3 rate: 7.4%
+    Lift: -0.0345
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ✅ Rotterdam:
+    Pre-COVID congestion: 2.6072  |  S3 rate: 60.3%
+    Red Sea congestion:   3.0236  |  S3 rate: 70.7%
+    Lift: +0.4164
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ✅ Shanghai:
+    Pre-COVID congestion: 1.3075  |  S3 rate: 10.4%
+    Red Sea congestion:   1.3411  |  S3 rate: 10.5%
+    Lift: +0.0336
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ⚠️  Nhava Sheva:
+    Pre-COVID congestion: 3.6040  |  S3 rate: 46.0%
+    Red Sea congestion:   2.9307  |  S3 rate: 48.0%
+    Lift: -0.6733
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ✅ Busan:
+    Pre-COVID congestion: 1.2545  |  S3 rate: 8.5%
+    Red Sea congestion:   1.2568  |  S3 rate: 12.0%
+    Lift: +0.0023
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ✅ Hamburg:
+    Pre-COVID congestion: 1.7508  |  S3 rate: 27.4%
+    Red Sea congestion:   2.0413  |  S3 rate: 31.7%
+    Lift: +0.2905
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  ✅ Antwerp:
+    Pre-COVID congestion: 1.1367  |  S3 rate: 9.6%
+    Red Sea congestion:   1.1537  |  S3 rate: 9.6%
+    Lift: +0.0170
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  Ports where Red Sea > Pre-COVID: 5/7
+2026-05-21 08:45:46  INFO      check4_yoy_era  |    Overall: ✅ PASS — 3 eras are distinct
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  Saved → E:\TwinMesh\results\audit\check4_era_comparison.csv
+2026-05-21 08:45:46  INFO      check4_yoy_era  |  
+  Era stats summary:
+       port                    era  n_days  mean_congestion  max_congestion  mean_total_calls  mean_net_dwt_flow  s3_rate  anomaly_days
+  Singapore       Pre-COVID (2019)     365           1.2202          3.4607            124.45          171903.36   0.0795            29
+  Singapore COVID + Suez (2020–22)    1096           1.1987          3.0866            118.21          149853.04   0.0776            85
+  Singapore      Red Sea (2023–26)    1224           1.1857          3.6154            123.84          140077.50   0.0743            91
+  Rotterdam       Pre-COVID (2019)     365           2.6072          9.4909             96.32          412589.90   0.6027            20
+  Rotterdam COVID + Suez (2020–22)    1096           2.7577         11.8555             92.13          422716.00   0.6396            77
+  Rotterdam      Red Sea (2023–26)    1224           3.0236         16.1624             83.57          444164.84   0.7067           109
+   Shanghai       Pre-COVID (2019)     365           1.3075          5.0118            110.51          133296.04   0.1041            19
+   Shanghai COVID + Suez (2020–22)    1096           1.2231         10.5064            107.02           82072.46   0.0648            47
+   Shanghai      Red Sea (2023–26)    1224           1.3411         20.0000            117.15          161838.92   0.1046            72
+Nhava Sheva       Pre-COVID (2019)     365           3.6040         20.0000             14.70           89659.50   0.4603            35
+Nhava Sheva COVID + Suez (2020–22)    1096           3.2453         20.0000             16.22           87725.21   0.4626            84
+Nhava Sheva      Red Sea (2023–26)    1224           2.9307         20.0000             19.64          119937.35   0.4796            62
+      Busan       Pre-COVID (2019)     365           1.2545          5.1420             56.39           24384.84   0.0849            18
+      Busan COVID + Suez (2020–22)    1096           1.2722          6.3511             54.03           22071.20   0.1314            84
+      Busan      Red Sea (2023–26)    1224           1.2568          6.3088             54.50           19726.00   0.1201            94
+    Hamburg       Pre-COVID (2019)     365           1.7508         17.9856             20.60           50513.24   0.2740            13
+    Hamburg COVID + Suez (2020–22)    1096           1.8257         20.0000             19.02           49584.67   0.2901            47
+    Hamburg      Red Sea (2023–26)    1224           2.0413         20.0000             17.10           48834.75   0.3170            89
+    Antwerp       Pre-COVID (2019)     365           1.1367          5.1014             66.47           -3742.89   0.0959            26
+    Antwerp COVID + Suez (2020–22)    1096           1.1263          7.0050             63.81          -12469.27   0.0912            59
+    Antwerp      Red Sea (2023–26)    1224           1.1537         11.6630             59.06           -6005.64   0.0956            76
+2026-05-21 08:45:47  INFO      check4_yoy_era  |    Era heatmap saved → E:\TwinMesh\results\audit\check4_era_heatmap.png
+2026-05-21 08:45:50  INFO      check4_yoy_era  |    Era timeseries saved → E:\TwinMesh\results\audit\check4_era_timeseries.png
+2026-05-21 08:45:51  INFO      check4_yoy_era  |    Era boxplot saved → E:\TwinMesh\results\audit\check4_era_boxplot.png

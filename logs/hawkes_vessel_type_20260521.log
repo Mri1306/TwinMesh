@@ -1,0 +1,95 @@
+2026-05-21 14:07:03  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-21 14:07:03  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-21 14:07:03  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-21 14:07:03  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-21 14:07:03  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=46.1  events=49  OK
+2026-05-21 14:07:03  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=4.2  events=56  OK
+2026-05-21 14:07:03  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=8.5  events=59  OK
+2026-05-21 14:07:03  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=6.1  events=39  OK
+2026-05-21 14:07:03  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=88.6  events=66  OK
+2026-05-21 14:07:03  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:03  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:04  INFO      hawkes_vessel_type  |    Strongest cross-vessel: container -> tanker  alpha=0.0797
+2026-05-21 14:07:10  INFO      hawkes_vessel_type  |    AUPRC=0.0822  Poisson=0.0652  lift=+0.0170
+2026-05-21 14:07:10  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-21 14:07:10  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=24.5  events=55  OK
+2026-05-21 14:07:10  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=5.1  events=37  OK
+2026-05-21 14:07:10  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=20.0  events=76  OK
+2026-05-21 14:07:10  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=8.6  events=57  OK
+2026-05-21 14:07:10  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=53.9  events=63  OK
+2026-05-21 14:07:10  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:10  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:10  INFO      hawkes_vessel_type  |    Strongest cross-vessel: roro -> dry_bulk  alpha=0.1046
+2026-05-21 14:07:16  INFO      hawkes_vessel_type  |    AUPRC=0.6526  Poisson=0.6940  lift=-0.0413
+2026-05-21 14:07:16  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-21 14:07:16  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=45.7  events=20  OK
+2026-05-21 14:07:16  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=56.3  events=71  OK
+2026-05-21 14:07:16  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=23.5  events=59  OK
+2026-05-21 14:07:16  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=7.7  events=70  OK
+2026-05-21 14:07:16  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=34.7  events=66  OK
+2026-05-21 14:07:16  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:16  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:17  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.3098
+2026-05-21 14:07:23  INFO      hawkes_vessel_type  |    AUPRC=0.0743  Poisson=0.0820  lift=-0.0077
+2026-05-21 14:07:23  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-21 14:07:23  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=10.8  events=64  OK
+2026-05-21 14:07:23  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=6.1  events=41  OK
+2026-05-21 14:07:23  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=11.5  events=64  OK
+2026-05-21 14:07:23  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=1.1  events=33  OK
+2026-05-21 14:07:23  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=7.5  events=60  OK
+2026-05-21 14:07:23  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:23  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:23  INFO      hawkes_vessel_type  |    Strongest cross-vessel: dry_bulk -> tanker  alpha=0.0669
+2026-05-21 14:07:30  INFO      hawkes_vessel_type  |    AUPRC=0.3101  Poisson=0.3098  lift=+0.0003
+2026-05-21 14:07:30  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-21 14:07:30  DEBUG     hawkes_vessel_type  |    Busan container            threshold=42.8  events=46  OK
+2026-05-21 14:07:30  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=3.6  events=67  OK
+2026-05-21 14:07:30  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=14.8  events=69  OK
+2026-05-21 14:07:30  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=2.4  events=51  OK
+2026-05-21 14:07:30  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=13.9  events=63  OK
+2026-05-21 14:07:30  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:30  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:30  INFO      hawkes_vessel_type  |    Strongest cross-vessel: dry_bulk -> tanker  alpha=0.0839
+2026-05-21 14:07:36  INFO      hawkes_vessel_type  |    AUPRC=0.1726  Poisson=0.1141  lift=+0.0585
+2026-05-21 14:07:36  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-21 14:07:36  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=13.8  events=73  OK
+2026-05-21 14:07:36  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.4  events=61  OK
+2026-05-21 14:07:36  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=6.2  events=53  OK
+2026-05-21 14:07:36  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=1.0  events=194  OK
+2026-05-21 14:07:36  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=5.6  events=81  OK
+2026-05-21 14:07:36  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:36  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:37  INFO      hawkes_vessel_type  |    Strongest cross-vessel: roro -> general_cargo  alpha=0.0809
+2026-05-21 14:07:43  INFO      hawkes_vessel_type  |    AUPRC=0.3876  Poisson=0.3424  lift=+0.0452
+2026-05-21 14:07:43  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-21 14:07:43  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=16.9  events=68  OK
+2026-05-21 14:07:43  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=3.5  events=76  OK
+2026-05-21 14:07:43  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=12.8  events=71  OK
+2026-05-21 14:07:43  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.7  events=80  OK
+2026-05-21 14:07:43  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=44.2  events=69  OK
+2026-05-21 14:07:43  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-21 14:07:43  WARNING   hawkes_vessel_type  |    tick failed ('HawkesExpKern' object has no settable attribute 'events') — using numpy fallback
+2026-05-21 14:07:43  INFO      hawkes_vessel_type  |    Strongest cross-vessel: dry_bulk -> general_cargo  alpha=0.1146
+2026-05-21 14:07:49  INFO      hawkes_vessel_type  |    AUPRC=0.1147  Poisson=0.1196  lift=-0.0049
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.080  tanker->container=0.004
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.036  tanker->container=0.017
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.071  tanker->container=0.013
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.026
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.012  tanker->container=0.000
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.058  tanker->container=0.000
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.040  tanker->container=0.072
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2563  Poisson=0.2467  lift=+0.0096
+2026-05-21 14:07:51  INFO      hawkes_vessel_type  |  
+  Model B complete.

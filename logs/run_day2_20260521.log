@@ -1,0 +1,53 @@
+2026-05-21 08:45:32  INFO      run_day2  |  ============================================================
+2026-05-21 08:45:32  INFO      run_day2  |  T W I N M E S H  ·  DAY 2
+2026-05-21 08:45:32  INFO      run_day2  |  Data Audit + MDP Cost Matrix
+2026-05-21 08:45:32  INFO      run_day2  |  ============================================================
+2026-05-21 08:45:33  INFO      run_day2  |  ✅  Day 1 outputs verified: E:\TwinMesh\data/processed\all_ports_combined.csv
+2026-05-21 08:45:33  INFO      run_day2  |  
+============================================================
+2026-05-21 08:45:33  INFO      run_day2  |  MORNING — Data Audit Checks
+2026-05-21 08:45:33  INFO      run_day2  |  ============================================================
+2026-05-21 08:45:33  INFO      run_day2  |    Loaded: 8,568 rows | 2023-01-01 → 2026-05-08
+2026-05-21 08:45:33  INFO      run_day2  |  
+── State Distribution (pre-check) ──
+2026-05-21 08:45:33  INFO      run_day2  |  
+state           S0     S1     S2     S3     S4
+port                                          
+Antwerp      0.561  0.140  0.119  0.096  0.084
+Busan        0.472  0.167  0.130  0.120  0.111
+Hamburg      0.279  0.083  0.091  0.317  0.230
+Nhava Sheva  0.116  0.073  0.096  0.480  0.236
+Rotterdam    0.020  0.025  0.038  0.707  0.211
+Shanghai     0.425  0.218  0.167  0.105  0.085
+Singapore    0.498  0.244  0.112  0.074  0.071
+2026-05-21 08:45:33  INFO      run_day2  |  
+  Global: {'S0': 0.339, 'S1': 0.136, 'S2': 0.108, 'S3': 0.271, 'S4': 0.147}
+2026-05-21 08:45:33  INFO      run_day2  |  
+--------------------------------------------------
+2026-05-21 08:45:36  INFO      run_day2  |  
+--------------------------------------------------
+2026-05-21 08:45:40  INFO      run_day2  |  
+--------------------------------------------------
+2026-05-21 08:45:46  INFO      run_day2  |  
+--------------------------------------------------
+2026-05-21 08:45:51  INFO      run_day2  |  
+  Morning done in 17.9s
+2026-05-21 08:45:51  INFO      run_day2  |  
+============================================================
+2026-05-21 08:45:51  INFO      run_day2  |  AFTERNOON — MDP Cost Matrix (fitted from real IMF data)
+2026-05-21 08:45:51  INFO      run_day2  |  ============================================================
+2026-05-21 08:45:53  INFO      run_day2  |  
+  Afternoon done in 1.5s
+2026-05-21 08:45:53  INFO      run_day2  |  
+  ✅ Audit report saved → E:\TwinMesh\results\audit\audit_report.txt
+2026-05-21 08:45:53  INFO      run_day2  |       READ THIS FILE — fill X and Y into your paper
+2026-05-21 08:45:53  INFO      run_day2  |  
+  Total Day 2 time: 19.4s
+2026-05-21 08:45:53  INFO      run_day2  |  
+============================================================
+2026-05-21 08:45:53  INFO      run_day2  |  ✅  DAY 2 COMPLETE
+2026-05-21 08:45:53  INFO      run_day2  |     → Read:  results/audit/audit_report.txt
+2026-05-21 08:45:53  INFO      run_day2  |     → Fill X and Y into paper Section 7
+2026-05-21 08:45:53  INFO      run_day2  |     → Fill policy table into paper Section 4.4
+2026-05-21 08:45:53  INFO      run_day2  |     → Next:  python run_day3.py
+2026-05-21 08:45:53  INFO      run_day2  |  ============================================================

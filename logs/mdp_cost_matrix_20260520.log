@@ -1,0 +1,54 @@
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    Loaded combined dataset: 8,568 rows
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+============================================================
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  MDP Cost Matrix — Fitting from Real IMF Data
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  ============================================================
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    S0 (n=2,904): congestion=0.8208  dwt_impact=122237.9  weather_risk=0.0024
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    S1 (n=1,162): congestion=1.3040  dwt_impact=177548.1  weather_risk=0.0005
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    S2 (n=921): congestion=1.6989  dwt_impact=261903.4  weather_risk=0.0153
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    S3 (n=2,323): congestion=4.2251  dwt_impact=397973.7  weather_risk=0.0071
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    S4 (n=1,258): congestion=1.1343  dwt_impact=127443.9  weather_risk=0.0065
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  Cost matrix (fitted from real data):
+      Strong    Escrow      CRDT    Stale      Block
+S0  123.0599   73.8359   24.6120  12.3060   246.1198
+S1  232.5081  139.5048   46.5016  23.2508   465.0162
+S2  421.7760  253.0656   84.3552  42.1776   843.5520
+S3  764.1844  458.5107  152.8369  76.4184  1528.3689
+S4  282.8792  169.7275   56.5758  28.2879   565.7584
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  Cost matrix saved → E:\TwinMesh\results\audit\mdp_cost_matrix.csv
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  Empirical transition matrix (from 8,561 transitions):
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+       S0     S1     S2     S3     S4
+S0  0.511  0.189  0.147  0.153  0.000
+S1  0.463  0.224  0.144  0.170  0.000
+S2  0.478  0.166  0.157  0.199  0.000
+S3  0.000  0.000  0.000  0.458  0.542
+S4  0.351  0.160  0.145  0.344  0.000
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |    Value iteration converged at step 340 (δ=9.79e-07)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  Unconstrained optimal policy (before tier safety):
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |      S0: Stale  (V=695.3533)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |      S1: Stale  (V=708.2659)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |      S2: Stale  (V=729.8491)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |      S3: Stale  (V=800.7494)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |      S4: Stale  (V=730.0378)
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  ── POLICY TABLE (copy to paper Section 4.4):
+       Tier-0  Tier-1 Tier-2 Tier-3
+state                              
+S0     Strong  Escrow  Stale  Stale
+S1     Strong  Escrow  Stale  Stale
+S2     Strong  Escrow  Stale  Stale
+S3     Strong  Escrow  Stale  Stale
+S4     Strong  Escrow  Stale  Stale
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |  
+  ✅ TIER-0 SAFETY: ZERO VIOLATIONS
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |       All Tier-0 states → Strong or Block only
+2026-05-20 13:53:18  INFO      mdp_cost_matrix  |       Paper claim 'zero Tier-0 violations' is VALID
+2026-05-20 13:53:19  INFO      mdp_cost_matrix  |    Cost heatmap saved → E:\TwinMesh\results\audit\mdp_cost_heatmap.png
+2026-05-20 13:53:19  INFO      mdp_cost_matrix  |    Policy heatmap saved → E:\TwinMesh\results\audit\mdp_policy_heatmap.png
+2026-05-20 13:53:19  INFO      mdp_cost_matrix  |  
+✅ MDP Cost Matrix COMPLETE

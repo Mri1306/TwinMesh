@@ -1,0 +1,4 @@
+row,model_variant,description,auprc,poisson_auprc,lift_vs_poisson,mean_lead_days,detection_rate,state_accuracy,macro_f1,s3_recall
+3,+ Pure Markov,5-state transition matrix from real data,0.3497,,,,,0.4464,0.2627,0.0
+4,+ Portwatch Only,LogReg on 6 features,0.4454,,,,,0.4535,0.3104,0.5079
+5,+ Portwatch Weather,LogReg on 9 features,0.4444,,,,,0.455,0.3115,0.5143

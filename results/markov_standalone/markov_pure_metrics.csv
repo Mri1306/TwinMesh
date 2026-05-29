@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,s3_recall,s3_auprc,n_test_steps,f1_S0,f1_S1,f1_S2,f1_S3,f1_S4
+Pure_Markov,0.4464,0.2627,0.0,0.3497,1279,0.5708,0.0,0.0,0.0,0.7425

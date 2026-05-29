@@ -1,0 +1,14 @@
+2026-05-19 21:28:51  INFO      weather_merger  |  ============================================================
+2026-05-19 21:28:51  INFO      weather_merger  |  STEP 2 — Weather Merger
+2026-05-19 21:28:51  INFO      weather_merger  |  ============================================================
+2026-05-19 21:28:51  INFO      weather_merger  |    Loaded combined weather: 7,679 rows
+2026-05-19 21:28:51  INFO      weather_merger  |    Weather validated | storm events=40 | heavy rain events=61
+2026-05-19 21:28:51  INFO      weather_merger  |    Singapore: weather joined | coverage=2685/2685 rows | storm alerts=0
+2026-05-19 21:28:51  INFO      weather_merger  |    Rotterdam: weather joined | coverage=2685/2685 rows | storm alerts=20
+2026-05-19 21:28:51  INFO      weather_merger  |    Shanghai: weather joined | coverage=2685/2685 rows | storm alerts=3
+2026-05-19 21:28:51  INFO      weather_merger  |    Nhava Sheva: weather joined | coverage=2685/2685 rows | storm alerts=1
+2026-05-19 21:28:51  INFO      weather_merger  |    Busan: weather joined | coverage=2685/2685 rows | storm alerts=2
+2026-05-19 21:28:51  INFO      weather_merger  |    Hamburg: weather joined | coverage=2685/2685 rows | storm alerts=4
+2026-05-19 21:28:51  INFO      weather_merger  |    Antwerp: weather joined | coverage=2685/2685 rows | storm alerts=10
+2026-05-19 21:28:51  INFO      weather_merger  |  
+✅ STEP 2 COMPLETE — weather merged into all ports

@@ -1,0 +1,126 @@
+2026-05-27 10:54:38  INFO      baselines  |  ============================================================
+2026-05-27 10:54:38  INFO      baselines  |  DAY 6 — All 8 Baselines
+2026-05-27 10:54:38  INFO      baselines  |  ============================================================
+2026-05-27 10:54:38  INFO      baselines  |    Train: 5,990 steps | Test: 1,279 steps
+2026-05-27 10:54:38  INFO      baselines  |  
+  Running baselines...
+2026-05-27 10:54:38  INFO      baselines  |    B1 AlwaysStrong: acc=0.3010  s3_auprc=0.2463
+2026-05-27 10:54:38  INFO      baselines  |    B2 AlwaysEventual: acc=0.1454  s3_auprc=0.2463
+2026-05-27 10:54:38  INFO      baselines  |    B3 StaticPACELC: acc=0.3784  s3_auprc=0.3621
+2026-05-27 10:54:38  INFO      baselines  |    B4 RTTThreshold: acc=0.3604  s3_auprc=0.4249
+2026-05-27 10:54:38  INFO      baselines  |    B5 PoissonTrigger: acc=0.2877  s3_auprc=0.2463
+2026-05-27 10:54:38  INFO      baselines  |  
+  Running ML baselines (may take a few minutes)...
+2026-05-27 10:54:52  INFO      baselines  |    B6 LSTM: acc=0.4150  s3_auprc=0.5502
+2026-05-27 10:54:53  INFO      baselines  |    B7 XGBoost: acc=0.4801  s3_auprc=0.5348
+2026-05-27 10:54:57  INFO      baselines  |    B8 Prophet: acc=0.3064  s3_auprc=0.2682
+2026-05-27 10:54:57  INFO      baselines  |  
+================================================================================
+2026-05-27 10:54:57  INFO      baselines  |  BASELINE COMPARISON TABLE (paper Table 2)
+2026-05-27 10:54:57  INFO      baselines  |  ================================================================================
+2026-05-27 10:54:57  INFO      baselines  |  Model                          S3-AUPRC      Acc       F1   S3-Rec  CostRed  T0-Viol
+2026-05-27 10:54:57  INFO      baselines  |  --------------------------------------------------------------------------------
+2026-05-27 10:54:57  INFO      baselines  |    B6_LSTM                        0.5502   0.4150   0.2153   0.6390     0.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4%        0 <-- TwinMesh
+2026-05-27 10:54:57  INFO      baselines  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%        0
+2026-05-27 10:54:57  INFO      baselines  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%     1279
+2026-05-27 10:54:57  INFO      baselines  |  
+  TwinMesh vs best baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0711
+
+  PAPER SENTENCE (Section 7, Table 2):
+  "TwinMesh achieves S3 AUPRC of 0.4791, outperforming the
+   strongest baseline (B6_LSTM: 0.5502)
+   by -0.0711 AUPRC points."
+2026-05-27 10:54:57  INFO      baselines  |  
+  Saved baseline_comparison.csv
+2026-05-27 10:54:57  INFO      baselines  |    Baseline comparison chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-27 14:40:34  INFO      baselines  |  ============================================================
+2026-05-27 14:40:34  INFO      baselines  |  DAY 6 — All 8 Baselines
+2026-05-27 14:40:34  INFO      baselines  |  ============================================================
+2026-05-27 14:40:34  INFO      baselines  |    Train: 5,990 steps | Test: 1,279 steps
+2026-05-27 14:40:34  INFO      baselines  |  
+  Running baselines...
+2026-05-27 14:40:34  INFO      baselines  |    B1 AlwaysStrong: acc=0.3010  s3_auprc=0.2463
+2026-05-27 14:40:34  INFO      baselines  |    B2 AlwaysEventual: acc=0.1454  s3_auprc=0.2463
+2026-05-27 14:40:34  INFO      baselines  |    B3 StaticPACELC: acc=0.3784  s3_auprc=0.3621
+2026-05-27 14:40:34  INFO      baselines  |    B4 RTTThreshold: acc=0.3604  s3_auprc=0.4249
+2026-05-27 14:40:34  INFO      baselines  |    B5 PoissonTrigger: acc=0.2877  s3_auprc=0.2463
+2026-05-27 14:40:34  INFO      baselines  |  
+  Running ML baselines (may take a few minutes)...
+2026-05-27 14:40:45  INFO      baselines  |    B6 LSTM: acc=0.4103  s3_auprc=0.5415
+2026-05-27 14:40:46  INFO      baselines  |    B7 XGBoost: acc=0.4801  s3_auprc=0.5348
+2026-05-27 14:40:50  INFO      baselines  |    B8 Prophet: acc=0.3064  s3_auprc=0.2682
+2026-05-27 14:40:50  INFO      baselines  |  
+================================================================================
+2026-05-27 14:40:50  INFO      baselines  |  BASELINE COMPARISON TABLE (paper Table 2)
+2026-05-27 14:40:50  INFO      baselines  |  ================================================================================
+2026-05-27 14:40:50  INFO      baselines  |  Model                          S3-AUPRC      Acc       F1   S3-Rec  CostRed  T0-Viol
+2026-05-27 14:40:50  INFO      baselines  |  --------------------------------------------------------------------------------
+2026-05-27 14:40:50  INFO      baselines  |    B6_LSTM                        0.5415   0.4103   0.2131   0.6454     0.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4%        0 <-- TwinMesh
+2026-05-27 14:40:50  INFO      baselines  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%        0
+2026-05-27 14:40:50  INFO      baselines  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%     1279
+2026-05-27 14:40:50  INFO      baselines  |  
+  TwinMesh vs best baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0624
+
+  PAPER SENTENCE (Section 7, Table 2):
+  "TwinMesh achieves S3 AUPRC of 0.4791, outperforming the
+   strongest baseline (B6_LSTM: 0.5415)
+   by -0.0624 AUPRC points."
+2026-05-27 14:40:50  INFO      baselines  |  
+  Saved baseline_comparison.csv
+2026-05-27 14:40:50  INFO      baselines  |    Baseline comparison chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-27 19:18:00  INFO      baselines  |  ============================================================
+2026-05-27 19:18:00  INFO      baselines  |  DAY 6 — All 8 Baselines
+2026-05-27 19:18:00  INFO      baselines  |  ============================================================
+2026-05-27 19:18:01  INFO      baselines  |    Train: 5,990 steps | Test: 1,279 steps
+2026-05-27 19:18:01  INFO      baselines  |  
+  Running baselines...
+2026-05-27 19:18:01  INFO      baselines  |    B1 AlwaysStrong: acc=0.3010  s3_auprc=0.2463
+2026-05-27 19:18:01  INFO      baselines  |    B2 AlwaysEventual: acc=0.1454  s3_auprc=0.2463
+2026-05-27 19:18:01  INFO      baselines  |    B3 StaticPACELC: acc=0.3784  s3_auprc=0.3621
+2026-05-27 19:18:01  INFO      baselines  |    B4 RTTThreshold: acc=0.3604  s3_auprc=0.4249
+2026-05-27 19:18:01  INFO      baselines  |    B5 PoissonTrigger: acc=0.2877  s3_auprc=0.2463
+2026-05-27 19:18:01  INFO      baselines  |  
+  Running ML baselines (may take a few minutes)...
+2026-05-27 19:18:15  INFO      baselines  |    B6 LSTM: acc=0.4095  s3_auprc=0.5404
+2026-05-27 19:18:16  INFO      baselines  |    B7 XGBoost: acc=0.4801  s3_auprc=0.5348
+2026-05-27 19:18:20  INFO      baselines  |    B8 Prophet: acc=0.3064  s3_auprc=0.2682
+2026-05-27 19:18:20  INFO      baselines  |  
+================================================================================
+2026-05-27 19:18:20  INFO      baselines  |  BASELINE COMPARISON TABLE (paper Table 2)
+2026-05-27 19:18:20  INFO      baselines  |  ================================================================================
+2026-05-27 19:18:20  INFO      baselines  |  Model                          S3-AUPRC      Acc       F1   S3-Rec  CostRed  T0-Viol
+2026-05-27 19:18:20  INFO      baselines  |  --------------------------------------------------------------------------------
+2026-05-27 19:18:20  INFO      baselines  |    B6_LSTM                        0.5404   0.4095   0.2122   0.5911     0.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4%        0 <-- TwinMesh
+2026-05-27 19:18:20  INFO      baselines  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%        0
+2026-05-27 19:18:20  INFO      baselines  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%     1279
+2026-05-27 19:18:20  INFO      baselines  |  
+  TwinMesh vs best baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0613
+
+  PAPER SENTENCE (Section 7, Table 2):
+  "TwinMesh achieves S3 AUPRC of 0.4791, outperforming the
+   strongest baseline (B6_LSTM: 0.5404)
+   by -0.0613 AUPRC points."
+2026-05-27 19:18:20  INFO      baselines  |  
+  Saved baseline_comparison.csv
+2026-05-27 19:18:20  INFO      baselines  |    Baseline comparison chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png

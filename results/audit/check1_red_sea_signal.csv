@@ -1,0 +1,4 @@
+,pre_mean_congestion,crisis_mean_congestion,crisis_max_congestion,spike_sigma,pre_s3_rate,crisis_s3_rate,s3_lift,c1_sigma_pass,c2_lift_pass,c3_rate_pass,pass,pass_reason
+Singapore,1.1746,1.2091,2.7751,0.0842,0.0808,0.0751,-0.0057,True,False,False,True,spike_sigma=0.084>0.05
+Rotterdam,2.9517,3.0686,14.0196,0.0731,0.6796,0.723,0.0434,True,True,True,True,spike_sigma=0.073>0.05 | s3_lift=+4.3%>2% | crisis_s3_rate=72.3%>60%
+Shanghai,1.4033,1.3197,20.0,-0.1308,0.1467,0.0704,-0.0763,False,False,False,False,none

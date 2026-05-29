@@ -1,0 +1,122 @@
+2026-05-23 15:04:06  INFO      markov_chain  |  ============================================================
+2026-05-23 15:04:06  INFO      markov_chain  |  DAY 4 MORNING — Markov Model A: Pure 5-State Chain
+2026-05-23 15:04:06  INFO      markov_chain  |  ============================================================
+2026-05-23 15:04:06  INFO      markov_chain  |    Loaded | transitions=5,612 | train=5,997 | test=1,286
+2026-05-23 15:04:06  INFO      markov_chain  |  
+  Building transition matrix (training data)...
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  Transition matrix (normalised):
+2026-05-23 15:04:07  INFO      markov_chain  |  
+                 S0     S1     S2     S3     S4
+S0-Normal     0.517  0.186  0.142  0.154  0.000
+S1-Delayed    0.522  0.180  0.130  0.168  0.000
+S2-Congested  0.494  0.155  0.139  0.212  0.000
+S3-Disrupted  0.000  0.000  0.000  0.473  0.527
+S4-Recovery   0.354  0.151  0.154  0.341  0.000
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  Key transition probabilities:
+2026-05-23 15:04:07  INFO      markov_chain  |    S2→S3 (Congested→Disrupted): 0.212
+2026-05-23 15:04:07  INFO      markov_chain  |    S3→S3 (Disrupted stays):     0.473
+2026-05-23 15:04:07  INFO      markov_chain  |    S3→S4 (Disrupted→Recovery):  0.527
+2026-05-23 15:04:07  INFO      markov_chain  |    S4→S0 (Recovery→Normal):     0.354
+2026-05-23 15:04:07  INFO      markov_chain  |    Saved transition_matrix.csv
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  Evaluating on test set...
+2026-05-23 15:04:07  INFO      markov_chain  |  ============================================================
+2026-05-23 15:04:07  INFO      markov_chain  |  MARKOV MODEL A — Pure Markov Results
+2026-05-23 15:04:07  INFO      markov_chain  |  ============================================================
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  Pure Markov Results:
+2026-05-23 15:04:07  INFO      markov_chain  |      Accuracy:  0.4464
+2026-05-23 15:04:07  INFO      markov_chain  |      Macro-F1:  0.2627
+2026-05-23 15:04:07  INFO      markov_chain  |      S3 Recall: 0.0000
+2026-05-23 15:04:07  INFO      markov_chain  |      S3 AUPRC:  0.3497
+2026-05-23 15:04:07  INFO      markov_chain  |      Per-state F1:
+2026-05-23 15:04:07  INFO      markov_chain  |        S0: 0.5708
+2026-05-23 15:04:07  INFO      markov_chain  |        S1: 0.0000
+2026-05-23 15:04:07  INFO      markov_chain  |        S2: 0.0000
+2026-05-23 15:04:07  INFO      markov_chain  |        S3: 0.0000
+2026-05-23 15:04:07  INFO      markov_chain  |        S4: 0.7425
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  Classification report:
+              precision    recall  f1-score   support
+
+          S0       0.40      1.00      0.57       385
+          S1       0.00      0.00      0.00       245
+          S2       0.00      0.00      0.00       148
+          S3       0.00      0.00      0.00       315
+          S4       0.59      1.00      0.74       186
+
+    accuracy                           0.45      1279
+   macro avg       0.20      0.40      0.26      1279
+weighted avg       0.21      0.45      0.28      1279
+
+2026-05-23 15:04:07  INFO      markov_chain  |  
+  ABLATION ROW 3 (Pure Markov):
+    Accuracy=0.4464  Macro-F1=0.2627  S3-Recall=0.0000  S3-AUPRC=0.3497
+2026-05-23 15:04:07  INFO      markov_chain  |    Transition heatmap saved -> E:\TwinMesh\results\markov_standalone\markov_transition_heatmap_pure_markov.png
+2026-05-23 15:04:07  INFO      markov_chain  |    Confusion matrix saved -> E:\TwinMesh\results\markov_standalone\markov_confusion_matrix_pure_markov.png
+2026-05-23 15:04:08  INFO      markov_chain  |    State timeline saved -> E:\TwinMesh\results\markov_standalone\markov_state_timeline.png
+2026-05-23 15:04:08  INFO      markov_chain  |  
+  Model A (Pure Markov) complete.
+2026-05-23 22:42:27  INFO      markov_chain  |  ============================================================
+2026-05-23 22:42:27  INFO      markov_chain  |  DAY 4 MORNING — Markov Model A: Pure 5-State Chain
+2026-05-23 22:42:27  INFO      markov_chain  |  ============================================================
+2026-05-23 22:42:27  INFO      markov_chain  |    Loaded | transitions=5,612 | train=5,997 | test=1,286
+2026-05-23 22:42:27  INFO      markov_chain  |  
+  Building transition matrix (training data)...
+2026-05-23 22:42:27  INFO      markov_chain  |  
+  Transition matrix (normalised):
+2026-05-23 22:42:27  INFO      markov_chain  |  
+                 S0     S1     S2     S3     S4
+S0-Normal     0.517  0.186  0.142  0.154  0.000
+S1-Delayed    0.522  0.180  0.130  0.168  0.000
+S2-Congested  0.494  0.155  0.139  0.212  0.000
+S3-Disrupted  0.000  0.000  0.000  0.473  0.527
+S4-Recovery   0.354  0.151  0.154  0.341  0.000
+2026-05-23 22:42:27  INFO      markov_chain  |  
+  Key transition probabilities:
+2026-05-23 22:42:27  INFO      markov_chain  |    S2→S3 (Congested→Disrupted): 0.212
+2026-05-23 22:42:27  INFO      markov_chain  |    S3→S3 (Disrupted stays):     0.473
+2026-05-23 22:42:27  INFO      markov_chain  |    S3→S4 (Disrupted→Recovery):  0.527
+2026-05-23 22:42:27  INFO      markov_chain  |    S4→S0 (Recovery→Normal):     0.354
+2026-05-23 22:42:27  INFO      markov_chain  |    Saved transition_matrix.csv
+2026-05-23 22:42:27  INFO      markov_chain  |  
+  Evaluating on test set...
+2026-05-23 22:42:27  INFO      markov_chain  |  ============================================================
+2026-05-23 22:42:27  INFO      markov_chain  |  MARKOV MODEL A — Pure Markov Results
+2026-05-23 22:42:27  INFO      markov_chain  |  ============================================================
+2026-05-23 22:42:28  INFO      markov_chain  |  
+  Pure Markov Results:
+2026-05-23 22:42:28  INFO      markov_chain  |      Accuracy:  0.4464
+2026-05-23 22:42:28  INFO      markov_chain  |      Macro-F1:  0.2627
+2026-05-23 22:42:28  INFO      markov_chain  |      S3 Recall: 0.0000
+2026-05-23 22:42:28  INFO      markov_chain  |      S3 AUPRC:  0.3497
+2026-05-23 22:42:28  INFO      markov_chain  |      Per-state F1:
+2026-05-23 22:42:28  INFO      markov_chain  |        S0: 0.5708
+2026-05-23 22:42:28  INFO      markov_chain  |        S1: 0.0000
+2026-05-23 22:42:28  INFO      markov_chain  |        S2: 0.0000
+2026-05-23 22:42:28  INFO      markov_chain  |        S3: 0.0000
+2026-05-23 22:42:28  INFO      markov_chain  |        S4: 0.7425
+2026-05-23 22:42:28  INFO      markov_chain  |  
+  Classification report:
+              precision    recall  f1-score   support
+
+          S0       0.40      1.00      0.57       385
+          S1       0.00      0.00      0.00       245
+          S2       0.00      0.00      0.00       148
+          S3       0.00      0.00      0.00       315
+          S4       0.59      1.00      0.74       186
+
+    accuracy                           0.45      1279
+   macro avg       0.20      0.40      0.26      1279
+weighted avg       0.21      0.45      0.28      1279
+
+2026-05-23 22:42:28  INFO      markov_chain  |  
+  ABLATION ROW 3 (Pure Markov):
+    Accuracy=0.4464  Macro-F1=0.2627  S3-Recall=0.0000  S3-AUPRC=0.3497
+2026-05-23 22:42:28  INFO      markov_chain  |    Transition heatmap saved -> E:\TwinMesh\results\markov_standalone\markov_transition_heatmap_pure_markov.png
+2026-05-23 22:42:28  INFO      markov_chain  |    Confusion matrix saved -> E:\TwinMesh\results\markov_standalone\markov_confusion_matrix_pure_markov.png
+2026-05-23 22:42:29  INFO      markov_chain  |    State timeline saved -> E:\TwinMesh\results\markov_standalone\markov_state_timeline.png
+2026-05-23 22:42:29  INFO      markov_chain  |  
+  Model A (Pure Markov) complete.

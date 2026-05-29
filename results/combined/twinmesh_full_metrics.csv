@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,s3_recall,s3_auprc,brier_s3,n_test_steps,f1_S0,f1_S1,f1_S2,f1_S3,f1_S4
+TwinMesh_Combined,0.4691,0.325,0.6095,0.4791,0.1652,1279,0.5814,0.0,0.0,0.526,0.5175

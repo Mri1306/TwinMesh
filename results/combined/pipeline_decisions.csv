@@ -1,0 +1,1001 @@
+date,port,state,tier,action
+2025-11-06 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-06 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-06 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-06 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-06 00:00:00,Singapore,S4,0,Strong
+2025-11-06 00:00:00,Singapore,S4,1,Escrow
+2025-11-06 00:00:00,Singapore,S4,2,Stale
+2025-11-06 00:00:00,Singapore,S4,3,Stale
+2025-11-06 00:00:00,Busan,S3,0,Strong
+2025-11-06 00:00:00,Busan,S3,1,Escrow
+2025-11-06 00:00:00,Busan,S3,2,CRDT
+2025-11-06 00:00:00,Busan,S3,3,CRDT
+2025-11-06 00:00:00,Hamburg,S1,0,Strong
+2025-11-06 00:00:00,Hamburg,S1,1,Escrow
+2025-11-06 00:00:00,Hamburg,S1,2,Stale
+2025-11-06 00:00:00,Hamburg,S1,3,Stale
+2025-11-06 00:00:00,Antwerp,S4,0,Strong
+2025-11-06 00:00:00,Antwerp,S4,1,Escrow
+2025-11-06 00:00:00,Antwerp,S4,2,Stale
+2025-11-06 00:00:00,Antwerp,S4,3,Stale
+2025-11-07 00:00:00,Antwerp,S0,0,Strong
+2025-11-07 00:00:00,Antwerp,S0,1,Escrow
+2025-11-07 00:00:00,Antwerp,S0,2,Stale
+2025-11-07 00:00:00,Antwerp,S0,3,Stale
+2025-11-07 00:00:00,Busan,S4,0,Strong
+2025-11-07 00:00:00,Busan,S4,1,Escrow
+2025-11-07 00:00:00,Busan,S4,2,Stale
+2025-11-07 00:00:00,Busan,S4,3,Stale
+2025-11-07 00:00:00,Hamburg,S3,0,Strong
+2025-11-07 00:00:00,Hamburg,S3,1,Escrow
+2025-11-07 00:00:00,Hamburg,S3,2,CRDT
+2025-11-07 00:00:00,Hamburg,S3,3,CRDT
+2025-11-07 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-07 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-07 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-07 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-07 00:00:00,Rotterdam,S3,0,Strong
+2025-11-07 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-07 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-07 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-07 00:00:00,Shanghai,S0,0,Strong
+2025-11-07 00:00:00,Shanghai,S0,1,Escrow
+2025-11-07 00:00:00,Shanghai,S0,2,Stale
+2025-11-07 00:00:00,Shanghai,S0,3,Stale
+2025-11-07 00:00:00,Singapore,S0,0,Strong
+2025-11-07 00:00:00,Singapore,S0,1,Escrow
+2025-11-07 00:00:00,Singapore,S0,2,Stale
+2025-11-07 00:00:00,Singapore,S0,3,Stale
+2025-11-08 00:00:00,Singapore,S0,0,Strong
+2025-11-08 00:00:00,Singapore,S0,1,Escrow
+2025-11-08 00:00:00,Singapore,S0,2,Stale
+2025-11-08 00:00:00,Singapore,S0,3,Stale
+2025-11-08 00:00:00,Shanghai,S2,0,Strong
+2025-11-08 00:00:00,Shanghai,S2,1,Escrow
+2025-11-08 00:00:00,Shanghai,S2,2,Stale
+2025-11-08 00:00:00,Shanghai,S2,3,Stale
+2025-11-08 00:00:00,Rotterdam,S4,0,Strong
+2025-11-08 00:00:00,Rotterdam,S4,1,Escrow
+2025-11-08 00:00:00,Rotterdam,S4,2,Stale
+2025-11-08 00:00:00,Rotterdam,S4,3,Stale
+2025-11-08 00:00:00,Antwerp,S0,0,Strong
+2025-11-08 00:00:00,Antwerp,S0,1,Escrow
+2025-11-08 00:00:00,Antwerp,S0,2,Stale
+2025-11-08 00:00:00,Antwerp,S0,3,Stale
+2025-11-08 00:00:00,Hamburg,S3,0,Strong
+2025-11-08 00:00:00,Hamburg,S3,1,Escrow
+2025-11-08 00:00:00,Hamburg,S3,2,CRDT
+2025-11-08 00:00:00,Hamburg,S3,3,CRDT
+2025-11-08 00:00:00,Busan,S0,0,Strong
+2025-11-08 00:00:00,Busan,S0,1,Escrow
+2025-11-08 00:00:00,Busan,S0,2,Stale
+2025-11-08 00:00:00,Busan,S0,3,Stale
+2025-11-08 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-08 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-08 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-08 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-09 00:00:00,Singapore,S3,0,Strong
+2025-11-09 00:00:00,Singapore,S3,1,Escrow
+2025-11-09 00:00:00,Singapore,S3,2,CRDT
+2025-11-09 00:00:00,Singapore,S3,3,CRDT
+2025-11-09 00:00:00,Shanghai,S2,0,Strong
+2025-11-09 00:00:00,Shanghai,S2,1,Escrow
+2025-11-09 00:00:00,Shanghai,S2,2,Stale
+2025-11-09 00:00:00,Shanghai,S2,3,Stale
+2025-11-09 00:00:00,Rotterdam,S3,0,Strong
+2025-11-09 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-09 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-09 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-09 00:00:00,Antwerp,S0,0,Strong
+2025-11-09 00:00:00,Antwerp,S0,1,Escrow
+2025-11-09 00:00:00,Antwerp,S0,2,Stale
+2025-11-09 00:00:00,Antwerp,S0,3,Stale
+2025-11-09 00:00:00,Hamburg,S4,0,Strong
+2025-11-09 00:00:00,Hamburg,S4,1,Escrow
+2025-11-09 00:00:00,Hamburg,S4,2,Stale
+2025-11-09 00:00:00,Hamburg,S4,3,Stale
+2025-11-09 00:00:00,Busan,S2,0,Strong
+2025-11-09 00:00:00,Busan,S2,1,Escrow
+2025-11-09 00:00:00,Busan,S2,2,Stale
+2025-11-09 00:00:00,Busan,S2,3,Stale
+2025-11-09 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-09 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-09 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-09 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-10 00:00:00,Antwerp,S1,0,Strong
+2025-11-10 00:00:00,Antwerp,S1,1,Escrow
+2025-11-10 00:00:00,Antwerp,S1,2,Stale
+2025-11-10 00:00:00,Antwerp,S1,3,Stale
+2025-11-10 00:00:00,Busan,S0,0,Strong
+2025-11-10 00:00:00,Busan,S0,1,Escrow
+2025-11-10 00:00:00,Busan,S0,2,Stale
+2025-11-10 00:00:00,Busan,S0,3,Stale
+2025-11-10 00:00:00,Hamburg,S3,0,Strong
+2025-11-10 00:00:00,Hamburg,S3,1,Escrow
+2025-11-10 00:00:00,Hamburg,S3,2,CRDT
+2025-11-10 00:00:00,Hamburg,S3,3,CRDT
+2025-11-10 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-10 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-10 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-10 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-10 00:00:00,Rotterdam,S3,0,Strong
+2025-11-10 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-10 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-10 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-10 00:00:00,Shanghai,S0,0,Strong
+2025-11-10 00:00:00,Shanghai,S0,1,Escrow
+2025-11-10 00:00:00,Shanghai,S0,2,Stale
+2025-11-10 00:00:00,Shanghai,S0,3,Stale
+2025-11-10 00:00:00,Singapore,S4,0,Strong
+2025-11-10 00:00:00,Singapore,S4,1,Escrow
+2025-11-10 00:00:00,Singapore,S4,2,Stale
+2025-11-10 00:00:00,Singapore,S4,3,Stale
+2025-11-11 00:00:00,Rotterdam,S3,0,Strong
+2025-11-11 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-11 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-11 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-11 00:00:00,Shanghai,S1,0,Strong
+2025-11-11 00:00:00,Shanghai,S1,1,Escrow
+2025-11-11 00:00:00,Shanghai,S1,2,Stale
+2025-11-11 00:00:00,Shanghai,S1,3,Stale
+2025-11-11 00:00:00,Singapore,S3,0,Strong
+2025-11-11 00:00:00,Singapore,S3,1,Escrow
+2025-11-11 00:00:00,Singapore,S3,2,CRDT
+2025-11-11 00:00:00,Singapore,S3,3,CRDT
+2025-11-11 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-11 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-11 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-11 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-11 00:00:00,Busan,S1,0,Strong
+2025-11-11 00:00:00,Busan,S1,1,Escrow
+2025-11-11 00:00:00,Busan,S1,2,Stale
+2025-11-11 00:00:00,Busan,S1,3,Stale
+2025-11-11 00:00:00,Antwerp,S0,0,Strong
+2025-11-11 00:00:00,Antwerp,S0,1,Escrow
+2025-11-11 00:00:00,Antwerp,S0,2,Stale
+2025-11-11 00:00:00,Antwerp,S0,3,Stale
+2025-11-11 00:00:00,Hamburg,S4,0,Strong
+2025-11-11 00:00:00,Hamburg,S4,1,Escrow
+2025-11-11 00:00:00,Hamburg,S4,2,Stale
+2025-11-11 00:00:00,Hamburg,S4,3,Stale
+2025-11-12 00:00:00,Antwerp,S0,0,Strong
+2025-11-12 00:00:00,Antwerp,S0,1,Escrow
+2025-11-12 00:00:00,Antwerp,S0,2,Stale
+2025-11-12 00:00:00,Antwerp,S0,3,Stale
+2025-11-12 00:00:00,Busan,S0,0,Strong
+2025-11-12 00:00:00,Busan,S0,1,Escrow
+2025-11-12 00:00:00,Busan,S0,2,Stale
+2025-11-12 00:00:00,Busan,S0,3,Stale
+2025-11-12 00:00:00,Hamburg,S3,0,Strong
+2025-11-12 00:00:00,Hamburg,S3,1,Escrow
+2025-11-12 00:00:00,Hamburg,S3,2,CRDT
+2025-11-12 00:00:00,Hamburg,S3,3,CRDT
+2025-11-12 00:00:00,Nhava Sheva,S2,0,Strong
+2025-11-12 00:00:00,Nhava Sheva,S2,1,Escrow
+2025-11-12 00:00:00,Nhava Sheva,S2,2,Stale
+2025-11-12 00:00:00,Nhava Sheva,S2,3,Stale
+2025-11-12 00:00:00,Rotterdam,S3,0,Strong
+2025-11-12 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-12 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-12 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-12 00:00:00,Shanghai,S0,0,Strong
+2025-11-12 00:00:00,Shanghai,S0,1,Escrow
+2025-11-12 00:00:00,Shanghai,S0,2,Stale
+2025-11-12 00:00:00,Shanghai,S0,3,Stale
+2025-11-12 00:00:00,Singapore,S4,0,Strong
+2025-11-12 00:00:00,Singapore,S4,1,Escrow
+2025-11-12 00:00:00,Singapore,S4,2,Stale
+2025-11-12 00:00:00,Singapore,S4,3,Stale
+2025-11-13 00:00:00,Shanghai,S0,0,Strong
+2025-11-13 00:00:00,Shanghai,S0,1,Escrow
+2025-11-13 00:00:00,Shanghai,S0,2,Stale
+2025-11-13 00:00:00,Shanghai,S0,3,Stale
+2025-11-13 00:00:00,Rotterdam,S4,0,Strong
+2025-11-13 00:00:00,Rotterdam,S4,1,Escrow
+2025-11-13 00:00:00,Rotterdam,S4,2,Stale
+2025-11-13 00:00:00,Rotterdam,S4,3,Stale
+2025-11-13 00:00:00,Nhava Sheva,S1,0,Strong
+2025-11-13 00:00:00,Nhava Sheva,S1,1,Escrow
+2025-11-13 00:00:00,Nhava Sheva,S1,2,Stale
+2025-11-13 00:00:00,Nhava Sheva,S1,3,Stale
+2025-11-13 00:00:00,Singapore,S1,0,Strong
+2025-11-13 00:00:00,Singapore,S1,1,Escrow
+2025-11-13 00:00:00,Singapore,S1,2,Stale
+2025-11-13 00:00:00,Singapore,S1,3,Stale
+2025-11-13 00:00:00,Busan,S0,0,Strong
+2025-11-13 00:00:00,Busan,S0,1,Escrow
+2025-11-13 00:00:00,Busan,S0,2,Stale
+2025-11-13 00:00:00,Busan,S0,3,Stale
+2025-11-13 00:00:00,Antwerp,S0,0,Strong
+2025-11-13 00:00:00,Antwerp,S0,1,Escrow
+2025-11-13 00:00:00,Antwerp,S0,2,Stale
+2025-11-13 00:00:00,Antwerp,S0,3,Stale
+2025-11-13 00:00:00,Hamburg,S3,0,Strong
+2025-11-13 00:00:00,Hamburg,S3,1,Escrow
+2025-11-13 00:00:00,Hamburg,S3,2,CRDT
+2025-11-13 00:00:00,Hamburg,S3,3,CRDT
+2025-11-14 00:00:00,Shanghai,S0,0,Strong
+2025-11-14 00:00:00,Shanghai,S0,1,Escrow
+2025-11-14 00:00:00,Shanghai,S0,2,Stale
+2025-11-14 00:00:00,Shanghai,S0,3,Stale
+2025-11-14 00:00:00,Rotterdam,S3,0,Strong
+2025-11-14 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-14 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-14 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-14 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-14 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-14 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-14 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-14 00:00:00,Singapore,S1,0,Strong
+2025-11-14 00:00:00,Singapore,S1,1,Escrow
+2025-11-14 00:00:00,Singapore,S1,2,Stale
+2025-11-14 00:00:00,Singapore,S1,3,Stale
+2025-11-14 00:00:00,Busan,S0,0,Strong
+2025-11-14 00:00:00,Busan,S0,1,Escrow
+2025-11-14 00:00:00,Busan,S0,2,Stale
+2025-11-14 00:00:00,Busan,S0,3,Stale
+2025-11-14 00:00:00,Antwerp,S0,0,Strong
+2025-11-14 00:00:00,Antwerp,S0,1,Escrow
+2025-11-14 00:00:00,Antwerp,S0,2,Stale
+2025-11-14 00:00:00,Antwerp,S0,3,Stale
+2025-11-14 00:00:00,Hamburg,S4,0,Strong
+2025-11-14 00:00:00,Hamburg,S4,1,Escrow
+2025-11-14 00:00:00,Hamburg,S4,2,Stale
+2025-11-14 00:00:00,Hamburg,S4,3,Stale
+2025-11-15 00:00:00,Antwerp,S0,0,Strong
+2025-11-15 00:00:00,Antwerp,S0,1,Escrow
+2025-11-15 00:00:00,Antwerp,S0,2,Stale
+2025-11-15 00:00:00,Antwerp,S0,3,Stale
+2025-11-15 00:00:00,Busan,S0,0,Strong
+2025-11-15 00:00:00,Busan,S0,1,Escrow
+2025-11-15 00:00:00,Busan,S0,2,Stale
+2025-11-15 00:00:00,Busan,S0,3,Stale
+2025-11-15 00:00:00,Hamburg,S2,0,Strong
+2025-11-15 00:00:00,Hamburg,S2,1,Escrow
+2025-11-15 00:00:00,Hamburg,S2,2,Stale
+2025-11-15 00:00:00,Hamburg,S2,3,Stale
+2025-11-15 00:00:00,Nhava Sheva,S2,0,Strong
+2025-11-15 00:00:00,Nhava Sheva,S2,1,Escrow
+2025-11-15 00:00:00,Nhava Sheva,S2,2,Stale
+2025-11-15 00:00:00,Nhava Sheva,S2,3,Stale
+2025-11-15 00:00:00,Rotterdam,S4,0,Strong
+2025-11-15 00:00:00,Rotterdam,S4,1,Escrow
+2025-11-15 00:00:00,Rotterdam,S4,2,Stale
+2025-11-15 00:00:00,Rotterdam,S4,3,Stale
+2025-11-15 00:00:00,Shanghai,S0,0,Strong
+2025-11-15 00:00:00,Shanghai,S0,1,Escrow
+2025-11-15 00:00:00,Shanghai,S0,2,Stale
+2025-11-15 00:00:00,Shanghai,S0,3,Stale
+2025-11-15 00:00:00,Singapore,S0,0,Strong
+2025-11-15 00:00:00,Singapore,S0,1,Escrow
+2025-11-15 00:00:00,Singapore,S0,2,Stale
+2025-11-15 00:00:00,Singapore,S0,3,Stale
+2025-11-16 00:00:00,Rotterdam,S2,0,Strong
+2025-11-16 00:00:00,Rotterdam,S2,1,Escrow
+2025-11-16 00:00:00,Rotterdam,S2,2,Stale
+2025-11-16 00:00:00,Rotterdam,S2,3,Stale
+2025-11-16 00:00:00,Shanghai,S1,0,Strong
+2025-11-16 00:00:00,Shanghai,S1,1,Escrow
+2025-11-16 00:00:00,Shanghai,S1,2,Stale
+2025-11-16 00:00:00,Shanghai,S1,3,Stale
+2025-11-16 00:00:00,Nhava Sheva,S1,0,Strong
+2025-11-16 00:00:00,Nhava Sheva,S1,1,Escrow
+2025-11-16 00:00:00,Nhava Sheva,S1,2,Stale
+2025-11-16 00:00:00,Nhava Sheva,S1,3,Stale
+2025-11-16 00:00:00,Singapore,S2,0,Strong
+2025-11-16 00:00:00,Singapore,S2,1,Escrow
+2025-11-16 00:00:00,Singapore,S2,2,Stale
+2025-11-16 00:00:00,Singapore,S2,3,Stale
+2025-11-16 00:00:00,Busan,S0,0,Strong
+2025-11-16 00:00:00,Busan,S0,1,Escrow
+2025-11-16 00:00:00,Busan,S0,2,Stale
+2025-11-16 00:00:00,Busan,S0,3,Stale
+2025-11-16 00:00:00,Hamburg,S3,0,Strong
+2025-11-16 00:00:00,Hamburg,S3,1,Escrow
+2025-11-16 00:00:00,Hamburg,S3,2,CRDT
+2025-11-16 00:00:00,Hamburg,S3,3,CRDT
+2025-11-16 00:00:00,Antwerp,S3,0,Strong
+2025-11-16 00:00:00,Antwerp,S3,1,Escrow
+2025-11-16 00:00:00,Antwerp,S3,2,CRDT
+2025-11-16 00:00:00,Antwerp,S3,3,CRDT
+2025-11-17 00:00:00,Antwerp,S3,0,Strong
+2025-11-17 00:00:00,Antwerp,S3,1,Escrow
+2025-11-17 00:00:00,Antwerp,S3,2,CRDT
+2025-11-17 00:00:00,Antwerp,S3,3,CRDT
+2025-11-17 00:00:00,Busan,S2,0,Strong
+2025-11-17 00:00:00,Busan,S2,1,Escrow
+2025-11-17 00:00:00,Busan,S2,2,Stale
+2025-11-17 00:00:00,Busan,S2,3,Stale
+2025-11-17 00:00:00,Hamburg,S4,0,Strong
+2025-11-17 00:00:00,Hamburg,S4,1,Escrow
+2025-11-17 00:00:00,Hamburg,S4,2,Stale
+2025-11-17 00:00:00,Hamburg,S4,3,Stale
+2025-11-17 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-17 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-17 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-17 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-17 00:00:00,Rotterdam,S3,0,Strong
+2025-11-17 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-17 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-17 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-17 00:00:00,Shanghai,S0,0,Strong
+2025-11-17 00:00:00,Shanghai,S0,1,Escrow
+2025-11-17 00:00:00,Shanghai,S0,2,Stale
+2025-11-17 00:00:00,Shanghai,S0,3,Stale
+2025-11-17 00:00:00,Singapore,S0,0,Strong
+2025-11-17 00:00:00,Singapore,S0,1,Escrow
+2025-11-17 00:00:00,Singapore,S0,2,Stale
+2025-11-17 00:00:00,Singapore,S0,3,Stale
+2025-11-18 00:00:00,Singapore,S1,0,Strong
+2025-11-18 00:00:00,Singapore,S1,1,Escrow
+2025-11-18 00:00:00,Singapore,S1,2,Stale
+2025-11-18 00:00:00,Singapore,S1,3,Stale
+2025-11-18 00:00:00,Shanghai,S0,0,Strong
+2025-11-18 00:00:00,Shanghai,S0,1,Escrow
+2025-11-18 00:00:00,Shanghai,S0,2,Stale
+2025-11-18 00:00:00,Shanghai,S0,3,Stale
+2025-11-18 00:00:00,Rotterdam,S3,0,Strong
+2025-11-18 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-18 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-18 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-18 00:00:00,Antwerp,S3,0,Strong
+2025-11-18 00:00:00,Antwerp,S3,1,Escrow
+2025-11-18 00:00:00,Antwerp,S3,2,CRDT
+2025-11-18 00:00:00,Antwerp,S3,3,CRDT
+2025-11-18 00:00:00,Hamburg,S0,0,Strong
+2025-11-18 00:00:00,Hamburg,S0,1,Escrow
+2025-11-18 00:00:00,Hamburg,S0,2,Stale
+2025-11-18 00:00:00,Hamburg,S0,3,Stale
+2025-11-18 00:00:00,Busan,S0,0,Strong
+2025-11-18 00:00:00,Busan,S0,1,Escrow
+2025-11-18 00:00:00,Busan,S0,2,Stale
+2025-11-18 00:00:00,Busan,S0,3,Stale
+2025-11-18 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-18 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-18 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-18 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-19 00:00:00,Shanghai,S1,0,Strong
+2025-11-19 00:00:00,Shanghai,S1,1,Escrow
+2025-11-19 00:00:00,Shanghai,S1,2,Stale
+2025-11-19 00:00:00,Shanghai,S1,3,Stale
+2025-11-19 00:00:00,Singapore,S1,0,Strong
+2025-11-19 00:00:00,Singapore,S1,1,Escrow
+2025-11-19 00:00:00,Singapore,S1,2,Stale
+2025-11-19 00:00:00,Singapore,S1,3,Stale
+2025-11-19 00:00:00,Rotterdam,S3,0,Strong
+2025-11-19 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-19 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-19 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-19 00:00:00,Antwerp,S4,0,Strong
+2025-11-19 00:00:00,Antwerp,S4,1,Escrow
+2025-11-19 00:00:00,Antwerp,S4,2,Stale
+2025-11-19 00:00:00,Antwerp,S4,3,Stale
+2025-11-19 00:00:00,Hamburg,S0,0,Strong
+2025-11-19 00:00:00,Hamburg,S0,1,Escrow
+2025-11-19 00:00:00,Hamburg,S0,2,Stale
+2025-11-19 00:00:00,Hamburg,S0,3,Stale
+2025-11-19 00:00:00,Busan,S0,0,Strong
+2025-11-19 00:00:00,Busan,S0,1,Escrow
+2025-11-19 00:00:00,Busan,S0,2,Stale
+2025-11-19 00:00:00,Busan,S0,3,Stale
+2025-11-19 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-19 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-19 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-19 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-20 00:00:00,Antwerp,S1,0,Strong
+2025-11-20 00:00:00,Antwerp,S1,1,Escrow
+2025-11-20 00:00:00,Antwerp,S1,2,Stale
+2025-11-20 00:00:00,Antwerp,S1,3,Stale
+2025-11-20 00:00:00,Busan,S1,0,Strong
+2025-11-20 00:00:00,Busan,S1,1,Escrow
+2025-11-20 00:00:00,Busan,S1,2,Stale
+2025-11-20 00:00:00,Busan,S1,3,Stale
+2025-11-20 00:00:00,Hamburg,S3,0,Strong
+2025-11-20 00:00:00,Hamburg,S3,1,Escrow
+2025-11-20 00:00:00,Hamburg,S3,2,CRDT
+2025-11-20 00:00:00,Hamburg,S3,3,CRDT
+2025-11-20 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-20 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-20 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-20 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-20 00:00:00,Rotterdam,S3,0,Strong
+2025-11-20 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-20 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-20 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-20 00:00:00,Shanghai,S0,0,Strong
+2025-11-20 00:00:00,Shanghai,S0,1,Escrow
+2025-11-20 00:00:00,Shanghai,S0,2,Stale
+2025-11-20 00:00:00,Shanghai,S0,3,Stale
+2025-11-20 00:00:00,Singapore,S0,0,Strong
+2025-11-20 00:00:00,Singapore,S0,1,Escrow
+2025-11-20 00:00:00,Singapore,S0,2,Stale
+2025-11-20 00:00:00,Singapore,S0,3,Stale
+2025-11-21 00:00:00,Shanghai,S0,0,Strong
+2025-11-21 00:00:00,Shanghai,S0,1,Escrow
+2025-11-21 00:00:00,Shanghai,S0,2,Stale
+2025-11-21 00:00:00,Shanghai,S0,3,Stale
+2025-11-21 00:00:00,Singapore,S0,0,Strong
+2025-11-21 00:00:00,Singapore,S0,1,Escrow
+2025-11-21 00:00:00,Singapore,S0,2,Stale
+2025-11-21 00:00:00,Singapore,S0,3,Stale
+2025-11-21 00:00:00,Rotterdam,S4,0,Strong
+2025-11-21 00:00:00,Rotterdam,S4,1,Escrow
+2025-11-21 00:00:00,Rotterdam,S4,2,Stale
+2025-11-21 00:00:00,Rotterdam,S4,3,Stale
+2025-11-21 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-21 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-21 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-21 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-21 00:00:00,Hamburg,S4,0,Strong
+2025-11-21 00:00:00,Hamburg,S4,1,Escrow
+2025-11-21 00:00:00,Hamburg,S4,2,Stale
+2025-11-21 00:00:00,Hamburg,S4,3,Stale
+2025-11-21 00:00:00,Busan,S1,0,Strong
+2025-11-21 00:00:00,Busan,S1,1,Escrow
+2025-11-21 00:00:00,Busan,S1,2,Stale
+2025-11-21 00:00:00,Busan,S1,3,Stale
+2025-11-21 00:00:00,Antwerp,S0,0,Strong
+2025-11-21 00:00:00,Antwerp,S0,1,Escrow
+2025-11-21 00:00:00,Antwerp,S0,2,Stale
+2025-11-21 00:00:00,Antwerp,S0,3,Stale
+2025-11-22 00:00:00,Antwerp,S0,0,Strong
+2025-11-22 00:00:00,Antwerp,S0,1,Escrow
+2025-11-22 00:00:00,Antwerp,S0,2,Stale
+2025-11-22 00:00:00,Antwerp,S0,3,Stale
+2025-11-22 00:00:00,Busan,S0,0,Strong
+2025-11-22 00:00:00,Busan,S0,1,Escrow
+2025-11-22 00:00:00,Busan,S0,2,Stale
+2025-11-22 00:00:00,Busan,S0,3,Stale
+2025-11-22 00:00:00,Hamburg,S0,0,Strong
+2025-11-22 00:00:00,Hamburg,S0,1,Escrow
+2025-11-22 00:00:00,Hamburg,S0,2,Stale
+2025-11-22 00:00:00,Hamburg,S0,3,Stale
+2025-11-22 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-22 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-22 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-22 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-22 00:00:00,Rotterdam,S3,0,Strong
+2025-11-22 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-22 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-22 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-22 00:00:00,Shanghai,S1,0,Strong
+2025-11-22 00:00:00,Shanghai,S1,1,Escrow
+2025-11-22 00:00:00,Shanghai,S1,2,Stale
+2025-11-22 00:00:00,Shanghai,S1,3,Stale
+2025-11-22 00:00:00,Singapore,S2,0,Strong
+2025-11-22 00:00:00,Singapore,S2,1,Escrow
+2025-11-22 00:00:00,Singapore,S2,2,Stale
+2025-11-22 00:00:00,Singapore,S2,3,Stale
+2025-11-23 00:00:00,Shanghai,S0,0,Strong
+2025-11-23 00:00:00,Shanghai,S0,1,Escrow
+2025-11-23 00:00:00,Shanghai,S0,2,Stale
+2025-11-23 00:00:00,Shanghai,S0,3,Stale
+2025-11-23 00:00:00,Rotterdam,S3,0,Strong
+2025-11-23 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-23 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-23 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-23 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-23 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-23 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-23 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-23 00:00:00,Singapore,S1,0,Strong
+2025-11-23 00:00:00,Singapore,S1,1,Escrow
+2025-11-23 00:00:00,Singapore,S1,2,Stale
+2025-11-23 00:00:00,Singapore,S1,3,Stale
+2025-11-23 00:00:00,Busan,S0,0,Strong
+2025-11-23 00:00:00,Busan,S0,1,Escrow
+2025-11-23 00:00:00,Busan,S0,2,Stale
+2025-11-23 00:00:00,Busan,S0,3,Stale
+2025-11-23 00:00:00,Antwerp,S0,0,Strong
+2025-11-23 00:00:00,Antwerp,S0,1,Escrow
+2025-11-23 00:00:00,Antwerp,S0,2,Stale
+2025-11-23 00:00:00,Antwerp,S0,3,Stale
+2025-11-23 00:00:00,Hamburg,S3,0,Strong
+2025-11-23 00:00:00,Hamburg,S3,1,Escrow
+2025-11-23 00:00:00,Hamburg,S3,2,CRDT
+2025-11-23 00:00:00,Hamburg,S3,3,CRDT
+2025-11-24 00:00:00,Shanghai,S2,0,Strong
+2025-11-24 00:00:00,Shanghai,S2,1,Escrow
+2025-11-24 00:00:00,Shanghai,S2,2,Stale
+2025-11-24 00:00:00,Shanghai,S2,3,Stale
+2025-11-24 00:00:00,Rotterdam,S3,0,Strong
+2025-11-24 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-24 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-24 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-24 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-24 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-24 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-24 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-24 00:00:00,Singapore,S2,0,Strong
+2025-11-24 00:00:00,Singapore,S2,1,Escrow
+2025-11-24 00:00:00,Singapore,S2,2,Stale
+2025-11-24 00:00:00,Singapore,S2,3,Stale
+2025-11-24 00:00:00,Busan,S1,0,Strong
+2025-11-24 00:00:00,Busan,S1,1,Escrow
+2025-11-24 00:00:00,Busan,S1,2,Stale
+2025-11-24 00:00:00,Busan,S1,3,Stale
+2025-11-24 00:00:00,Antwerp,S0,0,Strong
+2025-11-24 00:00:00,Antwerp,S0,1,Escrow
+2025-11-24 00:00:00,Antwerp,S0,2,Stale
+2025-11-24 00:00:00,Antwerp,S0,3,Stale
+2025-11-24 00:00:00,Hamburg,S3,0,Strong
+2025-11-24 00:00:00,Hamburg,S3,1,Escrow
+2025-11-24 00:00:00,Hamburg,S3,2,CRDT
+2025-11-24 00:00:00,Hamburg,S3,3,CRDT
+2025-11-25 00:00:00,Antwerp,S0,0,Strong
+2025-11-25 00:00:00,Antwerp,S0,1,Escrow
+2025-11-25 00:00:00,Antwerp,S0,2,Stale
+2025-11-25 00:00:00,Antwerp,S0,3,Stale
+2025-11-25 00:00:00,Busan,S0,0,Strong
+2025-11-25 00:00:00,Busan,S0,1,Escrow
+2025-11-25 00:00:00,Busan,S0,2,Stale
+2025-11-25 00:00:00,Busan,S0,3,Stale
+2025-11-25 00:00:00,Hamburg,S3,0,Strong
+2025-11-25 00:00:00,Hamburg,S3,1,Escrow
+2025-11-25 00:00:00,Hamburg,S3,2,CRDT
+2025-11-25 00:00:00,Hamburg,S3,3,CRDT
+2025-11-25 00:00:00,Nhava Sheva,S1,0,Strong
+2025-11-25 00:00:00,Nhava Sheva,S1,1,Escrow
+2025-11-25 00:00:00,Nhava Sheva,S1,2,Stale
+2025-11-25 00:00:00,Nhava Sheva,S1,3,Stale
+2025-11-25 00:00:00,Rotterdam,S4,0,Strong
+2025-11-25 00:00:00,Rotterdam,S4,1,Escrow
+2025-11-25 00:00:00,Rotterdam,S4,2,Stale
+2025-11-25 00:00:00,Rotterdam,S4,3,Stale
+2025-11-25 00:00:00,Shanghai,S2,0,Strong
+2025-11-25 00:00:00,Shanghai,S2,1,Escrow
+2025-11-25 00:00:00,Shanghai,S2,2,Stale
+2025-11-25 00:00:00,Shanghai,S2,3,Stale
+2025-11-25 00:00:00,Singapore,S3,0,Strong
+2025-11-25 00:00:00,Singapore,S3,1,Escrow
+2025-11-25 00:00:00,Singapore,S3,2,CRDT
+2025-11-25 00:00:00,Singapore,S3,3,CRDT
+2025-11-26 00:00:00,Rotterdam,S0,0,Strong
+2025-11-26 00:00:00,Rotterdam,S0,1,Escrow
+2025-11-26 00:00:00,Rotterdam,S0,2,Stale
+2025-11-26 00:00:00,Rotterdam,S0,3,Stale
+2025-11-26 00:00:00,Shanghai,S0,0,Strong
+2025-11-26 00:00:00,Shanghai,S0,1,Escrow
+2025-11-26 00:00:00,Shanghai,S0,2,Stale
+2025-11-26 00:00:00,Shanghai,S0,3,Stale
+2025-11-26 00:00:00,Singapore,S4,0,Strong
+2025-11-26 00:00:00,Singapore,S4,1,Escrow
+2025-11-26 00:00:00,Singapore,S4,2,Stale
+2025-11-26 00:00:00,Singapore,S4,3,Stale
+2025-11-26 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-26 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-26 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-26 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-26 00:00:00,Busan,S0,0,Strong
+2025-11-26 00:00:00,Busan,S0,1,Escrow
+2025-11-26 00:00:00,Busan,S0,2,Stale
+2025-11-26 00:00:00,Busan,S0,3,Stale
+2025-11-26 00:00:00,Hamburg,S4,0,Strong
+2025-11-26 00:00:00,Hamburg,S4,1,Escrow
+2025-11-26 00:00:00,Hamburg,S4,2,Stale
+2025-11-26 00:00:00,Hamburg,S4,3,Stale
+2025-11-26 00:00:00,Antwerp,S1,0,Strong
+2025-11-26 00:00:00,Antwerp,S1,1,Escrow
+2025-11-26 00:00:00,Antwerp,S1,2,Stale
+2025-11-26 00:00:00,Antwerp,S1,3,Stale
+2025-11-27 00:00:00,Antwerp,S1,0,Strong
+2025-11-27 00:00:00,Antwerp,S1,1,Escrow
+2025-11-27 00:00:00,Antwerp,S1,2,Stale
+2025-11-27 00:00:00,Antwerp,S1,3,Stale
+2025-11-27 00:00:00,Busan,S3,0,Strong
+2025-11-27 00:00:00,Busan,S3,1,Escrow
+2025-11-27 00:00:00,Busan,S3,2,CRDT
+2025-11-27 00:00:00,Busan,S3,3,CRDT
+2025-11-27 00:00:00,Hamburg,S2,0,Strong
+2025-11-27 00:00:00,Hamburg,S2,1,Escrow
+2025-11-27 00:00:00,Hamburg,S2,2,Stale
+2025-11-27 00:00:00,Hamburg,S2,3,Stale
+2025-11-27 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-27 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-27 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-27 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-27 00:00:00,Rotterdam,S3,0,Strong
+2025-11-27 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-27 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-27 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-27 00:00:00,Shanghai,S1,0,Strong
+2025-11-27 00:00:00,Shanghai,S1,1,Escrow
+2025-11-27 00:00:00,Shanghai,S1,2,Stale
+2025-11-27 00:00:00,Shanghai,S1,3,Stale
+2025-11-27 00:00:00,Singapore,S0,0,Strong
+2025-11-27 00:00:00,Singapore,S0,1,Escrow
+2025-11-27 00:00:00,Singapore,S0,2,Stale
+2025-11-27 00:00:00,Singapore,S0,3,Stale
+2025-11-28 00:00:00,Singapore,S1,0,Strong
+2025-11-28 00:00:00,Singapore,S1,1,Escrow
+2025-11-28 00:00:00,Singapore,S1,2,Stale
+2025-11-28 00:00:00,Singapore,S1,3,Stale
+2025-11-28 00:00:00,Shanghai,S2,0,Strong
+2025-11-28 00:00:00,Shanghai,S2,1,Escrow
+2025-11-28 00:00:00,Shanghai,S2,2,Stale
+2025-11-28 00:00:00,Shanghai,S2,3,Stale
+2025-11-28 00:00:00,Rotterdam,S3,0,Strong
+2025-11-28 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-28 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-28 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-28 00:00:00,Antwerp,S0,0,Strong
+2025-11-28 00:00:00,Antwerp,S0,1,Escrow
+2025-11-28 00:00:00,Antwerp,S0,2,Stale
+2025-11-28 00:00:00,Antwerp,S0,3,Stale
+2025-11-28 00:00:00,Hamburg,S0,0,Strong
+2025-11-28 00:00:00,Hamburg,S0,1,Escrow
+2025-11-28 00:00:00,Hamburg,S0,2,Stale
+2025-11-28 00:00:00,Hamburg,S0,3,Stale
+2025-11-28 00:00:00,Busan,S4,0,Strong
+2025-11-28 00:00:00,Busan,S4,1,Escrow
+2025-11-28 00:00:00,Busan,S4,2,Stale
+2025-11-28 00:00:00,Busan,S4,3,Stale
+2025-11-28 00:00:00,Nhava Sheva,S3,0,Strong
+2025-11-28 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-11-28 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-11-28 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-11-29 00:00:00,Singapore,S0,0,Strong
+2025-11-29 00:00:00,Singapore,S0,1,Escrow
+2025-11-29 00:00:00,Singapore,S0,2,Stale
+2025-11-29 00:00:00,Singapore,S0,3,Stale
+2025-11-29 00:00:00,Shanghai,S0,0,Strong
+2025-11-29 00:00:00,Shanghai,S0,1,Escrow
+2025-11-29 00:00:00,Shanghai,S0,2,Stale
+2025-11-29 00:00:00,Shanghai,S0,3,Stale
+2025-11-29 00:00:00,Rotterdam,S3,0,Strong
+2025-11-29 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-29 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-29 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-29 00:00:00,Antwerp,S1,0,Strong
+2025-11-29 00:00:00,Antwerp,S1,1,Escrow
+2025-11-29 00:00:00,Antwerp,S1,2,Stale
+2025-11-29 00:00:00,Antwerp,S1,3,Stale
+2025-11-29 00:00:00,Hamburg,S0,0,Strong
+2025-11-29 00:00:00,Hamburg,S0,1,Escrow
+2025-11-29 00:00:00,Hamburg,S0,2,Stale
+2025-11-29 00:00:00,Hamburg,S0,3,Stale
+2025-11-29 00:00:00,Busan,S0,0,Strong
+2025-11-29 00:00:00,Busan,S0,1,Escrow
+2025-11-29 00:00:00,Busan,S0,2,Stale
+2025-11-29 00:00:00,Busan,S0,3,Stale
+2025-11-29 00:00:00,Nhava Sheva,S4,0,Strong
+2025-11-29 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-11-29 00:00:00,Nhava Sheva,S4,2,Stale
+2025-11-29 00:00:00,Nhava Sheva,S4,3,Stale
+2025-11-30 00:00:00,Antwerp,S0,0,Strong
+2025-11-30 00:00:00,Antwerp,S0,1,Escrow
+2025-11-30 00:00:00,Antwerp,S0,2,Stale
+2025-11-30 00:00:00,Antwerp,S0,3,Stale
+2025-11-30 00:00:00,Busan,S0,0,Strong
+2025-11-30 00:00:00,Busan,S0,1,Escrow
+2025-11-30 00:00:00,Busan,S0,2,Stale
+2025-11-30 00:00:00,Busan,S0,3,Stale
+2025-11-30 00:00:00,Hamburg,S3,0,Strong
+2025-11-30 00:00:00,Hamburg,S3,1,Escrow
+2025-11-30 00:00:00,Hamburg,S3,2,CRDT
+2025-11-30 00:00:00,Hamburg,S3,3,CRDT
+2025-11-30 00:00:00,Nhava Sheva,S0,0,Strong
+2025-11-30 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-11-30 00:00:00,Nhava Sheva,S0,2,Stale
+2025-11-30 00:00:00,Nhava Sheva,S0,3,Stale
+2025-11-30 00:00:00,Rotterdam,S3,0,Strong
+2025-11-30 00:00:00,Rotterdam,S3,1,Escrow
+2025-11-30 00:00:00,Rotterdam,S3,2,CRDT
+2025-11-30 00:00:00,Rotterdam,S3,3,CRDT
+2025-11-30 00:00:00,Shanghai,S2,0,Strong
+2025-11-30 00:00:00,Shanghai,S2,1,Escrow
+2025-11-30 00:00:00,Shanghai,S2,2,Stale
+2025-11-30 00:00:00,Shanghai,S2,3,Stale
+2025-11-30 00:00:00,Singapore,S1,0,Strong
+2025-11-30 00:00:00,Singapore,S1,1,Escrow
+2025-11-30 00:00:00,Singapore,S1,2,Stale
+2025-11-30 00:00:00,Singapore,S1,3,Stale
+2025-12-01 00:00:00,Rotterdam,S3,0,Strong
+2025-12-01 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-01 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-01 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-01 00:00:00,Shanghai,S0,0,Strong
+2025-12-01 00:00:00,Shanghai,S0,1,Escrow
+2025-12-01 00:00:00,Shanghai,S0,2,Stale
+2025-12-01 00:00:00,Shanghai,S0,3,Stale
+2025-12-01 00:00:00,Singapore,S0,0,Strong
+2025-12-01 00:00:00,Singapore,S0,1,Escrow
+2025-12-01 00:00:00,Singapore,S0,2,Stale
+2025-12-01 00:00:00,Singapore,S0,3,Stale
+2025-12-01 00:00:00,Nhava Sheva,S2,0,Strong
+2025-12-01 00:00:00,Nhava Sheva,S2,1,Escrow
+2025-12-01 00:00:00,Nhava Sheva,S2,2,Stale
+2025-12-01 00:00:00,Nhava Sheva,S2,3,Stale
+2025-12-01 00:00:00,Busan,S0,0,Strong
+2025-12-01 00:00:00,Busan,S0,1,Escrow
+2025-12-01 00:00:00,Busan,S0,2,Stale
+2025-12-01 00:00:00,Busan,S0,3,Stale
+2025-12-01 00:00:00,Antwerp,S0,0,Strong
+2025-12-01 00:00:00,Antwerp,S0,1,Escrow
+2025-12-01 00:00:00,Antwerp,S0,2,Stale
+2025-12-01 00:00:00,Antwerp,S0,3,Stale
+2025-12-01 00:00:00,Hamburg,S4,0,Strong
+2025-12-01 00:00:00,Hamburg,S4,1,Escrow
+2025-12-01 00:00:00,Hamburg,S4,2,Stale
+2025-12-01 00:00:00,Hamburg,S4,3,Stale
+2025-12-02 00:00:00,Antwerp,S3,0,Strong
+2025-12-02 00:00:00,Antwerp,S3,1,Escrow
+2025-12-02 00:00:00,Antwerp,S3,2,CRDT
+2025-12-02 00:00:00,Antwerp,S3,3,CRDT
+2025-12-02 00:00:00,Busan,S0,0,Strong
+2025-12-02 00:00:00,Busan,S0,1,Escrow
+2025-12-02 00:00:00,Busan,S0,2,Stale
+2025-12-02 00:00:00,Busan,S0,3,Stale
+2025-12-02 00:00:00,Hamburg,S3,0,Strong
+2025-12-02 00:00:00,Hamburg,S3,1,Escrow
+2025-12-02 00:00:00,Hamburg,S3,2,CRDT
+2025-12-02 00:00:00,Hamburg,S3,3,CRDT
+2025-12-02 00:00:00,Nhava Sheva,S0,0,Strong
+2025-12-02 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-12-02 00:00:00,Nhava Sheva,S0,2,Stale
+2025-12-02 00:00:00,Nhava Sheva,S0,3,Stale
+2025-12-02 00:00:00,Rotterdam,S3,0,Strong
+2025-12-02 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-02 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-02 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-02 00:00:00,Shanghai,S2,0,Strong
+2025-12-02 00:00:00,Shanghai,S2,1,Escrow
+2025-12-02 00:00:00,Shanghai,S2,2,Stale
+2025-12-02 00:00:00,Shanghai,S2,3,Stale
+2025-12-02 00:00:00,Singapore,S2,0,Strong
+2025-12-02 00:00:00,Singapore,S2,1,Escrow
+2025-12-02 00:00:00,Singapore,S2,2,Stale
+2025-12-02 00:00:00,Singapore,S2,3,Stale
+2025-12-03 00:00:00,Shanghai,S1,0,Strong
+2025-12-03 00:00:00,Shanghai,S1,1,Escrow
+2025-12-03 00:00:00,Shanghai,S1,2,Stale
+2025-12-03 00:00:00,Shanghai,S1,3,Stale
+2025-12-03 00:00:00,Rotterdam,S3,0,Strong
+2025-12-03 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-03 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-03 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-03 00:00:00,Nhava Sheva,S2,0,Strong
+2025-12-03 00:00:00,Nhava Sheva,S2,1,Escrow
+2025-12-03 00:00:00,Nhava Sheva,S2,2,Stale
+2025-12-03 00:00:00,Nhava Sheva,S2,3,Stale
+2025-12-03 00:00:00,Singapore,S2,0,Strong
+2025-12-03 00:00:00,Singapore,S2,1,Escrow
+2025-12-03 00:00:00,Singapore,S2,2,Stale
+2025-12-03 00:00:00,Singapore,S2,3,Stale
+2025-12-03 00:00:00,Busan,S2,0,Strong
+2025-12-03 00:00:00,Busan,S2,1,Escrow
+2025-12-03 00:00:00,Busan,S2,2,Stale
+2025-12-03 00:00:00,Busan,S2,3,Stale
+2025-12-03 00:00:00,Antwerp,S3,0,Strong
+2025-12-03 00:00:00,Antwerp,S3,1,Escrow
+2025-12-03 00:00:00,Antwerp,S3,2,CRDT
+2025-12-03 00:00:00,Antwerp,S3,3,CRDT
+2025-12-03 00:00:00,Hamburg,S3,0,Strong
+2025-12-03 00:00:00,Hamburg,S3,1,Escrow
+2025-12-03 00:00:00,Hamburg,S3,2,CRDT
+2025-12-03 00:00:00,Hamburg,S3,3,CRDT
+2025-12-04 00:00:00,Shanghai,S0,0,Strong
+2025-12-04 00:00:00,Shanghai,S0,1,Escrow
+2025-12-04 00:00:00,Shanghai,S0,2,Stale
+2025-12-04 00:00:00,Shanghai,S0,3,Stale
+2025-12-04 00:00:00,Rotterdam,S3,0,Strong
+2025-12-04 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-04 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-04 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-04 00:00:00,Nhava Sheva,S3,0,Strong
+2025-12-04 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-12-04 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-12-04 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-12-04 00:00:00,Singapore,S0,0,Strong
+2025-12-04 00:00:00,Singapore,S0,1,Escrow
+2025-12-04 00:00:00,Singapore,S0,2,Stale
+2025-12-04 00:00:00,Singapore,S0,3,Stale
+2025-12-04 00:00:00,Busan,S0,0,Strong
+2025-12-04 00:00:00,Busan,S0,1,Escrow
+2025-12-04 00:00:00,Busan,S0,2,Stale
+2025-12-04 00:00:00,Busan,S0,3,Stale
+2025-12-04 00:00:00,Antwerp,S4,0,Strong
+2025-12-04 00:00:00,Antwerp,S4,1,Escrow
+2025-12-04 00:00:00,Antwerp,S4,2,Stale
+2025-12-04 00:00:00,Antwerp,S4,3,Stale
+2025-12-04 00:00:00,Hamburg,S4,0,Strong
+2025-12-04 00:00:00,Hamburg,S4,1,Escrow
+2025-12-04 00:00:00,Hamburg,S4,2,Stale
+2025-12-04 00:00:00,Hamburg,S4,3,Stale
+2025-12-05 00:00:00,Antwerp,S0,0,Strong
+2025-12-05 00:00:00,Antwerp,S0,1,Escrow
+2025-12-05 00:00:00,Antwerp,S0,2,Stale
+2025-12-05 00:00:00,Antwerp,S0,3,Stale
+2025-12-05 00:00:00,Busan,S2,0,Strong
+2025-12-05 00:00:00,Busan,S2,1,Escrow
+2025-12-05 00:00:00,Busan,S2,2,Stale
+2025-12-05 00:00:00,Busan,S2,3,Stale
+2025-12-05 00:00:00,Hamburg,S3,0,Strong
+2025-12-05 00:00:00,Hamburg,S3,1,Escrow
+2025-12-05 00:00:00,Hamburg,S3,2,CRDT
+2025-12-05 00:00:00,Hamburg,S3,3,CRDT
+2025-12-05 00:00:00,Nhava Sheva,S3,0,Strong
+2025-12-05 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-12-05 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-12-05 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-12-05 00:00:00,Rotterdam,S3,0,Strong
+2025-12-05 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-05 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-05 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-05 00:00:00,Shanghai,S0,0,Strong
+2025-12-05 00:00:00,Shanghai,S0,1,Escrow
+2025-12-05 00:00:00,Shanghai,S0,2,Stale
+2025-12-05 00:00:00,Shanghai,S0,3,Stale
+2025-12-05 00:00:00,Singapore,S1,0,Strong
+2025-12-05 00:00:00,Singapore,S1,1,Escrow
+2025-12-05 00:00:00,Singapore,S1,2,Stale
+2025-12-05 00:00:00,Singapore,S1,3,Stale
+2025-12-06 00:00:00,Rotterdam,S3,0,Strong
+2025-12-06 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-06 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-06 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-06 00:00:00,Singapore,S0,0,Strong
+2025-12-06 00:00:00,Singapore,S0,1,Escrow
+2025-12-06 00:00:00,Singapore,S0,2,Stale
+2025-12-06 00:00:00,Singapore,S0,3,Stale
+2025-12-06 00:00:00,Nhava Sheva,S4,0,Strong
+2025-12-06 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-12-06 00:00:00,Nhava Sheva,S4,2,Stale
+2025-12-06 00:00:00,Nhava Sheva,S4,3,Stale
+2025-12-06 00:00:00,Shanghai,S1,0,Strong
+2025-12-06 00:00:00,Shanghai,S1,1,Escrow
+2025-12-06 00:00:00,Shanghai,S1,2,Stale
+2025-12-06 00:00:00,Shanghai,S1,3,Stale
+2025-12-06 00:00:00,Busan,S0,0,Strong
+2025-12-06 00:00:00,Busan,S0,1,Escrow
+2025-12-06 00:00:00,Busan,S0,2,Stale
+2025-12-06 00:00:00,Busan,S0,3,Stale
+2025-12-06 00:00:00,Antwerp,S1,0,Strong
+2025-12-06 00:00:00,Antwerp,S1,1,Escrow
+2025-12-06 00:00:00,Antwerp,S1,2,Stale
+2025-12-06 00:00:00,Antwerp,S1,3,Stale
+2025-12-06 00:00:00,Hamburg,S4,0,Strong
+2025-12-06 00:00:00,Hamburg,S4,1,Escrow
+2025-12-06 00:00:00,Hamburg,S4,2,Stale
+2025-12-06 00:00:00,Hamburg,S4,3,Stale
+2025-12-07 00:00:00,Antwerp,S0,0,Strong
+2025-12-07 00:00:00,Antwerp,S0,1,Escrow
+2025-12-07 00:00:00,Antwerp,S0,2,Stale
+2025-12-07 00:00:00,Antwerp,S0,3,Stale
+2025-12-07 00:00:00,Busan,S0,0,Strong
+2025-12-07 00:00:00,Busan,S0,1,Escrow
+2025-12-07 00:00:00,Busan,S0,2,Stale
+2025-12-07 00:00:00,Busan,S0,3,Stale
+2025-12-07 00:00:00,Hamburg,S0,0,Strong
+2025-12-07 00:00:00,Hamburg,S0,1,Escrow
+2025-12-07 00:00:00,Hamburg,S0,2,Stale
+2025-12-07 00:00:00,Hamburg,S0,3,Stale
+2025-12-07 00:00:00,Nhava Sheva,S0,0,Strong
+2025-12-07 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-12-07 00:00:00,Nhava Sheva,S0,2,Stale
+2025-12-07 00:00:00,Nhava Sheva,S0,3,Stale
+2025-12-07 00:00:00,Rotterdam,S3,0,Strong
+2025-12-07 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-07 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-07 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-07 00:00:00,Shanghai,S0,0,Strong
+2025-12-07 00:00:00,Shanghai,S0,1,Escrow
+2025-12-07 00:00:00,Shanghai,S0,2,Stale
+2025-12-07 00:00:00,Shanghai,S0,3,Stale
+2025-12-07 00:00:00,Singapore,S2,0,Strong
+2025-12-07 00:00:00,Singapore,S2,1,Escrow
+2025-12-07 00:00:00,Singapore,S2,2,Stale
+2025-12-07 00:00:00,Singapore,S2,3,Stale
+2025-12-08 00:00:00,Singapore,S0,0,Strong
+2025-12-08 00:00:00,Singapore,S0,1,Escrow
+2025-12-08 00:00:00,Singapore,S0,2,Stale
+2025-12-08 00:00:00,Singapore,S0,3,Stale
+2025-12-08 00:00:00,Shanghai,S0,0,Strong
+2025-12-08 00:00:00,Shanghai,S0,1,Escrow
+2025-12-08 00:00:00,Shanghai,S0,2,Stale
+2025-12-08 00:00:00,Shanghai,S0,3,Stale
+2025-12-08 00:00:00,Rotterdam,S3,0,Strong
+2025-12-08 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-08 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-08 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-08 00:00:00,Nhava Sheva,S0,0,Strong
+2025-12-08 00:00:00,Nhava Sheva,S0,1,Escrow
+2025-12-08 00:00:00,Nhava Sheva,S0,2,Stale
+2025-12-08 00:00:00,Nhava Sheva,S0,3,Stale
+2025-12-08 00:00:00,Hamburg,S0,0,Strong
+2025-12-08 00:00:00,Hamburg,S0,1,Escrow
+2025-12-08 00:00:00,Hamburg,S0,2,Stale
+2025-12-08 00:00:00,Hamburg,S0,3,Stale
+2025-12-08 00:00:00,Busan,S0,0,Strong
+2025-12-08 00:00:00,Busan,S0,1,Escrow
+2025-12-08 00:00:00,Busan,S0,2,Stale
+2025-12-08 00:00:00,Busan,S0,3,Stale
+2025-12-08 00:00:00,Antwerp,S0,0,Strong
+2025-12-08 00:00:00,Antwerp,S0,1,Escrow
+2025-12-08 00:00:00,Antwerp,S0,2,Stale
+2025-12-08 00:00:00,Antwerp,S0,3,Stale
+2025-12-09 00:00:00,Antwerp,S0,0,Strong
+2025-12-09 00:00:00,Antwerp,S0,1,Escrow
+2025-12-09 00:00:00,Antwerp,S0,2,Stale
+2025-12-09 00:00:00,Antwerp,S0,3,Stale
+2025-12-09 00:00:00,Busan,S0,0,Strong
+2025-12-09 00:00:00,Busan,S0,1,Escrow
+2025-12-09 00:00:00,Busan,S0,2,Stale
+2025-12-09 00:00:00,Busan,S0,3,Stale
+2025-12-09 00:00:00,Hamburg,S1,0,Strong
+2025-12-09 00:00:00,Hamburg,S1,1,Escrow
+2025-12-09 00:00:00,Hamburg,S1,2,Stale
+2025-12-09 00:00:00,Hamburg,S1,3,Stale
+2025-12-09 00:00:00,Nhava Sheva,S3,0,Strong
+2025-12-09 00:00:00,Nhava Sheva,S3,1,Escrow
+2025-12-09 00:00:00,Nhava Sheva,S3,2,CRDT
+2025-12-09 00:00:00,Nhava Sheva,S3,3,CRDT
+2025-12-09 00:00:00,Rotterdam,S3,0,Strong
+2025-12-09 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-09 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-09 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-09 00:00:00,Shanghai,S0,0,Strong
+2025-12-09 00:00:00,Shanghai,S0,1,Escrow
+2025-12-09 00:00:00,Shanghai,S0,2,Stale
+2025-12-09 00:00:00,Shanghai,S0,3,Stale
+2025-12-09 00:00:00,Singapore,S0,0,Strong
+2025-12-09 00:00:00,Singapore,S0,1,Escrow
+2025-12-09 00:00:00,Singapore,S0,2,Stale
+2025-12-09 00:00:00,Singapore,S0,3,Stale
+2025-12-10 00:00:00,Shanghai,S0,0,Strong
+2025-12-10 00:00:00,Shanghai,S0,1,Escrow
+2025-12-10 00:00:00,Shanghai,S0,2,Stale
+2025-12-10 00:00:00,Shanghai,S0,3,Stale
+2025-12-10 00:00:00,Rotterdam,S3,0,Strong
+2025-12-10 00:00:00,Rotterdam,S3,1,Escrow
+2025-12-10 00:00:00,Rotterdam,S3,2,CRDT
+2025-12-10 00:00:00,Rotterdam,S3,3,CRDT
+2025-12-10 00:00:00,Nhava Sheva,S4,0,Strong
+2025-12-10 00:00:00,Nhava Sheva,S4,1,Escrow
+2025-12-10 00:00:00,Nhava Sheva,S4,2,Stale
+2025-12-10 00:00:00,Nhava Sheva,S4,3,Stale
+2025-12-10 00:00:00,Singapore,S1,0,Strong
+2025-12-10 00:00:00,Singapore,S1,1,Escrow
+2025-12-10 00:00:00,Singapore,S1,2,Stale
+2025-12-10 00:00:00,Singapore,S1,3,Stale
+2025-12-10 00:00:00,Busan,S1,0,Strong
+2025-12-10 00:00:00,Busan,S1,1,Escrow
+2025-12-10 00:00:00,Busan,S1,2,Stale
+2025-12-10 00:00:00,Busan,S1,3,Stale
+2025-12-10 00:00:00,Antwerp,S0,0,Strong
+2025-12-10 00:00:00,Antwerp,S0,1,Escrow
+2025-12-10 00:00:00,Antwerp,S0,2,Stale
+2025-12-10 00:00:00,Antwerp,S0,3,Stale
+2025-12-10 00:00:00,Hamburg,S3,0,Strong
+2025-12-10 00:00:00,Hamburg,S3,1,Escrow
+2025-12-10 00:00:00,Hamburg,S3,2,CRDT
+2025-12-10 00:00:00,Hamburg,S3,3,CRDT
+2025-12-11 00:00:00,Antwerp,S0,0,Strong
+2025-12-11 00:00:00,Antwerp,S0,1,Escrow
+2025-12-11 00:00:00,Antwerp,S0,2,Stale
+2025-12-11 00:00:00,Antwerp,S0,3,Stale
+2025-12-11 00:00:00,Busan,S3,0,Strong
+2025-12-11 00:00:00,Busan,S3,1,Escrow
+2025-12-11 00:00:00,Busan,S3,2,CRDT
+2025-12-11 00:00:00,Busan,S3,3,CRDT
+2025-12-11 00:00:00,Hamburg,S4,0,Strong
+2025-12-11 00:00:00,Hamburg,S4,1,Escrow
+2025-12-11 00:00:00,Hamburg,S4,2,Stale
+2025-12-11 00:00:00,Hamburg,S4,3,Stale
+2025-12-11 00:00:00,Nhava Sheva,S1,0,Strong
+2025-12-11 00:00:00,Nhava Sheva,S1,1,Escrow
+2025-12-11 00:00:00,Nhava Sheva,S1,2,Stale
+2025-12-11 00:00:00,Nhava Sheva,S1,3,Stale
+2025-12-11 00:00:00,Rotterdam,S4,0,Strong
+2025-12-11 00:00:00,Rotterdam,S4,1,Escrow
+2025-12-11 00:00:00,Rotterdam,S4,2,Stale
+2025-12-11 00:00:00,Rotterdam,S4,3,Stale
+2025-12-11 00:00:00,Shanghai,S0,0,Strong
+2025-12-11 00:00:00,Shanghai,S0,1,Escrow
+2025-12-11 00:00:00,Shanghai,S0,2,Stale
+2025-12-11 00:00:00,Shanghai,S0,3,Stale
+2025-12-11 00:00:00,Singapore,S0,0,Strong
+2025-12-11 00:00:00,Singapore,S0,1,Escrow
+2025-12-11 00:00:00,Singapore,S0,2,Stale
+2025-12-11 00:00:00,Singapore,S0,3,Stale

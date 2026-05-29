@@ -1,0 +1,119 @@
+2026-05-28 17:41:28  INFO      twin_orchestrator  |  ============================================================
+2026-05-28 17:41:28  INFO      twin_orchestrator  |  DAY 7 — TwinMesh Digital Twin Orchestrator
+2026-05-28 17:41:28  INFO      twin_orchestrator  |  ============================================================
+2026-05-28 17:41:28  INFO      twin_orchestrator  |    Combined: 8,568 rows | Test: 1,286 rows
+2026-05-28 17:41:28  INFO      twin_orchestrator  |    Loading TwinMesh components...
+2026-05-28 17:41:28  INFO      twin_orchestrator  |      CCF matrix loaded
+2026-05-28 17:41:29  INFO      twin_orchestrator  |      S3 onset cache built (1259 events)
+2026-05-28 17:41:31  WARNING   twin_orchestrator  |      V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — loading V1 LogReg
+2026-05-28 17:41:34  INFO      twin_orchestrator  |      Predictive model loaded (V1 fallback)
+2026-05-28 17:41:34  INFO      twin_orchestrator  |      MDP policy loaded (20 entries)
+2026-05-28 17:41:34  INFO      twin_orchestrator  |    All components loaded successfully
+2026-05-28 17:41:34  INFO      twin_orchestrator  |  
+  Running replay simulation...
+2026-05-28 17:41:34  INFO      twin_orchestrator  |    Replaying 1,286 test rows...
+2026-05-28 17:41:40  INFO      twin_orchestrator  |    Replay complete: 1,286 steps in 5.5s
+    Alerts fired:  598 (46.5%)
+    State match:   43.9%
+2026-05-28 17:41:40  INFO      twin_orchestrator  |  
+  Replay log saved: 1,286 rows
+  Alerts:           598 (46.5%)
+2026-05-28 17:41:40  INFO      twin_orchestrator  |  
+  Building dashboard...
+2026-05-28 17:41:42  INFO      twin_orchestrator  |    Dashboard saved -> E:\TwinMesh\results\digital_twin\twin_dashboard.png
+2026-05-28 17:41:42  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_rotterdam.png
+2026-05-28 17:41:43  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_singapore.png
+2026-05-28 17:41:44  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_shanghai.png
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+============================================================
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  LIVE PREDICTION DEMO
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  ============================================================
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+  INPUT:
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Port:              Rotterdam
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Date:              2024-12-15
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Current state:     S2 (Congested)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Congestion score:  2.8
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Anomaly flag:      1
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Weather risk:      0.6
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+  OUTPUT:
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Predicted state:   S4
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      P(S3):             0.5084  ⚠ ALERT FIRED
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Hawkes λ(t):       0.2862
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Confidence:        0.5258
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+  MDP ACTIONS:
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Tier-0: Strong     (cost=421.32)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Tier-1: Escrow     (cost=252.79)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Tier-2: Stale      (cost=42.13)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |      Tier-3: Stale      (cost=42.13)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+  PAPER SENTENCE (Section 6, live prediction):
+  "Given Rotterdam's current S2 (Congested) state and
+   rising Hawkes intensity (λ=0.286),
+   TwinMesh predicts transition to S4 with
+   P(S3)=0.508, triggering an early warning alert.
+   Tier-0 operations are assigned Strong consistency;
+   Tier-2 operations are downgraded to Stale."
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+============================================================
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  DIGITAL TWIN SUMMARY
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  ============================================================
+2026-05-28 17:41:44  INFO      twin_orchestrator  |    Total decisions:   1,286
+2026-05-28 17:41:44  INFO      twin_orchestrator  |    Alerts fired:      598 (46.5%)
+2026-05-28 17:41:44  INFO      twin_orchestrator  |    Tier-0 always Strong: 100.0%
+2026-05-28 17:41:44  INFO      twin_orchestrator  |  
+  PAPER SENTENCE (Section 6):
+  "The TwinMesh Digital Twin orchestrates a complete
+   supply chain disruption prediction pipeline: IMF PortWatch
+   and maritime weather data are ingested daily, Hawkes cascade
+   intensity λ(t) is computed per port, and the fitted Markov
+   observation model produces state predictions with associated
+   MDP action recommendations, firing early warning alerts
+   in 46.5% of test days."
+2026-05-28 17:41:45  INFO      twin_orchestrator  |    Dashboard saved -> E:\TwinMesh\results\digital_twin\twin_dashboard.png
+2026-05-28 17:41:46  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_rotterdam.png
+2026-05-28 17:41:47  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_singapore.png
+2026-05-28 17:41:47  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_shanghai.png
+2026-05-28 17:41:48  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_nhava_sheva.png
+2026-05-28 17:41:49  INFO      twin_orchestrator  |    Per-port replay saved -> E:\TwinMesh\results\digital_twin\twin_replay_hamburg.png
+2026-05-28 17:41:49  INFO      twin_orchestrator  |    Loading TwinMesh components...
+2026-05-28 17:41:49  INFO      twin_orchestrator  |      CCF matrix loaded
+2026-05-28 17:41:49  INFO      twin_orchestrator  |      S3 onset cache built (1259 events)
+2026-05-28 17:41:49  WARNING   twin_orchestrator  |      V2 failed (cannot import name 'prepare_sequences_v2' from 'src.models.combined.twinmesh_core_v2' (E:\TwinMesh\src\models\combined\twinmesh_core_v2.py)) — loading V1 LogReg
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Predictive model loaded (V1 fallback)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      MDP policy loaded (20 entries)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |    All components loaded successfully
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  
+============================================================
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  LIVE PREDICTION DEMO
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  ============================================================
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  
+  INPUT:
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Port:              Rotterdam
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Date:              2024-12-15
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Current state:     S2 (Congested)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Congestion score:  2.8
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Anomaly flag:      1
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Weather risk:      0.6
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  
+  OUTPUT:
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Predicted state:   S4
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      P(S3):             0.5084  ⚠ ALERT FIRED
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Hawkes λ(t):       0.2862
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Confidence:        0.5258
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  
+  MDP ACTIONS:
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Tier-0: Strong     (cost=421.32)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Tier-1: Escrow     (cost=252.79)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Tier-2: Stale      (cost=42.13)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |      Tier-3: Stale      (cost=42.13)
+2026-05-28 17:41:52  INFO      twin_orchestrator  |  
+  PAPER SENTENCE (Section 6, live prediction):
+  "Given Rotterdam's current S2 (Congested) state and
+   rising Hawkes intensity (λ=0.286),
+   TwinMesh predicts transition to S4 with
+   P(S3)=0.508, triggering an early warning alert.
+   Tier-0 operations are assigned Strong consistency;
+   Tier-2 operations are downgraded to Stale."

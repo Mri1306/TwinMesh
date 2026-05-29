@@ -1,0 +1,48 @@
+2026-05-28 17:41:28  INFO      run_day7  |  ============================================================
+2026-05-28 17:41:28  INFO      run_day7  |  T W I N M E S H  ·  DAY 7
+2026-05-28 17:41:28  INFO      run_day7  |  Digital Twin Orchestrator
+2026-05-28 17:41:28  INFO      run_day7  |  ============================================================
+2026-05-28 17:41:28  INFO      run_day7  |    Day 1-6 outputs verified
+2026-05-28 17:41:28  INFO      run_day7  |  
+============================================================
+2026-05-28 17:41:28  INFO      run_day7  |  MORNING — Digital Twin Replay
+2026-05-28 17:41:28  INFO      run_day7  |  ============================================================
+2026-05-28 17:41:44  INFO      run_day7  |  
+  Morning done in 15.8s
+2026-05-28 17:41:44  INFO      run_day7  |  
+============================================================
+2026-05-28 17:41:44  INFO      run_day7  |  AFTERNOON — Dashboard + Per-Port Plots
+2026-05-28 17:41:44  INFO      run_day7  |  ============================================================
+2026-05-28 17:41:49  INFO      run_day7  |  
+  Afternoon done in 5.1s
+2026-05-28 17:41:49  INFO      run_day7  |  
+============================================================
+2026-05-28 17:41:49  INFO      run_day7  |  EVENING — Live Prediction Demo + Paper Sentences
+2026-05-28 17:41:49  INFO      run_day7  |  ============================================================
+2026-05-28 17:41:52  INFO      run_day7  |  
+  Evening done in 3.5s
+2026-05-28 17:41:52  INFO      run_day7  |  
+======================================================================
+2026-05-28 17:41:52  INFO      run_day7  |  DAY 7 SUMMARY — Digital Twin Complete
+2026-05-28 17:41:52  INFO      run_day7  |  ======================================================================
+2026-05-28 17:41:52  INFO      run_day7  |  
+  Replay decisions: 1,286
+2026-05-28 17:41:52  INFO      run_day7  |    Alerts fired:     598 (46.5%)
+2026-05-28 17:41:52  INFO      run_day7  |    Tier-0 Strong:    100.0%
+2026-05-28 17:41:52  INFO      run_day7  |  
+  KEY OUTPUTS:
+    Figure 9 (dashboard): results/digital_twin/twin_dashboard.png
+    Replay log:           results/digital_twin/twin_replay_log.csv
+    Alert summary:        results/digital_twin/twin_alert_summary.csv
+
+  NEXT: Paper writing (Days 8-9)
+    Abstract deadline: May 30
+    Full paper deadline: June 6
+2026-05-28 17:41:52  INFO      run_day7  |  
+  Total Day 7 time: 24.3s
+2026-05-28 17:41:52  INFO      run_day7  |  
+============================================================
+2026-05-28 17:41:52  INFO      run_day7  |    DAY 7 COMPLETE
+2026-05-28 17:41:52  INFO      run_day7  |    Digital twin running end-to-end
+2026-05-28 17:41:52  INFO      run_day7  |    All results/paper figures ready
+2026-05-28 17:41:52  INFO      run_day7  |  ============================================================

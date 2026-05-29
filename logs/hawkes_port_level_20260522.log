@@ -1,0 +1,560 @@
+2026-05-22 02:19:38  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:38  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 02:19:38  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 02:19:38  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Singapore       anomaly events: 69
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Rotterdam       anomaly events: 78
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Shanghai        anomaly events: 47
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Nhava Sheva     anomaly events: 54
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Busan           anomaly events: 69
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Hamburg         anomaly events: 58
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Antwerp         anomaly events: 52
+2026-05-22 02:19:38  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 02:19:38  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.3)
+2026-05-22 02:19:40  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-1547.76
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Singapore       mu = 0.080798
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Rotterdam       mu = 0.091329
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Shanghai        mu = 0.055039
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.063231
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Busan           mu = 0.080798
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Hamburg         mu = 0.067915
+2026-05-22 02:19:40  INFO      hawkes_port_level  |      Antwerp         mu = 0.060891
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 02:19:40  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 02:19:40  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 02:19:42  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Rotterdam       mean_lead=0.0d  detection_rate=0.0%  (0/258 onsets detected early)
+2026-05-22 02:19:42  INFO      hawkes_port_level  |    Shanghai        mean_lead=0.0d  detection_rate=0.0%  (0/104 onsets detected early)
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=6.9d  detection_rate=100.0%  (41/289 onsets detected early)
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    Antwerp         mean_lead=0.0d  detection_rate=0.0%  (0/103 onsets detected early)
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=1.0d  detection_rate=14.3%
+2026-05-22 02:19:43  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 02:19:43  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 08:38:11  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:11  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 08:38:11  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 08:38:12  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Singapore       anomaly events: 69
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Rotterdam       anomaly events: 78
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Shanghai        anomaly events: 47
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Nhava Sheva     anomaly events: 54
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Busan           anomaly events: 69
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Hamburg         anomaly events: 58
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Antwerp         anomaly events: 52
+2026-05-22 08:38:12  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 08:38:12  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.3)
+2026-05-22 08:38:19  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-1547.76
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Singapore       mu = 0.080797
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Rotterdam       mu = 0.091332
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Shanghai        mu = 0.055037
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.063232
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Busan           mu = 0.080797
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Hamburg         mu = 0.067916
+2026-05-22 08:38:19  INFO      hawkes_port_level  |      Antwerp         mu = 0.060890
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 08:38:19  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 08:38:19  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 08:38:20  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Rotterdam       mean_lead=6.9d  detection_rate=100.0%  (38/258 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Shanghai        mean_lead=7.0d  detection_rate=100.0%  (15/104 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    Antwerp         mean_lead=7.0d  detection_rate=100.0%  (16/103 onsets detected early)
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=3.0d  detection_rate=42.9%
+2026-05-22 08:38:22  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 08:38:22  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 08:40:00  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:00  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 08:40:00  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 08:40:00  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Singapore       anomaly events: 69
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Rotterdam       anomaly events: 78
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Shanghai        anomaly events: 47
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Nhava Sheva     anomaly events: 54
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Busan           anomaly events: 69
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Hamburg         anomaly events: 58
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Antwerp         anomaly events: 52
+2026-05-22 08:40:00  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 08:40:00  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.3)
+2026-05-22 08:40:07  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-1547.76
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Singapore       mu = 0.080797
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Rotterdam       mu = 0.091332
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Shanghai        mu = 0.055037
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.063232
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Busan           mu = 0.080797
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Hamburg         mu = 0.067916
+2026-05-22 08:40:07  INFO      hawkes_port_level  |      Antwerp         mu = 0.060890
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 08:40:07  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 08:40:07  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 08:40:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Rotterdam       mean_lead=6.9d  detection_rate=100.0%  (38/258 onsets detected early)
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Shanghai        mean_lead=7.0d  detection_rate=100.0%  (15/104 onsets detected early)
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 08:40:09  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 08:40:10  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 08:40:10  INFO      hawkes_port_level  |    Antwerp         mean_lead=7.0d  detection_rate=100.0%  (16/103 onsets detected early)
+2026-05-22 08:40:10  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=3.0d  detection_rate=42.9%
+2026-05-22 08:40:10  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 08:40:10  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 08:44:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:09  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 08:44:09  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Singapore       S3 onset events: 66  (vs anomaly_flag: 69)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Rotterdam       S3 onset events: 180  (vs anomaly_flag: 78)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Shanghai        S3 onset events: 69  (vs anomaly_flag: 47)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Nhava Sheva     S3 onset events: 202  (vs anomaly_flag: 54)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Busan           S3 onset events: 99  (vs anomaly_flag: 69)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Hamburg         S3 onset events: 189  (vs anomaly_flag: 58)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Antwerp         S3 onset events: 73  (vs anomaly_flag: 52)
+2026-05-22 08:44:09  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 08:44:09  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.5)
+2026-05-22 08:44:37  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-2469.96
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Singapore       mu = 0.077276
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Rotterdam       mu = 0.210753
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Shanghai        mu = 0.080796
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.236455
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Busan           mu = 0.115913
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Hamburg         mu = 0.221300
+2026-05-22 08:44:37  INFO      hawkes_port_level  |      Antwerp         mu = 0.085525
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 08:44:37  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 08:44:38  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 08:44:38  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 08:44:39  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 08:44:39  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:39  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 08:44:39  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 08:44:39  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 08:44:40  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 08:44:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:40  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 08:44:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Rotterdam       mean_lead=0.0d  detection_rate=0.0%  (0/258 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Shanghai        mean_lead=0.0d  detection_rate=0.0%  (0/104 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    Antwerp         mean_lead=0.0d  detection_rate=0.0%  (0/103 onsets detected early)
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=0.0d  detection_rate=0.0%
+2026-05-22 08:44:40  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 08:44:40  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 14:21:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:22  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 14:21:22  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Singapore       S3 onset events: 66  (vs anomaly_flag: 69)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Rotterdam       S3 onset events: 180  (vs anomaly_flag: 78)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Shanghai        S3 onset events: 69  (vs anomaly_flag: 47)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Nhava Sheva     S3 onset events: 202  (vs anomaly_flag: 54)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Busan           S3 onset events: 99  (vs anomaly_flag: 69)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Hamburg         S3 onset events: 189  (vs anomaly_flag: 58)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Antwerp         S3 onset events: 73  (vs anomaly_flag: 52)
+2026-05-22 14:21:22  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 14:21:22  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.5)
+2026-05-22 14:21:38  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-2469.96
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Singapore       mu = 0.077276
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Rotterdam       mu = 0.210753
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Shanghai        mu = 0.080796
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.236455
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Busan           mu = 0.115913
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Hamburg         mu = 0.221300
+2026-05-22 14:21:38  INFO      hawkes_port_level  |      Antwerp         mu = 0.085525
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 14:21:38  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 14:21:38  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Rotterdam       mean_lead=0.0d  detection_rate=0.0%  (0/258 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Shanghai        mean_lead=0.0d  detection_rate=0.0%  (0/104 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    Antwerp         mean_lead=0.0d  detection_rate=0.0%  (0/103 onsets detected early)
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=0.0d  detection_rate=0.0%
+2026-05-22 14:21:40  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 14:21:40  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 14:24:15  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:15  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 14:24:15  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Singapore       S3 onset events: 66  (vs anomaly_flag: 69)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Rotterdam       S3 onset events: 180  (vs anomaly_flag: 78)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Shanghai        S3 onset events: 69  (vs anomaly_flag: 47)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Nhava Sheva     S3 onset events: 202  (vs anomaly_flag: 54)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Busan           S3 onset events: 99  (vs anomaly_flag: 69)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Hamburg         S3 onset events: 189  (vs anomaly_flag: 58)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Antwerp         S3 onset events: 73  (vs anomaly_flag: 52)
+2026-05-22 14:24:15  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 14:24:15  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.5)
+2026-05-22 14:24:31  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-2469.96
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Singapore       mu = 0.077276
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Rotterdam       mu = 0.210753
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Shanghai        mu = 0.080796
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.236455
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Busan           mu = 0.115913
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Hamburg         mu = 0.221300
+2026-05-22 14:24:31  INFO      hawkes_port_level  |      Antwerp         mu = 0.085525
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 14:24:31  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 14:24:32  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 14:24:32  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 14:24:33  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Rotterdam       mean_lead=0.0d  detection_rate=0.0%  (0/258 onsets detected early)
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Shanghai        mean_lead=0.0d  detection_rate=0.0%  (0/104 onsets detected early)
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 14:24:33  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 14:24:34  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 14:24:34  INFO      hawkes_port_level  |    Antwerp         mean_lead=0.0d  detection_rate=0.0%  (0/103 onsets detected early)
+2026-05-22 14:24:34  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=0.0d  detection_rate=0.0%
+2026-05-22 14:24:34  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 14:24:34  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone
+2026-05-22 14:28:16  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:16  INFO      hawkes_port_level  |  DAY 3 MORNING — Hawkes Model A: Port-Level (7 nodes)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Loaded | train=5,997 | test=1,286 | combined=8,568
+2026-05-22 14:28:16  INFO      hawkes_port_level  |  
+  Building port event streams (training data)...
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Singapore       S3 onset events: 66  (vs anomaly_flag: 69)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Rotterdam       S3 onset events: 180  (vs anomaly_flag: 78)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Shanghai        S3 onset events: 69  (vs anomaly_flag: 47)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Nhava Sheva     S3 onset events: 202  (vs anomaly_flag: 54)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Busan           S3 onset events: 99  (vs anomaly_flag: 69)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Hamburg         S3 onset events: 189  (vs anomaly_flag: 58)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Antwerp         S3 onset events: 73  (vs anomaly_flag: 52)
+2026-05-22 14:28:16  INFO      hawkes_port_level  |  
+  Fitting Hawkes process...
+2026-05-22 14:28:16  INFO      hawkes_port_level  |    Fitting HawkesMLE (7 nodes, decay=0.5)
+2026-05-22 14:28:32  INFO      hawkes_port_level  |    HawkesMLE fitted | spectral_radius=0.0000 (stable=True) | log-likelihood=-2469.96
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+  Extracting mu and alpha matrices...
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+  Baseline intensities (mu per port):
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Singapore       mu = 0.077276
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Rotterdam       mu = 0.210753
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Shanghai        mu = 0.080796
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Nhava Sheva     mu = 0.236455
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Busan           mu = 0.115913
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Hamburg         mu = 0.221300
+2026-05-22 14:28:32  INFO      hawkes_port_level  |      Antwerp         mu = 0.085525
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+  7x7 Excitation matrix (alpha_ij):
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+             Singapore  Rotterdam  Shanghai  Nhava Sheva  Busan  Hamburg  Antwerp
+Singapore          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Rotterdam          0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Shanghai           0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Nhava Sheva        0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Busan              0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Hamburg            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+Antwerp            0.0        0.0       0.0          0.0    0.0      0.0      0.0
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+  STRONGEST CROSS-EXCITATION: Singapore -> Singapore  alpha=0.0000
+2026-05-22 14:28:32  INFO      hawkes_port_level  |  
+  PAPER SENTENCE (Section 7):
+  "Singapore disruptions excite Singapore with the strongest cross-port coefficient (alpha=0.000), confirming the East-West cascade structure in TwinMesh's excitation matrix."
+2026-05-22 14:28:33  INFO      hawkes_port_level  |    Excitation matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\port_level_7x7_excitation_matrix.png
+2026-05-22 14:28:33  INFO      hawkes_port_level  |  
+  Computing intensity series on test data...
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Intensity plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_port_intensity.png
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  
+  Evaluating AUPRC vs Poisson baseline...
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  AUPRC RESULTS — Model A (Port-Level Hawkes)
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Singapore       AUPRC=0.0652  Poisson=0.0652  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=6.5%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Rotterdam       AUPRC=0.6940  Poisson=0.6940  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=69.4% [HIGH PREVALENCE - use normalised]
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Shanghai        AUPRC=0.0820  Poisson=0.0820  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=8.2%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Nhava Sheva     AUPRC=0.3098  Poisson=0.3098  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=31.0%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Busan           AUPRC=0.1141  Poisson=0.1141  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=11.4%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Hamburg         AUPRC=0.3424  Poisson=0.3424  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=34.2%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Antwerp         AUPRC=0.1196  Poisson=0.1196  lift=+0.0000  norm_AUPRC=1.0000  S3_rate=12.0%
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Balanced ports (6/7): ['Singapore', 'Shanghai', 'Nhava Sheva', 'Busan', 'Hamburg', 'Antwerp']
+  Macro-avg AUPRC (balanced): 0.1722  Poisson: 0.1722  lift: +0.0000
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  
+  Computing lead time before S3 onset...
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  LEAD TIME RESULTS — Model A
+2026-05-22 14:28:34  INFO      hawkes_port_level  |  ============================================================
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Singapore       mean_lead=0.0d  detection_rate=0.0%  (0/87 onsets detected early)
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Rotterdam       mean_lead=0.0d  detection_rate=0.0%  (0/258 onsets detected early)
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Shanghai        mean_lead=0.0d  detection_rate=0.0%  (0/104 onsets detected early)
+2026-05-22 14:28:34  INFO      hawkes_port_level  |    Nhava Sheva     mean_lead=0.0d  detection_rate=0.0%  (0/289 onsets detected early)
+2026-05-22 14:28:35  INFO      hawkes_port_level  |    Busan           mean_lead=0.0d  detection_rate=0.0%  (0/135 onsets detected early)
+2026-05-22 14:28:35  INFO      hawkes_port_level  |    Hamburg         mean_lead=0.0d  detection_rate=0.0%  (0/281 onsets detected early)
+2026-05-22 14:28:35  INFO      hawkes_port_level  |    Antwerp         mean_lead=0.0d  detection_rate=0.0%  (0/103 onsets detected early)
+2026-05-22 14:28:35  INFO      hawkes_port_level  |    ABLATION ROW (Model_A_Port_Level_Hawkes):
+    AUPRC (balanced 6/7 ports)=0.1722  Poisson=0.1722  lift=+0.0000
+    AUPRC (all 7 ports)=0.2467  lead=0.0d  detection_rate=0.0%
+2026-05-22 14:28:35  INFO      hawkes_port_level  |  
+  Model A complete. Ablation Row 1 saved.
+2026-05-22 14:28:35  INFO      hawkes_port_level  |    -> E:\TwinMesh\results\hawkes_standalone

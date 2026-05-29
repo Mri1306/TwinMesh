@@ -1,0 +1,35 @@
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+============================================================
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  CHECK 3 — Vessel-Type Signal Verification
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  ============================================================
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+  DWT/Calls % change from S0 (Normal) → S3 (Disrupted):
+2026-05-20 13:53:11  INFO      check3_vessel_type  |      container            S0=  244424.9  S3=  232481.5  drop=+4.9%
+2026-05-20 13:53:11  INFO      check3_vessel_type  |      dry_bulk             S0=   90274.9  S3=  112410.2  drop=-24.5%
+2026-05-20 13:53:11  INFO      check3_vessel_type  |      general_cargo        S0=    8876.0  S3=    7766.4  drop=+12.5%
+2026-05-20 13:53:11  INFO      check3_vessel_type  |      roro                 S0=     816.7  S3=     737.3  drop=+9.7%
+2026-05-20 13:53:11  INFO      check3_vessel_type  |      tanker               S0=  133998.3  S3=  241839.9  drop=-80.5%
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+  Container drop: +4.9%
+  Tanker drop:    -80.5%
+  Tanker/Container ratio: 16.46 (threshold: 0.5)
+  Result: ❌ FAIL
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+  ── PAPER SENTENCE (copy this into Section 7):
+  "Container DWT net flow drops 5% during S3
+   (Disrupted) states while tanker flow changes only 80%,
+   confirming vessel-type-specific cascade patterns
+   invisible to aggregate models."
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+  State means (all states):
+       n_rows  container  dry_bulk  general_cargo   roro    tanker
+state                                                             
+S0       2904   244424.9   90274.9         8876.0  816.7  133998.3
+S1       1162   365956.9  141662.5        10114.2  908.8  187033.7
+S2        921   339642.7  140750.6         9563.6  820.4  153672.0
+S3       2323   232481.5  112410.2         7766.4  737.3  241839.9
+S4       1258   172794.6   71912.2         6714.5  608.8  122714.5
+2026-05-20 13:53:11  INFO      check3_vessel_type  |  
+  Saved → E:\TwinMesh\results\audit\check3_vessel_type_signal.csv
+2026-05-20 13:53:15  INFO      check3_vessel_type  |    Cascade plot saved → E:\TwinMesh\results\audit\check3_vessel_cascade.png
+2026-05-20 13:53:15  INFO      check3_vessel_type  |    Vessel-by-state plot saved → E:\TwinMesh\results\audit\check3_vessel_by_state.png

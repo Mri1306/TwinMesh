@@ -1,0 +1,2 @@
+twinmesh_s3_auprc,twinmesh_accuracy,twinmesh_macro_f1,twinmesh_s3_recall,twinmesh_cost_red,twinmesh_tier0_viol,best_baseline_auprc,best_baseline_name,twinmesh_lift
+0.4791,0.4691,0.325,0.6095,52.4,0,0.546,B6_LSTM,-0.06690000000000002

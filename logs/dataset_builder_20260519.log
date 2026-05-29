@@ -1,0 +1,47 @@
+2026-05-19 21:28:56  INFO      dataset_builder  |  ============================================================
+2026-05-19 21:28:56  INFO      dataset_builder  |  STEP 5 — Dataset Builder
+2026-05-19 21:28:56  INFO      dataset_builder  |  ============================================================
+2026-05-19 21:28:56  INFO      dataset_builder  |    Combined dataset: 8,568 rows | 2023-01-01 → 2026-05-08 | ports: 7
+2026-05-19 21:28:56  INFO      dataset_builder  |    Global state distribution:
+state
+S0    0.339
+S3    0.271
+S4    0.147
+S1    0.136
+S2    0.107
+2026-05-19 21:28:56  INFO      dataset_builder  |    Saved all_ports_combined.csv (8,568 rows)
+2026-05-19 21:28:56  INFO      dataset_builder  |    Saved markov_transitions.csv (5,611 transitions)
+2026-05-19 21:28:56  INFO      dataset_builder  |    Hawkes events: 370 anomaly rows | {'Rotterdam': 109, 'Busan': 94, 'Singapore': 91, 'Antwerp': 76}
+2026-05-19 21:28:56  INFO      dataset_builder  |    Saved hawkes_events.csv (370 events)
+2026-05-19 21:28:56  INFO      dataset_builder  |    Historical dataset: 10,227 rows | pre_covid=2,555 | covid=7,672
+2026-05-19 21:28:56  INFO      dataset_builder  |    Saved portwatch_2019_2022.csv (10,227 rows)
+2026-05-19 21:28:56  INFO      dataset_builder  |  
+  Chronological split:
+    Train: 5,997 rows | 2023-01-01 → 2025-05-06
+    Val:   1,285 rows | 2025-05-06 → 2025-11-06
+    Test:  1,286 rows | 2025-11-06 → 2026-05-08
+2026-05-19 21:28:57  INFO      dataset_builder  |    Exported JSON: 8,568 records → e:\TwinMesh\data/unified\twinmesh_dataset_full.json
+2026-05-19 21:28:57  INFO      dataset_builder  |  
+============================================================
+2026-05-19 21:28:57  INFO      dataset_builder  |  DATASET SUMMARY
+2026-05-19 21:28:57  INFO      dataset_builder  |  ============================================================
+2026-05-19 21:28:57  INFO      dataset_builder  |    Total records:   8,568
+2026-05-19 21:28:57  INFO      dataset_builder  |    Ports:           7
+2026-05-19 21:28:57  INFO      dataset_builder  |    Date range:      2023-01-01 → 2026-05-08
+2026-05-19 21:28:57  INFO      dataset_builder  |    Features:        41
+2026-05-19 21:28:57  INFO      dataset_builder  |    Training rows:   5,997
+2026-05-19 21:28:57  INFO      dataset_builder  |    Validation rows: 1,285
+2026-05-19 21:28:57  INFO      dataset_builder  |    Test rows:       1,286
+2026-05-19 21:28:57  INFO      dataset_builder  |  
+  State counts:
+2026-05-19 21:28:57  INFO      dataset_builder  |      S0: 2,904 (33.9%)
+2026-05-19 21:28:57  INFO      dataset_builder  |      S1: 1,162 (13.6%)
+2026-05-19 21:28:57  INFO      dataset_builder  |      S2: 921 (10.7%)
+2026-05-19 21:28:57  INFO      dataset_builder  |      S3: 2,323 (27.1%)
+2026-05-19 21:28:57  INFO      dataset_builder  |      S4: 1,258 (14.7%)
+2026-05-19 21:28:57  INFO      dataset_builder  |  
+  Anomaly events:  370
+2026-05-19 21:28:57  INFO      dataset_builder  |    Disruption days: 245
+2026-05-19 21:28:57  INFO      dataset_builder  |    Storm events:    40.0
+2026-05-19 21:28:57  INFO      dataset_builder  |  
+✅ STEP 5 COMPLETE — all datasets exported

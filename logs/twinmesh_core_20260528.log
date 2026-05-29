@@ -1,0 +1,8 @@
+2026-05-28 15:48:29  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-28 15:48:33  INFO      twinmesh_core  |    Hawkes intensity computed | lambda range: [0.0773, 0.4020]
+2026-05-28 17:41:31  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-28 17:41:34  INFO      twinmesh_core  |    Hawkes intensity computed | lambda range: [0.0773, 0.4020]
+2026-05-28 17:41:34  INFO      twinmesh_core  |    Combined model: train_accuracy=0.5352
+2026-05-28 17:41:49  INFO      twinmesh_core  |    Loaded CCF excitation matrix: (7, 7)
+2026-05-28 17:41:52  INFO      twinmesh_core  |    Hawkes intensity computed | lambda range: [0.0773, 0.4020]
+2026-05-28 17:41:52  INFO      twinmesh_core  |    Combined model: train_accuracy=0.5352

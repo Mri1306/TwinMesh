@@ -1,0 +1,6 @@
+,s0_mean,s3_mean,pct_change,direction,_check_passed,_container_chg_pct,_tanker_chg_pct,_drop_types,_rise_types
+container,244509.07,232481.47,-4.92,DROPS,True,-4.92,80.42,"['container', 'general_cargo', 'roro']","['dry_bulk', 'tanker']"
+dry_bulk,90306.03,112410.19,24.48,RISES,True,-4.92,80.42,"['container', 'general_cargo', 'roro']","['dry_bulk', 'tanker']"
+general_cargo,8879.1,7766.4,-12.53,DROPS,True,-4.92,80.42,"['container', 'general_cargo', 'roro']","['dry_bulk', 'tanker']"
+roro,817.0,737.29,-9.76,DROPS,True,-4.92,80.42,"['container', 'general_cargo', 'roro']","['dry_bulk', 'tanker']"
+tanker,134044.45,241839.89,80.42,RISES,True,-4.92,80.42,"['container', 'general_cargo', 'roro']","['dry_bulk', 'tanker']"

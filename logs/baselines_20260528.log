@@ -1,0 +1,55 @@
+2026-05-28 15:50:10  INFO      baselines  |  ============================================================
+2026-05-28 15:50:10  INFO      baselines  |  DAY 6 — All 8 Baselines
+2026-05-28 15:50:10  INFO      baselines  |  ============================================================
+2026-05-28 15:50:10  INFO      baselines  |    Train: 5,990 steps | Test: 1,279 steps
+2026-05-28 15:50:10  INFO      baselines  |  
+  Running baselines...
+2026-05-28 15:50:10  INFO      baselines  |    B1 AlwaysStrong: acc=0.3010  s3_auprc=0.2463
+2026-05-28 15:50:10  INFO      baselines  |    B2 AlwaysEventual: acc=0.1454  s3_auprc=0.2463
+2026-05-28 15:50:10  INFO      baselines  |    B3 StaticPACELC: acc=0.3784  s3_auprc=0.3621
+2026-05-28 15:50:10  INFO      baselines  |    B4 RTTThreshold: acc=0.3604  s3_auprc=0.4249
+2026-05-28 15:50:10  INFO      baselines  |    B5 PoissonTrigger: acc=0.2877  s3_auprc=0.2463
+2026-05-28 15:50:10  INFO      baselines  |  
+  Running ML baselines (may take a few minutes)...
+2026-05-28 15:50:20  INFO      baselines  |    B6 LSTM: acc=0.4174  s3_auprc=0.5460
+2026-05-28 15:50:21  INFO      baselines  |    B7 XGBoost: acc=0.4801  s3_auprc=0.5348
+2026-05-28 15:50:24  INFO      baselines  |    B8 Prophet: acc=0.3064  s3_auprc=0.2682
+2026-05-28 15:50:24  INFO      baselines  |  
+================================================================================
+2026-05-28 15:50:24  INFO      baselines  |  BASELINE COMPARISON TABLE (paper Table 2)
+2026-05-28 15:50:24  INFO      baselines  |  ================================================================================
+2026-05-28 15:50:24  INFO      baselines  |  Model                          S3-AUPRC      Acc       F1   S3-Rec  CostRed  T0-Viol
+2026-05-28 15:50:24  INFO      baselines  |  --------------------------------------------------------------------------------
+2026-05-28 15:50:24  INFO      baselines  |    B6_LSTM                        0.5460   0.4174   0.2160   0.6837     0.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B7_XGBoost                     0.5348   0.4801   0.3765   0.4889     0.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    TwinMesh_Full                  0.4791   0.4691   0.3250   0.6095    52.4%        0 <-- TwinMesh
+2026-05-28 15:50:24  INFO      baselines  |    B4_RTTThreshold                0.4249   0.3604   0.1820   0.4635    10.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B3_StaticPACELC                0.3621   0.3784   0.1918   0.5524    15.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B8_Prophet                     0.2682   0.3064   0.1028   0.0252     0.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B1_AlwaysStrong                0.2463   0.3010   0.0925   0.0000     0.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B5_PoissonTrigger              0.2463   0.2877   0.1375   0.2698     0.0%        0
+2026-05-28 15:50:24  INFO      baselines  |    B2_AlwaysEventual              0.2463   0.1454   0.0508   0.0000    40.0%     1279
+2026-05-28 15:50:24  INFO      baselines  |  
+  TwinMesh vs best baseline (B6_LSTM):
+    S3 AUPRC lift: -0.0669
+
+  PAPER SENTENCE (Section 7, Table 2):
+  "TwinMesh achieves S3 AUPRC of 0.4791, outperforming the
+   strongest baseline (B6_LSTM: 0.5460)
+   by -0.0669 AUPRC points."
+2026-05-28 15:50:24  INFO      baselines  |  
+  Saved baseline_comparison.csv
+2026-05-28 15:50:24  INFO      baselines  |    Baseline comparison chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-28 16:09:29  INFO      baselines  |  Train=5990 | Test=1279
+2026-05-28 16:09:34  INFO      baselines  |  Saved -> E:\TwinMesh\results\combined\baseline_comparison.csv
+2026-05-28 16:09:34  INFO      baselines  |  Chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-28 16:13:41  INFO      baselines  |  Train=5990 | Test=1279
+2026-05-28 16:13:53  INFO      baselines  |  Saved -> E:\TwinMesh\results\combined\baseline_comparison.csv
+2026-05-28 16:13:53  INFO      baselines  |  Chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-28 16:17:29  INFO      baselines  |  Train=5990 | Test=1279
+2026-05-28 16:17:42  INFO      baselines  |  Saved -> E:\TwinMesh\results\combined\baseline_comparison.csv
+2026-05-28 16:17:43  INFO      baselines  |  Chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png
+2026-05-28 16:19:43  INFO      baselines  |  Train=5990 | Test=1279
+2026-05-28 16:21:23  INFO      baselines  |  Train=5990 | Test=1279
+2026-05-28 16:21:26  INFO      baselines  |  Saved -> E:\TwinMesh\results\combined\baseline_comparison.csv
+2026-05-28 16:21:26  INFO      baselines  |  Chart saved -> E:\TwinMesh\results\combined\baseline_auprc_chart.png

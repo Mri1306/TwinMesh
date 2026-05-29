@@ -1,0 +1,3 @@
+row,model_variant,description,auprc,poisson_auprc,lift_vs_poisson,mean_lead_days,detection_rate,state_accuracy,macro_f1,llr_hawkes_better
+1,Aggregate Hawkes (Model A),"Port-level, aggregate anomaly events, 7 nodes",0.2467,0.2467,0.0,0.0,0.0,,,1/7 ports
+2,+ Vessel-Type Breakdown (Model B),"Per-port 5 vessel-type streams, 5x5 matrix",0.2446,0.2467,-0.0021,,,,,

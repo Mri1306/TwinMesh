@@ -1,0 +1,2 @@
+model,auprc,poisson_auprc,lift_vs_poisson,auprc_all_ports,poisson_all_ports,mean_lead_days,detection_rate,n_balanced_ports,state_accuracy,macro_f1
+Model_A_Port_Level_Hawkes,0.1722,0.1722,0.0,0.2467,0.2467,0.0,0.0,6,,

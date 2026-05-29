@@ -1,0 +1,66 @@
+2026-05-21 08:40:45  INFO      portwatch_merger  |  ============================================================
+2026-05-21 08:40:45  INFO      portwatch_merger  |  STEP 1 — PortWatch Merger (with congestion cap fix)
+2026-05-21 08:40:45  INFO      portwatch_merger  |    CONGESTION_CAP = 20.0
+2026-05-21 08:40:45  INFO      portwatch_merger  |    MIN_OUTGOING_DWT = 100.0
+2026-05-21 08:40:45  INFO      portwatch_merger  |  ============================================================
+2026-05-21 08:40:45  INFO      portwatch_merger  |  
+── Singapore (singapore) ──
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:45  INFO      portwatch_merger  |    Singapore: merged 2,685 rows
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=1.811 | anomalies=205 | congestion range: [0.319, 3.615]
+2026-05-21 08:40:45  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\singapore_merged.csv | anomalies=205 | congestion max=3.615 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:45  INFO      portwatch_merger  |  
+── Rotterdam (rotterdam) ──
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:45  INFO      portwatch_merger  |    Rotterdam: merged 2,685 rows
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=5.160 | anomalies=206 | congestion range: [0.363, 16.162]
+2026-05-21 08:40:45  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\rotterdam_merged.csv | anomalies=206 | congestion max=16.162 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:45  INFO      portwatch_merger  |  
+── Shanghai (shanghai) ──
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:45  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Shanghai: merged 2,685 rows
+2026-05-21 08:40:46  INFO      portwatch_merger  |    congestion_score: 1 values capped at 20.0 | idle days fixed: 5 | median used: 1.1842
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=2.302 | anomalies=138 | congestion range: [0.000, 20.000]
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\shanghai_merged.csv | anomalies=138 | congestion max=20.000 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:46  INFO      portwatch_merger  |  
+── Nhava Sheva (nhava_sheva) ──
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Nhava Sheva: merged 2,685 rows
+2026-05-21 08:40:46  INFO      portwatch_merger  |    congestion_score: 60 values capped at 20.0 | idle days fixed: 7 | median used: 1.8903
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=8.872 | anomalies=181 | congestion range: [0.000, 20.000]
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\nhava_sheva_merged.csv | anomalies=181 | congestion max=20.000 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:46  INFO      portwatch_merger  |  
+── Busan (busan) ──
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Busan: merged 2,685 rows
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=2.286 | anomalies=196 | congestion range: [0.127, 6.351]
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\busan_merged.csv | anomalies=196 | congestion max=6.351 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:46  INFO      portwatch_merger  |  
+── Hamburg (hamburg) ──
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:46  INFO      portwatch_merger  |    Hamburg: merged 2,685 rows
+2026-05-21 08:40:46  INFO      portwatch_merger  |    congestion_score: 8 values capped at 20.0 | idle days fixed: 1 | median used: 1.3142
+2026-05-21 08:40:46  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=5.158 | anomalies=149 | congestion range: [0.013, 20.000]
+2026-05-21 08:40:47  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\hamburg_merged.csv | anomalies=149 | congestion max=20.000 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:47  INFO      portwatch_merger  |  
+── Antwerp (antwerp) ──
+2026-05-21 08:40:47  DEBUG     portwatch_merger  |    Loaded calls          : 2,685 rows, 8 cols
+2026-05-21 08:40:47  DEBUG     portwatch_merger  |    Loaded incoming_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:47  DEBUG     portwatch_merger  |    Loaded outgoing_dwt   : 2,685 rows, 8 cols
+2026-05-21 08:40:47  INFO      portwatch_merger  |    Antwerp: merged 2,685 rows
+2026-05-21 08:40:47  DEBUG     portwatch_merger  |    Features added | anomaly_threshold=2.308 | anomalies=161 | congestion range: [0.114, 11.663]
+2026-05-21 08:40:47  INFO      portwatch_merger  |    Saved 2,685 rows → E:\TwinMesh\data/processed\per_port\antwerp_merged.csv | anomalies=161 | congestion max=11.663 | date: 2019-01-01 → 2026-05-08
+2026-05-21 08:40:47  INFO      portwatch_merger  |  
+✅ STEP 1 COMPLETE — 7/7 ports processed

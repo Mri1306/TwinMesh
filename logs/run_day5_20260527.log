@@ -1,0 +1,202 @@
+2026-05-27 14:35:12  INFO      run_day5  |  ============================================================
+2026-05-27 14:35:12  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-27 14:35:12  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-27 14:35:12  INFO      run_day5  |  ============================================================
+2026-05-27 14:35:12  INFO      run_day5  |    Day 1-4 outputs verified
+2026-05-27 14:35:12  INFO      run_day5  |  
+============================================================
+2026-05-27 14:35:12  INFO      run_day5  |  MORNING — TwinMesh Combined (Hawkes + Markov, Row 6)
+2026-05-27 14:35:12  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:09  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:09  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-27 14:40:09  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-27 14:40:09  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:09  INFO      run_day5  |    Day 1-4 outputs verified
+2026-05-27 14:40:09  INFO      run_day5  |  
+============================================================
+2026-05-27 14:40:09  INFO      run_day5  |  MORNING — TwinMesh Combined (Hawkes + Markov, Row 6)
+2026-05-27 14:40:09  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:16  INFO      run_day5  |  
+  Morning done in 7.6s
+2026-05-27 14:40:16  INFO      run_day5  |  
+============================================================
+2026-05-27 14:40:16  INFO      run_day5  |  AFTERNOON — MDP Policy Safety Verification
+2026-05-27 14:40:16  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:16  INFO      run_day5  |    Loaded policy table: 20 state-tier combinations
+2026-05-27 14:40:16  INFO      run_day5  |    Loaded cost matrix: (5, 5)
+2026-05-27 14:40:17  INFO      run_day5  |  
+============================================================
+2026-05-27 14:40:17  INFO      run_day5  |  MDP SAFETY REPORT
+2026-05-27 14:40:17  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:17  INFO      run_day5  |    Total decisions:      5,144
+2026-05-27 14:40:17  INFO      run_day5  |    Tier-0 violations:    0  (ZERO — SAFE)
+2026-05-27 14:40:17  INFO      run_day5  |    Policy total cost:    880,999.34
+2026-05-27 14:40:17  INFO      run_day5  |    AlwaysStrong cost:    1,850,212.46
+2026-05-27 14:40:17  INFO      run_day5  |    Cost reduction:       52.4%
+2026-05-27 14:40:17  INFO      run_day5  |  
+  PAPER SENTENCE (Section 7):
+  "TwinMesh's safety-constrained MDP achieves zero
+   Tier-0 safety violations across 1,286 test records,
+   while reducing total operational cost by 52.4%
+   compared to the AlwaysStrong baseline."
+2026-05-27 14:40:17  INFO      run_day5  |  
+  Safety report saved -> E:\TwinMesh\results\combined/mdp_safety_report.csv
+2026-05-27 14:40:17  INFO      run_day5  |    Afternoon done in 0.3s
+2026-05-27 14:40:17  INFO      run_day5  |  
+============================================================
+2026-05-27 14:40:17  INFO      run_day5  |  EVENING — Full Pipeline Integration Summary
+2026-05-27 14:40:17  INFO      run_day5  |  ============================================================
+2026-05-27 14:40:17  INFO      run_day5  |  
+  COMPLETE ABLATION TABLE:
+2026-05-27 14:40:17  INFO      run_day5  |    Row   Model                                           Acc       F1   S3-AUC
+2026-05-27 14:40:17  INFO      run_day5  |    ----------------------------------------------------------------------
+2026-05-27 14:40:17  INFO      run_day5  |    1    Aggregate Hawkes (Model A)                        -        -   0.2467
+2026-05-27 14:40:17  INFO      run_day5  |    2    + Vessel-Type Breakdown (Model B)                 -        -   0.2446
+2026-05-27 14:40:17  INFO      run_day5  |    3    + Pure Markov                                0.4464   0.2627   0.3497
+2026-05-27 14:40:17  INFO      run_day5  |    4    + Portwatch Only                             0.4535   0.3104   0.4454
+2026-05-27 14:40:17  INFO      run_day5  |    5    + Portwatch Weather                          0.4550   0.3115   0.4444
+2026-05-27 14:40:17  INFO      run_day5  |    6    TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791
+2026-05-27 14:40:17  INFO      run_day5  |  
+  ── PAPER CLAIMS VERIFICATION ──
+2026-05-27 14:40:17  INFO      run_day5  |      Ablation table complete (6 rows)              PASS
+2026-05-27 14:40:17  INFO      run_day5  |      Figure 5 (lift chart)                         PASS
+2026-05-27 14:40:17  INFO      run_day5  |      Figure 6 (S3 detection)                       PASS
+2026-05-27 14:40:17  INFO      run_day5  |      Tier-0 violations = 0                         PASS
+2026-05-27 14:40:17  INFO      run_day5  |      Cost reduction > 0%                           PASS
+2026-05-27 14:40:17  INFO      run_day5  |      Lead time ~4.2 days                           PASS
+2026-05-27 14:40:17  INFO      run_day5  |  
+  OVERALL: ALL CLAIMS PASS
+2026-05-27 14:40:17  INFO      run_day5  |  
+  Next: python run_day6.py  (Baselines + full evaluation)
+2026-05-27 14:40:17  INFO      run_day5  |  
+======================================================================
+2026-05-27 14:40:17  INFO      run_day5  |  DAY 5 SUMMARY
+2026-05-27 14:40:17  INFO      run_day5  |  ======================================================================
+2026-05-27 14:40:17  INFO      run_day5  |  
+  TwinMesh Combined (Row 6):
+2026-05-27 14:40:17  INFO      run_day5  |      Accuracy:  0.4691
+2026-05-27 14:40:17  INFO      run_day5  |      Macro-F1:  0.3250
+2026-05-27 14:40:17  INFO      run_day5  |      S3 Recall: 0.6095
+2026-05-27 14:40:17  INFO      run_day5  |      S3 AUPRC:  0.4791
+2026-05-27 14:40:17  INFO      run_day5  |  
+  MDP Safety:
+2026-05-27 14:40:17  INFO      run_day5  |      Tier-0 violations: 0  (SAFE)
+2026-05-27 14:40:17  INFO      run_day5  |      Cost reduction:    52.4% vs AlwaysStrong
+2026-05-27 14:40:17  INFO      run_day5  |  
+  KEY OUTPUTS FOR PAPER:
+    Table 1 (all 6 rows): results/combined/ablation_table.csv
+    Figure 5 (lift):      results/combined/ablation_lift_chart.png
+    Figure 6 (S3 det.):   results/combined/twinmesh_s3_detection.png
+    Safety report:        results/combined/mdp_safety_report.csv
+2026-05-27 14:40:17  INFO      run_day5  |  
+  Total Day 5 time: 8.0s
+2026-05-27 14:40:17  INFO      run_day5  |  
+============================================================
+2026-05-27 14:40:17  INFO      run_day5  |    DAY 5 COMPLETE
+2026-05-27 14:40:17  INFO      run_day5  |    Combined model:  results/combined/twinmesh_full_metrics.csv
+2026-05-27 14:40:17  INFO      run_day5  |    Ablation table:  results/combined/ablation_table.csv
+2026-05-27 14:40:17  INFO      run_day5  |    Safety report:   results/combined/mdp_safety_report.csv
+2026-05-27 14:40:17  INFO      run_day5  |  
+2026-05-27 14:40:17  INFO      run_day5  |    Next: python run_day6.py  (8 baselines + full evaluation)
+2026-05-27 14:40:17  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:14  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:14  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-27 19:17:14  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-27 19:17:14  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:14  INFO      run_day5  |    Day 1-4 outputs verified
+2026-05-27 19:17:14  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:14  INFO      run_day5  |  MORNING — TwinMesh Combined (Hawkes + Markov, Row 6)
+2026-05-27 19:17:14  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:24  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:24  INFO      run_day5  |  T W I N M E S H  ·  DAY 5
+2026-05-27 19:17:24  INFO      run_day5  |  Combined Model + MDP Policy
+2026-05-27 19:17:24  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:24  INFO      run_day5  |    Day 1-4 outputs verified
+2026-05-27 19:17:24  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:24  INFO      run_day5  |  MORNING — TwinMesh Combined (Hawkes + Markov, Row 6)
+2026-05-27 19:17:24  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:32  INFO      run_day5  |  
+  Morning done in 7.8s
+2026-05-27 19:17:32  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:32  INFO      run_day5  |  AFTERNOON — MDP Policy Safety Verification
+2026-05-27 19:17:32  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:32  INFO      run_day5  |    Loaded policy table: 20 state-tier combinations
+2026-05-27 19:17:32  INFO      run_day5  |    Loaded cost matrix: (5, 5)
+2026-05-27 19:17:33  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:33  INFO      run_day5  |  MDP SAFETY REPORT
+2026-05-27 19:17:33  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:33  INFO      run_day5  |    Total decisions:      5,144
+2026-05-27 19:17:33  INFO      run_day5  |    Tier-0 violations:    0  (ZERO — SAFE)
+2026-05-27 19:17:33  INFO      run_day5  |    Policy total cost:    880,999.34
+2026-05-27 19:17:33  INFO      run_day5  |    AlwaysStrong cost:    1,850,212.46
+2026-05-27 19:17:33  INFO      run_day5  |    Cost reduction:       52.4%
+2026-05-27 19:17:33  INFO      run_day5  |  
+  PAPER SENTENCE (Section 7):
+  "TwinMesh's safety-constrained MDP achieves zero
+   Tier-0 safety violations across 1,286 test records,
+   while reducing total operational cost by 52.4%
+   compared to the AlwaysStrong baseline."
+2026-05-27 19:17:33  INFO      run_day5  |  
+  Safety report saved -> E:\TwinMesh\results\combined/mdp_safety_report.csv
+2026-05-27 19:17:33  INFO      run_day5  |    Afternoon done in 0.4s
+2026-05-27 19:17:33  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:33  INFO      run_day5  |  EVENING — Full Pipeline Integration Summary
+2026-05-27 19:17:33  INFO      run_day5  |  ============================================================
+2026-05-27 19:17:33  INFO      run_day5  |  
+  COMPLETE ABLATION TABLE:
+2026-05-27 19:17:33  INFO      run_day5  |    Row   Model                                           Acc       F1   S3-AUC
+2026-05-27 19:17:33  INFO      run_day5  |    ----------------------------------------------------------------------
+2026-05-27 19:17:33  INFO      run_day5  |    1    Aggregate Hawkes (Model A)                        -        -   0.2467
+2026-05-27 19:17:33  INFO      run_day5  |    2    + Vessel-Type Breakdown (Model B)                 -        -   0.2446
+2026-05-27 19:17:33  INFO      run_day5  |    3    + Pure Markov                                0.4464   0.2627   0.3497
+2026-05-27 19:17:33  INFO      run_day5  |    4    + Portwatch Only                             0.4535   0.3104   0.4454
+2026-05-27 19:17:33  INFO      run_day5  |    5    + Portwatch Weather                          0.4550   0.3115   0.4444
+2026-05-27 19:17:33  INFO      run_day5  |    6    TwinMesh FULL (+ Hawkes lambda)              0.4691   0.3250   0.4791
+2026-05-27 19:17:33  INFO      run_day5  |  
+  ── PAPER CLAIMS VERIFICATION ──
+2026-05-27 19:17:33  INFO      run_day5  |      Ablation table complete (6 rows)              PASS
+2026-05-27 19:17:33  INFO      run_day5  |      Figure 5 (lift chart)                         PASS
+2026-05-27 19:17:33  INFO      run_day5  |      Figure 6 (S3 detection)                       PASS
+2026-05-27 19:17:33  INFO      run_day5  |      Tier-0 violations = 0                         PASS
+2026-05-27 19:17:33  INFO      run_day5  |      Cost reduction > 0%                           PASS
+2026-05-27 19:17:33  INFO      run_day5  |      Lead time ~4.2 days                           PASS
+2026-05-27 19:17:33  INFO      run_day5  |  
+  OVERALL: ALL CLAIMS PASS
+2026-05-27 19:17:33  INFO      run_day5  |  
+  Next: python run_day6.py  (Baselines + full evaluation)
+2026-05-27 19:17:33  INFO      run_day5  |  
+======================================================================
+2026-05-27 19:17:33  INFO      run_day5  |  DAY 5 SUMMARY
+2026-05-27 19:17:33  INFO      run_day5  |  ======================================================================
+2026-05-27 19:17:33  INFO      run_day5  |  
+  TwinMesh Combined (Row 6):
+2026-05-27 19:17:33  INFO      run_day5  |      Accuracy:  0.4691
+2026-05-27 19:17:33  INFO      run_day5  |      Macro-F1:  0.3250
+2026-05-27 19:17:33  INFO      run_day5  |      S3 Recall: 0.6095
+2026-05-27 19:17:33  INFO      run_day5  |      S3 AUPRC:  0.4791
+2026-05-27 19:17:33  INFO      run_day5  |  
+  MDP Safety:
+2026-05-27 19:17:33  INFO      run_day5  |      Tier-0 violations: 0  (SAFE)
+2026-05-27 19:17:33  INFO      run_day5  |      Cost reduction:    52.4% vs AlwaysStrong
+2026-05-27 19:17:33  INFO      run_day5  |  
+  KEY OUTPUTS FOR PAPER:
+    Table 1 (all 6 rows): results/combined/ablation_table.csv
+    Figure 5 (lift):      results/combined/ablation_lift_chart.png
+    Figure 6 (S3 det.):   results/combined/twinmesh_s3_detection.png
+    Safety report:        results/combined/mdp_safety_report.csv
+2026-05-27 19:17:33  INFO      run_day5  |  
+  Total Day 5 time: 8.3s
+2026-05-27 19:17:33  INFO      run_day5  |  
+============================================================
+2026-05-27 19:17:33  INFO      run_day5  |    DAY 5 COMPLETE
+2026-05-27 19:17:33  INFO      run_day5  |    Combined model:  results/combined/twinmesh_full_metrics.csv
+2026-05-27 19:17:33  INFO      run_day5  |    Ablation table:  results/combined/ablation_table.csv
+2026-05-27 19:17:33  INFO      run_day5  |    Safety report:   results/combined/mdp_safety_report.csv
+2026-05-27 19:17:33  INFO      run_day5  |  
+2026-05-27 19:17:33  INFO      run_day5  |    Next: python run_day6.py  (8 baselines + full evaluation)
+2026-05-27 19:17:33  INFO      run_day5  |  ============================================================

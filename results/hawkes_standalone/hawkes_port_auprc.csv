@@ -1,0 +1,8 @@
+,hawkes_auprc,poisson_auprc,lift,normalised_auprc,s3_prevalence,high_prevalence,n_s3_events,n_test_days
+Singapore,0.0652,0.0652,0.0,1.0,0.0652,False,12,184
+Rotterdam,0.694,0.694,0.0,1.0,0.694,True,127,183
+Shanghai,0.082,0.082,0.0,1.0,0.082,False,15,183
+Nhava Sheva,0.3098,0.3098,0.0,1.0,0.3098,False,57,184
+Busan,0.1141,0.1141,0.0,1.0,0.1141,False,21,184
+Hamburg,0.3424,0.3424,0.0,1.0,0.3424,False,63,184
+Antwerp,0.1196,0.1196,0.0,1.0,0.1196,False,22,184

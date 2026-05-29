@@ -1,0 +1,567 @@
+2026-05-22 02:19:43  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 02:19:43  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 02:19:43  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 02:19:43  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 02:19:43  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=46.1  events=49  OK
+2026-05-22 02:19:43  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=4.2  events=56  OK
+2026-05-22 02:19:43  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=8.5  events=59  OK
+2026-05-22 02:19:43  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=6.1  events=39  OK
+2026-05-22 02:19:43  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=88.6  events=66  OK
+2026-05-22 02:19:43  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:19:44  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:19:49  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 02:19:49  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 02:19:49  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=24.5  events=55  OK
+2026-05-22 02:19:49  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=5.1  events=37  OK
+2026-05-22 02:19:49  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=20.0  events=76  OK
+2026-05-22 02:19:49  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=8.6  events=57  OK
+2026-05-22 02:19:49  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=53.9  events=63  OK
+2026-05-22 02:19:49  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:19:50  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:19:55  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 02:19:55  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 02:19:55  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=45.7  events=20  OK
+2026-05-22 02:19:55  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=56.3  events=71  OK
+2026-05-22 02:19:55  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=23.5  events=59  OK
+2026-05-22 02:19:55  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=7.7  events=70  OK
+2026-05-22 02:19:55  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=34.7  events=66  OK
+2026-05-22 02:19:55  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:19:57  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.3166
+2026-05-22 02:19:57  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.1394
+2026-05-22 02:20:03  INFO      hawkes_vessel_type  |    AUPRC=0.0755  Poisson=0.0820  lift=-0.0065
+2026-05-22 02:20:03  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 02:20:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=10.8  events=64  OK
+2026-05-22 02:20:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=6.1  events=41  OK
+2026-05-22 02:20:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=11.5  events=64  OK
+2026-05-22 02:20:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=1.1  events=33  OK
+2026-05-22 02:20:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=7.5  events=60  OK
+2026-05-22 02:20:03  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:20:04  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:20:09  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 02:20:09  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 02:20:09  DEBUG     hawkes_vessel_type  |    Busan container            threshold=42.8  events=46  OK
+2026-05-22 02:20:09  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=3.6  events=67  OK
+2026-05-22 02:20:09  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=14.8  events=69  OK
+2026-05-22 02:20:09  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=2.4  events=51  OK
+2026-05-22 02:20:09  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=13.9  events=63  OK
+2026-05-22 02:20:09  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:20:10  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:20:15  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 02:20:15  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 02:20:15  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=13.8  events=73  OK
+2026-05-22 02:20:15  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.4  events=61  OK
+2026-05-22 02:20:15  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=6.2  events=53  OK
+2026-05-22 02:20:15  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=1.0  events=194  OK
+2026-05-22 02:20:15  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=5.6  events=81  OK
+2026-05-22 02:20:15  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:20:16  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:20:22  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 02:20:22  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 02:20:22  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=16.9  events=68  OK
+2026-05-22 02:20:22  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=3.5  events=76  OK
+2026-05-22 02:20:22  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=12.8  events=71  OK
+2026-05-22 02:20:22  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.7  events=80  OK
+2026-05-22 02:20:22  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=44.2  events=69  OK
+2026-05-22 02:20:22  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 02:20:22  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 02:20:28  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2458  Poisson=0.2467  lift=-0.0009
+2026-05-22 02:20:30  INFO      hawkes_vessel_type  |  
+  Model B complete.
+2026-05-22 08:38:22  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:38:22  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 08:38:22  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:38:23  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 08:38:23  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=46.1  events=49  OK
+2026-05-22 08:38:23  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=4.2  events=56  OK
+2026-05-22 08:38:23  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=8.5  events=59  OK
+2026-05-22 08:38:23  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=6.1  events=39  OK
+2026-05-22 08:38:23  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=88.6  events=66  OK
+2026-05-22 08:38:23  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:38:24  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:38:31  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 08:38:31  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 08:38:31  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=24.5  events=55  OK
+2026-05-22 08:38:31  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=5.1  events=37  OK
+2026-05-22 08:38:31  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=20.0  events=76  OK
+2026-05-22 08:38:31  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=8.6  events=57  OK
+2026-05-22 08:38:31  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=53.9  events=63  OK
+2026-05-22 08:38:31  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:38:33  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:38:46  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 08:38:46  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 08:38:46  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=45.7  events=20  OK
+2026-05-22 08:38:46  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=56.3  events=71  OK
+2026-05-22 08:38:46  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=23.5  events=59  OK
+2026-05-22 08:38:46  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=7.7  events=70  OK
+2026-05-22 08:38:46  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=34.7  events=66  OK
+2026-05-22 08:38:46  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:39:00  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.3165
+2026-05-22 08:39:00  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.1402
+2026-05-22 08:40:10  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:40:10  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 08:40:10  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:40:10  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 08:40:10  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=46.1  events=49  OK
+2026-05-22 08:40:10  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=4.2  events=56  OK
+2026-05-22 08:40:10  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=8.5  events=59  OK
+2026-05-22 08:40:10  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=6.1  events=39  OK
+2026-05-22 08:40:10  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=88.6  events=66  OK
+2026-05-22 08:40:10  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:11  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:40:17  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 08:40:17  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 08:40:17  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=24.5  events=55  OK
+2026-05-22 08:40:17  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=5.1  events=37  OK
+2026-05-22 08:40:17  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=20.0  events=76  OK
+2026-05-22 08:40:17  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=8.6  events=57  OK
+2026-05-22 08:40:17  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=53.9  events=63  OK
+2026-05-22 08:40:17  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:19  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:40:24  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 08:40:24  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 08:40:24  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=45.7  events=20  OK
+2026-05-22 08:40:24  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=56.3  events=71  OK
+2026-05-22 08:40:24  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=23.5  events=59  OK
+2026-05-22 08:40:24  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=7.7  events=70  OK
+2026-05-22 08:40:24  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=34.7  events=66  OK
+2026-05-22 08:40:24  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:30  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.3165
+2026-05-22 08:40:31  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.1402
+2026-05-22 08:40:36  INFO      hawkes_vessel_type  |    AUPRC=0.0755  Poisson=0.0820  lift=-0.0065
+2026-05-22 08:40:36  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 08:40:36  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=10.8  events=64  OK
+2026-05-22 08:40:36  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=6.1  events=41  OK
+2026-05-22 08:40:36  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=11.5  events=64  OK
+2026-05-22 08:40:36  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=1.1  events=33  OK
+2026-05-22 08:40:36  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=7.5  events=60  OK
+2026-05-22 08:40:36  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:38  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:40:43  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 08:40:43  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 08:40:43  DEBUG     hawkes_vessel_type  |    Busan container            threshold=42.8  events=46  OK
+2026-05-22 08:40:43  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=3.6  events=67  OK
+2026-05-22 08:40:43  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=14.8  events=69  OK
+2026-05-22 08:40:43  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=2.4  events=51  OK
+2026-05-22 08:40:43  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=13.9  events=63  OK
+2026-05-22 08:40:43  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:45  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:40:51  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 08:40:51  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 08:40:51  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=13.8  events=73  OK
+2026-05-22 08:40:51  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.4  events=61  OK
+2026-05-22 08:40:51  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=6.2  events=53  OK
+2026-05-22 08:40:51  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=1.0  events=194  OK
+2026-05-22 08:40:51  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=5.6  events=81  OK
+2026-05-22 08:40:51  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:40:54  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:41:00  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 08:41:00  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 08:41:00  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=16.9  events=68  OK
+2026-05-22 08:41:00  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=3.5  events=76  OK
+2026-05-22 08:41:00  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=12.8  events=71  OK
+2026-05-22 08:41:00  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.7  events=80  OK
+2026-05-22 08:41:00  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=44.2  events=69  OK
+2026-05-22 08:41:00  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:41:02  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:41:07  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2458  Poisson=0.2467  lift=-0.0009
+2026-05-22 08:41:10  INFO      hawkes_vessel_type  |  
+  Model B complete.
+2026-05-22 08:44:40  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:44:40  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 08:44:40  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 08:44:40  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 08:44:40  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=43.8  events=153  OK
+2026-05-22 08:44:40  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=3.5  events=132  OK
+2026-05-22 08:44:40  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=7.4  events=129  OK
+2026-05-22 08:44:40  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=5.3  events=112  OK
+2026-05-22 08:44:40  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=83.3  events=134  OK
+2026-05-22 08:44:40  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:44:46  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:44:53  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 08:44:53  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 08:44:53  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=22.5  events=124  OK
+2026-05-22 08:44:53  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=4.3  events=117  OK
+2026-05-22 08:44:53  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=17.9  events=150  OK
+2026-05-22 08:44:53  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=7.8  events=173  OK
+2026-05-22 08:44:53  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=50.4  events=137  OK
+2026-05-22 08:44:53  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:44:59  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:45:07  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 08:45:07  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 08:45:07  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=42.3  events=83  OK
+2026-05-22 08:45:07  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=50.6  events=134  OK
+2026-05-22 08:45:07  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=20.8  events=125  OK
+2026-05-22 08:45:07  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=6.8  events=162  OK
+2026-05-22 08:45:07  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=30.8  events=134  OK
+2026-05-22 08:45:07  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:45:16  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.1695
+2026-05-22 08:45:16  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.0719
+2026-05-22 08:45:22  INFO      hawkes_vessel_type  |    AUPRC=0.0672  Poisson=0.0820  lift=-0.0148
+2026-05-22 08:45:22  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 08:45:22  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=9.7  events=154  OK
+2026-05-22 08:45:22  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=5.2  events=98  OK
+2026-05-22 08:45:22  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=10.1  events=101  OK
+2026-05-22 08:45:22  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=0.8  events=204  OK
+2026-05-22 08:45:22  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=6.5  events=143  OK
+2026-05-22 08:45:22  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:45:28  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:45:34  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 08:45:34  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 08:45:34  DEBUG     hawkes_vessel_type  |    Busan container            threshold=40.0  events=103  OK
+2026-05-22 08:45:34  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=2.9  events=197  OK
+2026-05-22 08:45:34  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=13.0  events=111  OK
+2026-05-22 08:45:34  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=1.9  events=221  OK
+2026-05-22 08:45:34  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=12.2  events=112  OK
+2026-05-22 08:45:34  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:45:41  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:45:46  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 08:45:46  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 08:45:46  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=12.4  events=133  OK
+2026-05-22 08:45:46  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.0  events=224  OK
+2026-05-22 08:45:46  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=5.3  events=118  OK
+2026-05-22 08:45:46  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=0.7  events=194  OK
+2026-05-22 08:45:46  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=4.8  events=177  OK
+2026-05-22 08:45:46  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:45:54  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:45:59  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 08:45:59  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 08:45:59  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=15.5  events=129  OK
+2026-05-22 08:45:59  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=2.9  events=174  OK
+2026-05-22 08:45:59  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=11.2  events=132  OK
+2026-05-22 08:45:59  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.0  events=193  OK
+2026-05-22 08:45:59  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=41.2  events=127  OK
+2026-05-22 08:45:59  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 08:46:06  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 08:46:11  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 08:46:13  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2446  Poisson=0.2467  lift=-0.0021
+2026-05-22 08:46:14  INFO      hawkes_vessel_type  |  
+  Model B complete.
+2026-05-22 14:21:40  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 14:21:40  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:21:40  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 14:21:40  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=43.8  events=153  OK
+2026-05-22 14:21:40  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=3.5  events=132  OK
+2026-05-22 14:21:40  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=7.4  events=129  OK
+2026-05-22 14:21:40  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=5.3  events=112  OK
+2026-05-22 14:21:40  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=83.3  events=134  OK
+2026-05-22 14:21:40  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:21:45  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:21:49  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 14:21:49  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 14:21:49  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=22.5  events=124  OK
+2026-05-22 14:21:49  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=4.3  events=117  OK
+2026-05-22 14:21:49  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=17.9  events=150  OK
+2026-05-22 14:21:49  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=7.8  events=173  OK
+2026-05-22 14:21:49  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=50.4  events=137  OK
+2026-05-22 14:21:49  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:21:54  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:21:58  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 14:21:58  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 14:21:58  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=42.3  events=83  OK
+2026-05-22 14:21:58  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=50.6  events=134  OK
+2026-05-22 14:21:58  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=20.8  events=125  OK
+2026-05-22 14:21:58  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=6.8  events=162  OK
+2026-05-22 14:21:58  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=30.8  events=134  OK
+2026-05-22 14:21:58  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:22:05  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.1695
+2026-05-22 14:22:05  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.0719
+2026-05-22 14:22:09  INFO      hawkes_vessel_type  |    AUPRC=0.0672  Poisson=0.0820  lift=-0.0148
+2026-05-22 14:22:09  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 14:22:09  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=9.7  events=154  OK
+2026-05-22 14:22:09  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=5.2  events=98  OK
+2026-05-22 14:22:09  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=10.1  events=101  OK
+2026-05-22 14:22:09  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=0.8  events=204  OK
+2026-05-22 14:22:09  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=6.5  events=143  OK
+2026-05-22 14:22:09  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:22:14  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:22:19  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 14:22:19  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 14:22:19  DEBUG     hawkes_vessel_type  |    Busan container            threshold=40.0  events=103  OK
+2026-05-22 14:22:19  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=2.9  events=197  OK
+2026-05-22 14:22:19  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=13.0  events=111  OK
+2026-05-22 14:22:19  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=1.9  events=221  OK
+2026-05-22 14:22:19  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=12.2  events=112  OK
+2026-05-22 14:22:19  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:22:24  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:22:29  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 14:22:29  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 14:22:29  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=12.4  events=133  OK
+2026-05-22 14:22:29  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.0  events=224  OK
+2026-05-22 14:22:29  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=5.3  events=118  OK
+2026-05-22 14:22:29  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=0.7  events=194  OK
+2026-05-22 14:22:29  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=4.8  events=177  OK
+2026-05-22 14:22:29  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:22:35  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:22:39  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 14:22:39  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 14:22:39  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=15.5  events=129  OK
+2026-05-22 14:22:39  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=2.9  events=174  OK
+2026-05-22 14:22:39  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=11.2  events=132  OK
+2026-05-22 14:22:39  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.0  events=193  OK
+2026-05-22 14:22:39  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=41.2  events=127  OK
+2026-05-22 14:22:39  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:22:44  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:22:49  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2446  Poisson=0.2467  lift=-0.0021
+2026-05-22 14:22:51  INFO      hawkes_vessel_type  |  
+  Model B complete.
+2026-05-22 14:24:34  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:24:34  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 14:24:34  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:24:34  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 14:24:34  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=43.8  events=153  OK
+2026-05-22 14:24:34  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=3.5  events=132  OK
+2026-05-22 14:24:34  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=7.4  events=129  OK
+2026-05-22 14:24:34  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=5.3  events=112  OK
+2026-05-22 14:24:34  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=83.3  events=134  OK
+2026-05-22 14:24:34  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:24:38  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:24:43  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 14:24:43  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 14:24:43  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=22.5  events=124  OK
+2026-05-22 14:24:43  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=4.3  events=117  OK
+2026-05-22 14:24:43  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=17.9  events=150  OK
+2026-05-22 14:24:43  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=7.8  events=173  OK
+2026-05-22 14:24:43  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=50.4  events=137  OK
+2026-05-22 14:24:43  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:24:47  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:24:52  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 14:24:52  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 14:24:52  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=42.3  events=83  OK
+2026-05-22 14:24:52  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=50.6  events=134  OK
+2026-05-22 14:24:52  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=20.8  events=125  OK
+2026-05-22 14:24:52  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=6.8  events=162  OK
+2026-05-22 14:24:52  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=30.8  events=134  OK
+2026-05-22 14:24:52  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:24:58  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.1695
+2026-05-22 14:24:59  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.0719
+2026-05-22 14:25:03  INFO      hawkes_vessel_type  |    AUPRC=0.0672  Poisson=0.0820  lift=-0.0148
+2026-05-22 14:25:03  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 14:25:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=9.7  events=154  OK
+2026-05-22 14:25:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=5.2  events=98  OK
+2026-05-22 14:25:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=10.1  events=101  OK
+2026-05-22 14:25:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=0.8  events=204  OK
+2026-05-22 14:25:03  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=6.5  events=143  OK
+2026-05-22 14:25:03  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:25:08  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:25:12  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 14:25:12  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 14:25:12  DEBUG     hawkes_vessel_type  |    Busan container            threshold=40.0  events=103  OK
+2026-05-22 14:25:12  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=2.9  events=197  OK
+2026-05-22 14:25:12  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=13.0  events=111  OK
+2026-05-22 14:25:12  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=1.9  events=221  OK
+2026-05-22 14:25:12  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=12.2  events=112  OK
+2026-05-22 14:25:12  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:25:17  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:25:22  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 14:25:22  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 14:25:22  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=12.4  events=133  OK
+2026-05-22 14:25:22  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.0  events=224  OK
+2026-05-22 14:25:22  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=5.3  events=118  OK
+2026-05-22 14:25:22  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=0.7  events=194  OK
+2026-05-22 14:25:22  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=4.8  events=177  OK
+2026-05-22 14:25:22  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:25:28  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:25:32  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 14:25:32  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 14:25:32  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=15.5  events=129  OK
+2026-05-22 14:25:32  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=2.9  events=174  OK
+2026-05-22 14:25:32  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=11.2  events=132  OK
+2026-05-22 14:25:32  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.0  events=193  OK
+2026-05-22 14:25:32  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=41.2  events=127  OK
+2026-05-22 14:25:32  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:25:37  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:25:42  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2446  Poisson=0.2467  lift=-0.0021
+2026-05-22 14:25:44  INFO      hawkes_vessel_type  |  
+  Model B complete.
+2026-05-22 14:28:35  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:28:35  INFO      hawkes_vessel_type  |  DAY 3 AFTERNOON — Hawkes Model B: Vessel-Type (NOVEL)
+2026-05-22 14:28:35  INFO      hawkes_vessel_type  |  ============================================================
+2026-05-22 14:28:35  INFO      hawkes_vessel_type  |  
+  ── Singapore ──
+2026-05-22 14:28:35  DEBUG     hawkes_vessel_type  |    Singapore container            threshold=43.8  events=153  OK
+2026-05-22 14:28:35  DEBUG     hawkes_vessel_type  |    Singapore dry_bulk             threshold=3.5  events=132  OK
+2026-05-22 14:28:35  DEBUG     hawkes_vessel_type  |    Singapore general_cargo        threshold=7.4  events=129  OK
+2026-05-22 14:28:35  DEBUG     hawkes_vessel_type  |    Singapore roro                 threshold=5.3  events=112  OK
+2026-05-22 14:28:35  DEBUG     hawkes_vessel_type  |    Singapore tanker               threshold=83.3  events=134  OK
+2026-05-22 14:28:35  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:28:39  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:28:44  INFO      hawkes_vessel_type  |    AUPRC=0.0652  Poisson=0.0652  lift=+0.0000
+2026-05-22 14:28:44  INFO      hawkes_vessel_type  |  
+  ── Rotterdam ──
+2026-05-22 14:28:44  DEBUG     hawkes_vessel_type  |    Rotterdam container            threshold=22.5  events=124  OK
+2026-05-22 14:28:44  DEBUG     hawkes_vessel_type  |    Rotterdam dry_bulk             threshold=4.3  events=117  OK
+2026-05-22 14:28:44  DEBUG     hawkes_vessel_type  |    Rotterdam general_cargo        threshold=17.9  events=150  OK
+2026-05-22 14:28:44  DEBUG     hawkes_vessel_type  |    Rotterdam roro                 threshold=7.8  events=173  OK
+2026-05-22 14:28:44  DEBUG     hawkes_vessel_type  |    Rotterdam tanker               threshold=50.4  events=137  OK
+2026-05-22 14:28:44  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:28:48  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:28:53  INFO      hawkes_vessel_type  |    AUPRC=0.6940  Poisson=0.6940  lift=+0.0000
+2026-05-22 14:28:53  INFO      hawkes_vessel_type  |  
+  ── Shanghai ──
+2026-05-22 14:28:53  DEBUG     hawkes_vessel_type  |    Shanghai container            threshold=42.3  events=83  OK
+2026-05-22 14:28:53  DEBUG     hawkes_vessel_type  |    Shanghai dry_bulk             threshold=50.6  events=134  OK
+2026-05-22 14:28:53  DEBUG     hawkes_vessel_type  |    Shanghai general_cargo        threshold=20.8  events=125  OK
+2026-05-22 14:28:53  DEBUG     hawkes_vessel_type  |    Shanghai roro                 threshold=6.8  events=162  OK
+2026-05-22 14:28:53  DEBUG     hawkes_vessel_type  |    Shanghai tanker               threshold=30.8  events=134  OK
+2026-05-22 14:28:53  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:29:00  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.1695
+2026-05-22 14:29:00  INFO      hawkes_vessel_type  |    Strongest cross-vessel: tanker -> dry_bulk  alpha=0.0719
+2026-05-22 14:29:04  INFO      hawkes_vessel_type  |    AUPRC=0.0672  Poisson=0.0820  lift=-0.0148
+2026-05-22 14:29:04  INFO      hawkes_vessel_type  |  
+  ── Nhava Sheva ──
+2026-05-22 14:29:04  DEBUG     hawkes_vessel_type  |    Nhava Sheva container            threshold=9.7  events=154  OK
+2026-05-22 14:29:04  DEBUG     hawkes_vessel_type  |    Nhava Sheva dry_bulk             threshold=5.2  events=98  OK
+2026-05-22 14:29:04  DEBUG     hawkes_vessel_type  |    Nhava Sheva general_cargo        threshold=10.1  events=101  OK
+2026-05-22 14:29:04  DEBUG     hawkes_vessel_type  |    Nhava Sheva roro                 threshold=0.8  events=204  OK
+2026-05-22 14:29:04  DEBUG     hawkes_vessel_type  |    Nhava Sheva tanker               threshold=6.5  events=143  OK
+2026-05-22 14:29:04  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:29:09  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:29:14  INFO      hawkes_vessel_type  |    AUPRC=0.3098  Poisson=0.3098  lift=+0.0000
+2026-05-22 14:29:14  INFO      hawkes_vessel_type  |  
+  ── Busan ──
+2026-05-22 14:29:14  DEBUG     hawkes_vessel_type  |    Busan container            threshold=40.0  events=103  OK
+2026-05-22 14:29:14  DEBUG     hawkes_vessel_type  |    Busan dry_bulk             threshold=2.9  events=197  OK
+2026-05-22 14:29:14  DEBUG     hawkes_vessel_type  |    Busan general_cargo        threshold=13.0  events=111  OK
+2026-05-22 14:29:14  DEBUG     hawkes_vessel_type  |    Busan roro                 threshold=1.9  events=221  OK
+2026-05-22 14:29:14  DEBUG     hawkes_vessel_type  |    Busan tanker               threshold=12.2  events=112  OK
+2026-05-22 14:29:14  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:29:19  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:29:23  INFO      hawkes_vessel_type  |    AUPRC=0.1141  Poisson=0.1141  lift=+0.0000
+2026-05-22 14:29:23  INFO      hawkes_vessel_type  |  
+  ── Hamburg ──
+2026-05-22 14:29:23  DEBUG     hawkes_vessel_type  |    Hamburg container            threshold=12.4  events=133  OK
+2026-05-22 14:29:23  DEBUG     hawkes_vessel_type  |    Hamburg dry_bulk             threshold=2.0  events=224  OK
+2026-05-22 14:29:23  DEBUG     hawkes_vessel_type  |    Hamburg general_cargo        threshold=5.3  events=118  OK
+2026-05-22 14:29:23  DEBUG     hawkes_vessel_type  |    Hamburg roro                 threshold=0.7  events=194  OK
+2026-05-22 14:29:23  DEBUG     hawkes_vessel_type  |    Hamburg tanker               threshold=4.8  events=177  OK
+2026-05-22 14:29:23  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:29:29  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:29:34  INFO      hawkes_vessel_type  |    AUPRC=0.3424  Poisson=0.3424  lift=+0.0000
+2026-05-22 14:29:34  INFO      hawkes_vessel_type  |  
+  ── Antwerp ──
+2026-05-22 14:29:34  DEBUG     hawkes_vessel_type  |    Antwerp container            threshold=15.5  events=129  OK
+2026-05-22 14:29:34  DEBUG     hawkes_vessel_type  |    Antwerp dry_bulk             threshold=2.9  events=174  OK
+2026-05-22 14:29:34  DEBUG     hawkes_vessel_type  |    Antwerp general_cargo        threshold=11.2  events=132  OK
+2026-05-22 14:29:34  DEBUG     hawkes_vessel_type  |    Antwerp roro                 threshold=4.0  events=193  OK
+2026-05-22 14:29:34  DEBUG     hawkes_vessel_type  |    Antwerp tanker               threshold=41.2  events=127  OK
+2026-05-22 14:29:34  INFO      hawkes_vessel_type  |    Valid vessel streams: 5/5 (['container', 'dry_bulk', 'general_cargo', 'roro', 'tanker'])
+2026-05-22 14:29:39  INFO      hawkes_vessel_type  |    HawkesMLE fitted (5 vessel streams) | spectral_radius=0.0000
+2026-05-22 14:29:44  INFO      hawkes_vessel_type  |    AUPRC=0.1196  Poisson=0.1196  lift=+0.0000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Combined vessel matrix plot saved -> E:\TwinMesh\results\hawkes_standalone\hawkes_excitation_matrices\vessel_all_ports_5x5_combined.png
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |  
+  ── KEY VESSEL-TYPE FINDINGS ──
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Singapore       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Rotterdam       container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Shanghai        container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Nhava Sheva     container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Busan           container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Hamburg         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |    Antwerp         container->tanker=0.000  tanker->container=0.000
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |  
+  ABLATION ROW 2 (Vessel-Type Hawkes):
+    avg AUPRC=0.2446  Poisson=0.2467  lift=-0.0021
+2026-05-22 14:29:45  INFO      hawkes_vessel_type  |  
+  Model B complete.
